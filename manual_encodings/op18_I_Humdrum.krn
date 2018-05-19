@@ -1,0 +1,137 @@
+!!!COM: Beethoven, Ludwig van
+!!!CDT: 1770///-1827///
+!!!ODT: 1798///-1800///
+!!!OTL: String Quartet No. 1 in F Major, Op. 18, No. 1
+!!!OPS: Op. 18
+!!!ONM: No. 1
+!!!OMV: Mvmt. 1
+!!!OMD: Allegro con brio
+!!!PDT: 1801///
+!!!PPP: Vienna
+!!!PPR: C. Haslinger qm Tobias
+!!!ODE: Dem F&uuml;rsten von Lobkowitz gewidmet
+!!!MPD: 1798///-1800///
+**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
+*staff4	*staff4	*staff3	*staff3	*staff2	*staff2	*staff1	*staff1
+*Icello	*Icello	*Iviola	*Iviola	*Ivioln	*Ivioln	*Ivioln	*Ivioln
+*>[A,A,B]	*>[A,A,B]	*>[A,A,B]	*>[A,A,B]	*>[A,A,B]	*>[A,A,B]	*>[A,A,B]	*>[A,A,B]
+*>norep[A,B]	*>norep[A,B]	*>norep[A,B]	*>norep[A,B]	*>norep[A,B]	*>norep[A,B]	*>norep[A,B]	*>norep[A,B]
+*>A	*>A	*>A	*>A	*>A	*>A	*>A	*>A
+*clefF4	*clefF4	*clefC3	*clefC3	*clefG2	*clefG2	*clefG2	*clefG2
+*k[b-]	*k[b-]	*k[b-]	*k[b-]	*k[b-]	*k[b-]	*k[b-]	*k[b-]
+*F:	*F:	*F:	*F:	*F:	*F:	*F:	*F:
+*M3/4	*M3/4	*M3/4	*M3/4	*M3/4	*M3/4	*M3/4	*M3/4
+*MM132	*MM132	*MM132	*MM132	*MM132	*MM132	*MM132	*MM132
+[4F\	.	[4F/	.	[4f/	.	[4f/	.
+(8F\L]	p	(8F/L]	p	(8f/L]	p	(8f/L]	p
+16G\L	.	16G/L	.	16g/L	.	16g/L	.
+16F\JJ)	.	16F/JJ)	.	16f/JJ)	.	16f/JJ)	.
+8E'\L	.	8E'/L	.	8e'/L	.	8e'/L	.
+8F'\J	.	8F'/J	.	8f'/J	.	8f'/J	.
+=2	=2	=2	=2	=2	=2	=2	=2
+4C/	.	4C/	.	4c/	.	4c/	.
+4r	.	4r	.	4r	.	4r	.
+4r	.	4r	.	4r	.	4r	.
+=3	=3	=3	=3	=3	=3	=3	=3
+[4F\	.	[4F/	.	[4f/	.	[4f/	.
+(8F\L]	.	(8F/L]	.	(8f/L]	.	(8f/L]	.
+16G\L	.	16G/L	.	16g/L	.	16g/L	.
+16F\JJ)	.	16F/JJ)	.	16f/JJ)	.	16f/JJ)	.
+8E'\L	.	8E'/L	.	8e'/L	.	8e'/L	.
+8F'\J	.	8F'/J	.	8f'/J	.	8f'/J	.
+=4	=4	=4	=4	=4	=4	=4	=4
+4D\	.	4D/	.	4d/	.	4d/	.
+4r	.	4r	.	4r	.	4r	.
+4r	.	4r	.	4r	.	4r	.
+=5	=5	=5	=5	=5	=5	=5	=5
+(2.D\	.	(2.d\	.	[2.b-\	.	[4ff\	.
+.	.	.	.	.	.	(8ff\L]	.
+.	.	.	.	.	.	16gg\L	.
+.	.	.	.	.	.	16ff\JJ)	.
+.	.	.	.	.	.	8ee'\L	.
+.	.	.	.	.	.	8ff'\J	.
+=6	=6	=6	=6	=6	=6	=6	=6
+(2.E\)	.	[2.c\)	.	(2b-\]	.	(2gg\	.
+.	.	.	.	4g/)	.	4b-\)	.
+=7	=7	=7	=7	=7	=7	=7	=7
+(4F\)	.	(4c\]	.	(2f/	.	(2a/	.
+4D\	.	4d\	.	.	.	.	.
+4BB-/)	.	4G/)	.	8.b-/L	.	8.dd\L	.
+.	.	.	.	16g/Jk)	.	16b-\Jk)	.
+=8	=8	=8	=8	=8	=8	=8	=8
+2.C/	.	(8c/L	.	(2f/	.	(2a/	.
+.	.	8Bn/	.	.	.	.	.
+.	.	8c/	.	.	.	.	.
+.	.	8B/J	.	.	.	.	.
+.	.	4c\)	.	4e/)	.	4g/)	.
+=9	=9	=9	=9	=9	=9	=9	=9
+[4F\	.	[4F/	.	[4f/	.	[4f/	.
+(8F\L]	f	(8F/L]	f	(8f/L]	f	(8f/L]	f
+16G\L	.	16G/L	.	16g/L	.	16g/L	.
+16F\JJ)	.	16F/JJ)	.	16f/JJ)	.	16f/JJ)	.
+8E'\L	.	8E'/L	.	8e'/L	.	8e'/L	.
+8F'\J	.	8F'/J	.	8f'/J	.	8f'/J	.
+=10	=10	=10	=10	=10	=10	=10	=10
+4C/	.	4C/	.	4c/	.	4c/	.
+4r	.	4r	.	4r	.	4r	.
+4r	.	4r	.	4r	.	4r	.
+=11	=11	=11	=11	=11	=11	=11	=11
+[4F\	.	[4F/	.	[4f/	.	[4f/	.
+(8F\L]	.	(8F/L]	.	(8f/L]	.	(8f/L]	.
+16G\L	.	16G/L	.	16g/L	.	16g/L	.
+16F\JJ)	.	16F/JJ)	.	16f/JJ)	.	16f/JJ)	.
+8E'\L	.	8E'/L	.	8e'/L	.	8e'/L	.
+8F'\J	.	8F'/J	.	8f'/J	.	8f'/J	.
+=12	=12	=12	=12	=12	=12	=12	=12
+4D\	.	4D/	.	4d/	.	4d/	.
+4r	.	4r	.	4r	.	4r	.
+4r	.	4r	.	4r	.	4r	.
+=13	=13	=13	=13	=13	=13	=13	=13
+2.r	.	2.r	.	2.r	.	[4ff\	.
+.	.	.	.	.	.	(8ff\L]	p
+.	.	.	.	.	.	16gg\L	.
+.	.	.	.	.	.	16ff\JJ)	.
+.	.	.	.	.	.	8ee'\L	.
+.	.	.	.	.	.	8ff'\J	.
+=14	=14	=14	=14	=14	=14	=14	=14
+2.c#\	p	2.b-\	p	2.ee\	p	(2aa\	.
+.	.	.	.	.	.	4gg\)	.
+=15	=15	=15	=15	=15	=15	=15	=15
+2.r	.	2.r	.	2.r	.	[4gg\	.
+.	.	.	.	.	.	(8gg\L]	.
+.	.	.	.	.	.	16aa\L	.
+.	.	.	.	.	.	16gg\JJ)	.
+.	.	.	.	.	.	8ff#'\L	.
+.	.	.	.	.	.	8gg'\J	.
+=16	=16	=16	=16	=16	=16	=16	=16
+2.f#\	.	2.ee-\	.	2.cc\	.	(2bb-\	.
+.	.	.	.	.	.	4aa\)	.
+=17	=17	=17	=17	=17	=17	=17	=17
+2.r	.	2.r	.	2.r	.	[4aa\	.
+.	.	.	.	.	.	(8aa\L]	.
+.	.	.	.	.	.	16bb-\L	.
+.	.	.	.	.	.	16aa\JJ)	.
+.	.	.	.	.	.	8gg'\L	.
+.	.	.	.	.	.	8aa'\J	.
+=18	=18	=18	=18	=18	=18	=18	=18
+4.B-\	.	(4.f#\	.	(4.ee-\	.	(4.ccc\	.
+8B-\L	.	8g\L	.	8dd\L	.	8bb-\L	.
+8B-\	.	8a\	.	8cc\	.	8aa\	.
+8B-\J	.	8b-\J)	.	8b-\J)	.	8gg\J)	.
+=19	=19	=19	=19	=19	=19	=19	=19
+(2c\	.	(2cc\	.	(2a/	.	(2ff\	.
+.	.	.	.	b-q/LL	.	ggq/LL	.
+.	.	.	.	aq/	.	ffq/	.
+.	.	.	.	gq/	.	eeq/	.
+.	.	.	.	aq/JJ	.	ffq/JJ	.
+4C/)	.	4e\)	.	8cc\L	.	8aa\L	.
+.	.	.	.	8b-\J	.	8gg\J)	.
+=20	=20	=20	=20	=20	=20	=20	=20
+4F\	p	4f\	p	4a/)	p	4ff\	p
+4r	.	4r	.	4r	.	4r	.
+4r	.	4r	.	4r	.	4r	.
+==	==	==	==	==	==	==	==
+*-	*-	*-	*-	*-	*-	*-	*-
+!!!ENC: Craig Stuart Sapp
+!!!END: 2004/09/06/
+!!!RWG: shorthand for repeated notes not expanded
