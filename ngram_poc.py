@@ -1,6 +1,5 @@
 # coding: utf-8
 from vis.models.indexed_piece import Importer
-import json
 import sys
 import pprint as pp
 
@@ -20,7 +19,7 @@ vert_setts = {
 
 
 ngram_setts = {
-    'n': 3,
+    'n': 2,
     'vertical': 'all',
     'horizontal': 'all'
 }
