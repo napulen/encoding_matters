@@ -47,7 +47,7 @@ def run_analysis(filename):
     s = Importer(filename)
     v = s.get_data('vertical_interval', vert_setts)
     h = s.get_data('horizontal_interval', horiz_setts)
-    parts = [x.id for x in s._analyses['part_streams']]
+    parts = [x for x in s._metadata['parts']]
     # Assuming parts come from higher to lower and reversing
     parts = list(reversed(parts))
     combinations = get_part_combinations(parts)
