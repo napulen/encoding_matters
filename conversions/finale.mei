@@ -11,7 +11,7 @@
         </fileDesc>
         <encodingDesc xml:id="encodingdesc-0000000000016807">
             <appInfo xml:id="appinfo-0000000282475249">
-                <application xml:id="application-0000001622650073" isodate="2018-05-25T14:22:44" version="2.0.0-dev-5eab59b">
+                <application xml:id="application-0000001622650073" isodate="2018-06-10T18:08:44" version="2.0.0-dev-5eab59b">
                     <name xml:id="name-0000000984943658">Verovio</name>
                     <p xml:id="p-0000001144108930">Transcoded from MusicXML</p>
                 </application>
@@ -22,7 +22,7 @@
         <body>
             <mdiv xml:id="mdiv-0000000470211272">
                 <score xml:id="score-0000000101027544">
-                    <scoreDef xml:id="scoredef-0000002145434204">
+                    <scoreDef xml:id="scoredef-0000001985013807">
                         <staffGrp xml:id="staffgrp-0000001458777923">
                             <staffGrp xml:id="staffgrp-0000002007237709" symbol="bracket">
                                 <staffDef xml:id="staffdef-0000001115438165" clef.shape="G" clef.line="2" key.mode="major" key.sig="1f" meter.count="3" meter.unit="4" n="1" lines="5">
