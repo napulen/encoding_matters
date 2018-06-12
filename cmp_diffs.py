@@ -32,4 +32,4 @@ if __name__ == '__main__':
     filename = sys.argv[1]
     d = comp(filename)
     for k, v in d.items():
-        print('{}\t{}'.format(k, v))
+        print('{},{}'.format(k, v))
