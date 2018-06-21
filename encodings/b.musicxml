@@ -30408,9 +30408,9 @@ Op. 18, no. 1, 1st Movement</credit-words>
           <alter>-1</alter>
           <octave>4</octave>
         </pitch>
-        <duration>16</duration>
+        <duration>24</duration>
         <voice>1</voice>
-        <type>half</type>
+        <type>half</type>        
         <accidental>flat</accidental>
         <stem default-y="-9.5">up</stem>
         <notations>
