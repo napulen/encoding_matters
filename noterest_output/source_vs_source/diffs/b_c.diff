@@ -1,3119 +1,3119 @@
---- C:\Users\nesto\dev\encoding_matters\noterest_output\source_vs_source\finale.txt	Sun Jun 10 15:51:23 2018
-+++ C:\Users\nesto\dev\encoding_matters\noterest_output\source_vs_source\musescore.txt	Sun Jun 10 15:51:32 2018
+--- C:\Users\nesto\dev\encoding_matters\noterest_output\source_vs_source\b.txt	Thu Jun 21 18:51:00 2018
++++ C:\Users\nesto\dev\encoding_matters\noterest_output\source_vs_source\c.txt	Thu Jun 21 18:51:15 2018
 @@ -1,4 +1,5 @@
- 1:0.0, F4, F4, F3, F3
-+1:1.0, F4, NaN, F3, NaN
- 1:1.5, G4, G4, G3, G3
- 1:1.75, F4, F4, F3, F3
- 1:2.0, E4, E4, E3, E3
+ 1:0.0, F4, F4, F3, F3
++1:1.0, F4, NaN, F3, NaN
+ 1:1.5, G4, G4, G3, G3
+ 1:1.75, F4, F4, F3, F3
+ 1:2.0, E4, E4, E3, E3
 @@ -7,6 +8,7 @@
- 2:1.0, Rest, Rest, Rest, Rest
- 2:2.0, Rest, Rest, Rest, Rest
- 3:0.0, F4, F4, F3, F3
-+3:1.0, NaN, NaN, F3, NaN
- 3:1.5, G4, G4, G3, G3
- 3:1.75, F4, F4, F3, F3
- 3:2.0, E4, E4, E3, E3
+ 2:1.0, Rest, Rest, Rest, Rest
+ 2:2.0, Rest, Rest, Rest, Rest
+ 3:0.0, F4, F4, F3, F3
++3:1.0, NaN, NaN, F3, NaN
+ 3:1.5, G4, G4, G3, G3
+ 3:1.75, F4, F4, F3, F3
+ 3:2.0, E4, E4, E3, E3
 @@ -21,7 +23,7 @@
- 5:2.5, F5, NaN, NaN, NaN
- 6:0.0, G5, NaN, C4, E3
- 6:2.0, B-4, G4, NaN, NaN
--7:0.0, A4, F4, NaN, F3
-+7:0.0, A4, F4, C4, F3
- 7:1.0, NaN, NaN, D4, D3
- 7:2.0, D5, B-4, G3, B-2
- 7:2.75, B-4, G4, NaN, NaN
+ 5:2.5, F5, NaN, NaN, NaN
+ 6:0.0, G5, NaN, C4, E3
+ 6:2.0, B-4, G4, NaN, NaN
+-7:0.0, A4, F4, NaN, F3
++7:0.0, A4, F4, C4, F3
+ 7:1.0, NaN, NaN, D4, D3
+ 7:2.0, D5, B-4, G3, B-2
+ 7:2.75, B-4, G4, NaN, NaN
 @@ -31,21 +33,23 @@
- 8:1.5, NaN, NaN, B3, NaN
- 8:2.0, G4, E4, C4, NaN
- 9:0.0, F4, F4, F3, F3
-+9:1.0, NaN, NaN, F3, NaN
- 9:1.5, G4, G4, G3, G3
- 9:1.75, F4, F4, F3, F3
- 9:2.0, E4, E4, E3, E3
- 9:2.5, F4, F4, F3, F3
- 10:0.0, C4, C4, C3, C3
- 10:1.0, Rest, Rest, Rest, Rest
--10:2.0, Rest, Rest, Rest, Rest
-+10:2.0, Rest, NaN, Rest, Rest
- 11:0.0, F4, F4, F3, F3
-+11:1.0, NaN, NaN, F3, NaN
- 11:1.5, G4, G4, G3, G3
- 11:1.75, F4, F4, F3, F3
- 11:2.0, E4, E4, E3, E3
--11:2.5, F4, F4, G3, F3
-+11:2.5, F4, F4, F3, F3
- 12:0.0, D4, D4, D3, D3
- 12:1.0, Rest, Rest, Rest, Rest
--12:2.0, Rest, Rest, Rest, Rest
-+12:2.0, Rest, NaN, Rest, Rest
- 13:0.0, F5, Rest, Rest, Rest
- 13:1.5, G5, NaN, NaN, NaN
- 13:1.75, F5, NaN, NaN, NaN
+ 8:1.5, NaN, NaN, B3, NaN
+ 8:2.0, G4, E4, C4, NaN
+ 9:0.0, F4, F4, F3, F3
++9:1.0, NaN, NaN, F3, NaN
+ 9:1.5, G4, G4, G3, G3
+ 9:1.75, F4, F4, F3, F3
+ 9:2.0, E4, E4, E3, E3
+ 9:2.5, F4, F4, F3, F3
+ 10:0.0, C4, C4, C3, C3
+ 10:1.0, Rest, Rest, Rest, Rest
+-10:2.0, Rest, Rest, Rest, Rest
++10:2.0, Rest, NaN, Rest, Rest
+ 11:0.0, F4, F4, F3, F3
++11:1.0, NaN, NaN, F3, NaN
+ 11:1.5, G4, G4, G3, G3
+ 11:1.75, F4, F4, F3, F3
+ 11:2.0, E4, E4, E3, E3
+-11:2.5, F4, F4, G3, F3
++11:2.5, F4, F4, F3, F3
+ 12:0.0, D4, D4, D3, D3
+ 12:1.0, Rest, Rest, Rest, Rest
+-12:2.0, Rest, Rest, Rest, Rest
++12:2.0, Rest, NaN, Rest, Rest
+ 13:0.0, F5, Rest, Rest, Rest
+ 13:1.5, G5, NaN, NaN, NaN
+ 13:1.75, F5, NaN, NaN, NaN
 @@ -80,7 +84,7 @@
- 21:1.75, NaN, C4, NaN, NaN
- 21:2.0, NaN, B3, NaN, NaN
- 21:2.5, NaN, C4, NaN, NaN
--22:0.0, F5, E-4, A-4, B3
-+22:0.0, F5, E-4, A4, B3
- 22:1.5, G5, NaN, NaN, NaN
- 22:1.75, F5, NaN, NaN, NaN
- 22:2.0, E5, D4, NaN, NaN
+ 21:1.75, NaN, C4, NaN, NaN
+ 21:2.0, NaN, B3, NaN, NaN
+ 21:2.5, NaN, C4, NaN, NaN
+-22:0.0, F5, E-4, A-4, B3
++22:0.0, F5, E-4, A4, B3
+ 22:1.5, G5, NaN, NaN, NaN
+ 22:1.75, F5, NaN, NaN, NaN
+ 22:2.0, E5, D4, NaN, NaN
 @@ -90,7 +94,7 @@
- 23:1.75, NaN, D4, NaN, NaN
- 23:2.0, NaN, C#4, NaN, NaN
- 23:2.5, NaN, D4, NaN, NaN
--24:0.0, G5, F4, B-3, C3
-+24:0.0, G5, F4, B-3, C#3
- 24:1.5, A5, NaN, NaN, NaN
- 24:1.75, G5, NaN, NaN, NaN
- 24:2.0, F#5, E4, NaN, NaN
+ 23:1.75, NaN, D4, NaN, NaN
+ 23:2.0, NaN, C#4, NaN, NaN
+ 23:2.5, NaN, D4, NaN, NaN
+-24:0.0, G5, F4, B-3, C3
++24:0.0, G5, F4, B-3, C#3
+ 24:1.5, A5, NaN, NaN, NaN
+ 24:1.75, G5, NaN, NaN, NaN
+ 24:2.0, F#5, E4, NaN, NaN
 @@ -110,11 +114,11 @@
- 27:1.75, D6, NaN, NaN, NaN
- 27:2.0, C#6, B-4, G4, B-2
- 27:2.5, D6, NaN, NaN, NaN
--28:0.0, E6, A4, B-3, C3
-+28:0.0, E6, A4, B-3, A2
- 28:0.5, NaN, G4, NaN, NaN
--28:1.0, E6, A4, B-3, C3
-+28:1.0, E6, A4, B-3, A2
- 28:1.5, NaN, G4, NaN, NaN
--28:2.0, E6, A4, B-3, C3
-+28:2.0, E6, A4, B-3, A2
- 28:2.5, NaN, G4, NaN, NaN
- 29:0.0, F6, F4, A3, F2
- 29:0.5, NaN, A3, C4, NaN
+ 27:1.75, D6, NaN, NaN, NaN
+ 27:2.0, C#6, B-4, G4, B-2
+ 27:2.5, D6, NaN, NaN, NaN
+-28:0.0, E6, A4, B-3, C3
++28:0.0, E6, A4, B-3, A2
+ 28:0.5, NaN, G4, NaN, NaN
+-28:1.0, E6, A4, B-3, C3
++28:1.0, E6, A4, B-3, A2
+ 28:1.5, NaN, G4, NaN, NaN
+-28:2.0, E6, A4, B-3, C3
++28:2.0, E6, A4, B-3, A2
+ 28:2.5, NaN, G4, NaN, NaN
+ 29:0.0, F6, F4, A3, F2
+ 29:0.5, NaN, A3, C4, NaN
 @@ -123,86 +127,91 @@
- 29:2.0, Rest, A3, C4, Rest
- 29:2.5, NaN, A3, C4, NaN
- 30:0.0, Rest, A3, C4, C3
--30:0.5, NaN, NaN, C4, NaN
--30:1.0, Rest, NaN, C4, NaN
--30:1.5, A4, NaN, C4, D3
-+30:0.5, NaN, A3, C4, NaN
-+30:1.0, Rest, A3, C4, NaN
-+30:1.5, A4, A3, C4, D3
- 30:1.75, NaN, NaN, NaN, C3
--30:2.0, A4, NaN, C4, B2
--30:2.5, NaN, NaN, C4, C3
-+30:2.0, A4, A3, C4, B2
-+30:2.5, NaN, A3, C4, C3
- 31:0.0, C5, G3, C4, C2
--31:1.0, NaN, NaN, NaN, Rest
--31:1.5, B-4, NaN, NaN, NaN
--31:2.0, G4, NaN, NaN, Rest
--31:2.5, F4, NaN, NaN, NaN
-+31:0.5, NaN, G3, C4, NaN
-+31:1.0, NaN, G3, C4, Rest
-+31:1.5, B-4, G3, C4, NaN
-+31:2.0, G4, G3, C4, Rest
-+31:2.5, F4, G3, C4, NaN
- 32:0.0, E4, G3, C4, C3
--32:1.0, Rest, NaN, NaN, NaN
--32:1.5, B-4, NaN, NaN, D3
-+32:0.5, NaN, G3, C4, NaN
-+32:1.0, Rest, G3, C4, NaN
-+32:1.5, B-4, G3, C4, D3
- 32:1.75, NaN, NaN, NaN, C3
--32:2.0, B-4, NaN, NaN, B2
--32:2.5, NaN, NaN, NaN, C3
-+32:2.0, B-4, G3, C4, B2
-+32:2.5, NaN, G3, C4, C3
- 33:0.0, D5, A3, C4, C2
--33:1.0, NaN, NaN, NaN, Rest
--33:1.5, C5, NaN, NaN, NaN
--33:2.0, A4, NaN, NaN, Rest
--33:2.5, G4, NaN, NaN, NaN
-+33:0.5, NaN, A3, C4, NaN
-+33:1.0, NaN, A3, C4, Rest
-+33:1.5, C5, A3, C4, NaN
-+33:2.0, A4, A3, C4, Rest
-+33:2.5, G4, A3, C4, NaN
- 34:0.0, F4, A3, C4, C3
--34:1.0, Rest, NaN, NaN, NaN
--34:1.5, F5, NaN, NaN, D3
-+34:0.5, NaN, A3, C4, NaN
-+34:1.0, Rest, A3, C4, NaN
-+34:1.5, F5, A3, C4, D3
- 34:1.75, NaN, NaN, NaN, C3
--34:2.0, F5, NaN, NaN, B2
--34:2.5, NaN, NaN, NaN, C3
-+34:2.0, F5, A3, C4, B2
-+34:2.5, NaN, A3, C4, C3
- 35:0.0, A5, B-3, E4, C2
--35:1.0, NaN, NaN, NaN, Rest
--35:1.5, G5, NaN, NaN, NaN
--35:2.0, G5, NaN, NaN, Rest
--35:2.5, F5, NaN, NaN, NaN
-+35:0.5, NaN, B-3, E4, NaN
-+35:1.0, NaN, B-3, E4, Rest
-+35:1.5, G5, B-3, E4, NaN
-+35:2.0, G5, B-3, E4, Rest
-+35:2.5, F5, B-3, E4, NaN
- 36:0.0, F5, B-3, E4, C3
--36:0.5, E5, NaN, NaN, NaN
--36:1.0, E5, NaN, NaN, NaN
--36:1.5, D5, NaN, NaN, D3
-+36:0.5, E5, B-3, E4, NaN
-+36:1.0, E5, B-3, E4, NaN
-+36:1.5, D5, B-3, E4, D3
- 36:1.75, NaN, NaN, NaN, C3
--36:2.0, C5, NaN, NaN, B2
--36:2.5, B-4, NaN, NaN, C3
-+36:2.0, C5, B-3, E4, B2
-+36:2.5, B-4, B-3, E4, C3
- 37:0.0, A4, A3, E4, C#3
--37:0.5, NaN, NaN, E4, NaN
--37:1.0, NaN, NaN, C#4, A2
--37:1.5, NaN, NaN, C#4, NaN
--37:2.0, NaN, NaN, E4, C#3
--37:2.5, NaN, NaN, E4, NaN
-+37:0.5, NaN, A3, E4, NaN
-+37:1.0, NaN, A3, C#4, A2
-+37:1.5, NaN, A3, C#4, NaN
-+37:2.0, NaN, A3, E4, C#3
-+37:2.5, NaN, A3, E4, NaN
- 38:0.0, NaN, A3, D4, D3
--38:0.5, B4, NaN, D4, NaN
-+38:0.5, B4, A3, D4, NaN
- 38:0.75, C#5, NaN, NaN, NaN
--38:1.0, D5, NaN, D4, Rest
-+38:1.0, D5, A3, D4, Rest
- 38:1.25, E5, NaN, NaN, NaN
--38:1.5, F5, NaN, D4, NaN
-+38:1.5, F5, A3, D4, NaN
- 38:1.75, E5, NaN, NaN, NaN
--38:2.0, D5, NaN, D4, Rest
-+38:2.0, D5, A3, D4, Rest
- 38:2.25, C5, NaN, NaN, NaN
--38:2.5, B4, NaN, D4, NaN
-+38:2.5, B4, A3, D4, NaN
- 38:2.75, A4, NaN, NaN, NaN
- 39:0.0, G4, G3, D4, B2
--39:0.5, NaN, NaN, D4, NaN
--39:1.0, NaN, NaN, B3, G2
--39:1.5, NaN, NaN, B3, NaN
--39:2.0, NaN, NaN, D4, B2
--39:2.5, NaN, NaN, D4, NaN
-+39:0.5, NaN, G3, D4, NaN
-+39:1.0, NaN, G3, B3, G2
-+39:1.5, NaN, G3, B3, NaN
-+39:2.0, NaN, G3, D4, B2
-+39:2.5, NaN, G3, D4, NaN
- 40:0.0, NaN, G3, C4, C3
--40:0.5, A4, NaN, C4, NaN
-+40:0.5, A4, G3, C4, NaN
- 40:0.75, B4, NaN, NaN, NaN
--40:1.0, C5, NaN, C4, Rest
-+40:1.0, C5, G3, C4, Rest
- 40:1.25, B4, NaN, NaN, NaN
--40:1.5, C5, NaN, C4, NaN
-+40:1.5, C5, G3, C4, NaN
- 40:1.75, B4, NaN, NaN, NaN
--40:2.0, C5, NaN, C4, Rest
-+40:2.0, C5, G3, C4, Rest
- 40:2.25, B4, NaN, NaN, NaN
--40:2.5, C5, NaN, C4, NaN
-+40:2.5, C5, G3, C4, NaN
- 40:2.75, B4, NaN, NaN, NaN
- 41:0.0, C5, C4, E-3, A-2
- 41:1.5, NaN, NaN, F3, NaN
- 41:1.75, NaN, NaN, E-3, NaN
- 41:2.0, NaN, NaN, D3, NaN
- 41:2.5, NaN, NaN, E-3, NaN
--42:0.0, NaN, NaN, E-3, A2
-+42:0.0, C5, C4, E-3, NaN
- 42:1.0, NaN, C4, NaN, NaN
- 42:1.5, D-5, NaN, NaN, NaN
- 42:1.75, C5, NaN, NaN, NaN
+ 29:2.0, Rest, A3, C4, Rest
+ 29:2.5, NaN, A3, C4, NaN
+ 30:0.0, Rest, A3, C4, C3
+-30:0.5, NaN, NaN, C4, NaN
+-30:1.0, Rest, NaN, C4, NaN
+-30:1.5, A4, NaN, C4, D3
++30:0.5, NaN, A3, C4, NaN
++30:1.0, Rest, A3, C4, NaN
++30:1.5, A4, A3, C4, D3
+ 30:1.75, NaN, NaN, NaN, C3
+-30:2.0, A4, NaN, C4, B2
+-30:2.5, NaN, NaN, C4, C3
++30:2.0, A4, A3, C4, B2
++30:2.5, NaN, A3, C4, C3
+ 31:0.0, C5, G3, C4, C2
+-31:1.0, NaN, NaN, NaN, Rest
+-31:1.5, B-4, NaN, NaN, NaN
+-31:2.0, G4, NaN, NaN, Rest
+-31:2.5, F4, NaN, NaN, NaN
++31:0.5, NaN, G3, C4, NaN
++31:1.0, NaN, G3, C4, Rest
++31:1.5, B-4, G3, C4, NaN
++31:2.0, G4, G3, C4, Rest
++31:2.5, F4, G3, C4, NaN
+ 32:0.0, E4, G3, C4, C3
+-32:1.0, Rest, NaN, NaN, NaN
+-32:1.5, B-4, NaN, NaN, D3
++32:0.5, NaN, G3, C4, NaN
++32:1.0, Rest, G3, C4, NaN
++32:1.5, B-4, G3, C4, D3
+ 32:1.75, NaN, NaN, NaN, C3
+-32:2.0, B-4, NaN, NaN, B2
+-32:2.5, NaN, NaN, NaN, C3
++32:2.0, B-4, G3, C4, B2
++32:2.5, NaN, G3, C4, C3
+ 33:0.0, D5, A3, C4, C2
+-33:1.0, NaN, NaN, NaN, Rest
+-33:1.5, C5, NaN, NaN, NaN
+-33:2.0, A4, NaN, NaN, Rest
+-33:2.5, G4, NaN, NaN, NaN
++33:0.5, NaN, A3, C4, NaN
++33:1.0, NaN, A3, C4, Rest
++33:1.5, C5, A3, C4, NaN
++33:2.0, A4, A3, C4, Rest
++33:2.5, G4, A3, C4, NaN
+ 34:0.0, F4, A3, C4, C3
+-34:1.0, Rest, NaN, NaN, NaN
+-34:1.5, F5, NaN, NaN, D3
++34:0.5, NaN, A3, C4, NaN
++34:1.0, Rest, A3, C4, NaN
++34:1.5, F5, A3, C4, D3
+ 34:1.75, NaN, NaN, NaN, C3
+-34:2.0, F5, NaN, NaN, B2
+-34:2.5, NaN, NaN, NaN, C3
++34:2.0, F5, A3, C4, B2
++34:2.5, NaN, A3, C4, C3
+ 35:0.0, A5, B-3, E4, C2
+-35:1.0, NaN, NaN, NaN, Rest
+-35:1.5, G5, NaN, NaN, NaN
+-35:2.0, G5, NaN, NaN, Rest
+-35:2.5, F5, NaN, NaN, NaN
++35:0.5, NaN, B-3, E4, NaN
++35:1.0, NaN, B-3, E4, Rest
++35:1.5, G5, B-3, E4, NaN
++35:2.0, G5, B-3, E4, Rest
++35:2.5, F5, B-3, E4, NaN
+ 36:0.0, F5, B-3, E4, C3
+-36:0.5, E5, NaN, NaN, NaN
+-36:1.0, E5, NaN, NaN, NaN
+-36:1.5, D5, NaN, NaN, D3
++36:0.5, E5, B-3, E4, NaN
++36:1.0, E5, B-3, E4, NaN
++36:1.5, D5, B-3, E4, D3
+ 36:1.75, NaN, NaN, NaN, C3
+-36:2.0, C5, NaN, NaN, B2
+-36:2.5, B-4, NaN, NaN, C3
++36:2.0, C5, B-3, E4, B2
++36:2.5, B-4, B-3, E4, C3
+ 37:0.0, A4, A3, E4, C#3
+-37:0.5, NaN, NaN, E4, NaN
+-37:1.0, NaN, NaN, C#4, A2
+-37:1.5, NaN, NaN, C#4, NaN
+-37:2.0, NaN, NaN, E4, C#3
+-37:2.5, NaN, NaN, E4, NaN
++37:0.5, NaN, A3, E4, NaN
++37:1.0, NaN, A3, C#4, A2
++37:1.5, NaN, A3, C#4, NaN
++37:2.0, NaN, A3, E4, C#3
++37:2.5, NaN, A3, E4, NaN
+ 38:0.0, NaN, A3, D4, D3
+-38:0.5, B4, NaN, D4, NaN
++38:0.5, B4, A3, D4, NaN
+ 38:0.75, C#5, NaN, NaN, NaN
+-38:1.0, D5, NaN, D4, Rest
++38:1.0, D5, A3, D4, Rest
+ 38:1.25, E5, NaN, NaN, NaN
+-38:1.5, F5, NaN, D4, NaN
++38:1.5, F5, A3, D4, NaN
+ 38:1.75, E5, NaN, NaN, NaN
+-38:2.0, D5, NaN, D4, Rest
++38:2.0, D5, A3, D4, Rest
+ 38:2.25, C5, NaN, NaN, NaN
+-38:2.5, B4, NaN, D4, NaN
++38:2.5, B4, A3, D4, NaN
+ 38:2.75, A4, NaN, NaN, NaN
+ 39:0.0, G4, G3, D4, B2
+-39:0.5, NaN, NaN, D4, NaN
+-39:1.0, NaN, NaN, B3, G2
+-39:1.5, NaN, NaN, B3, NaN
+-39:2.0, NaN, NaN, D4, B2
+-39:2.5, NaN, NaN, D4, NaN
++39:0.5, NaN, G3, D4, NaN
++39:1.0, NaN, G3, B3, G2
++39:1.5, NaN, G3, B3, NaN
++39:2.0, NaN, G3, D4, B2
++39:2.5, NaN, G3, D4, NaN
+ 40:0.0, NaN, G3, C4, C3
+-40:0.5, A4, NaN, C4, NaN
++40:0.5, A4, G3, C4, NaN
+ 40:0.75, B4, NaN, NaN, NaN
+-40:1.0, C5, NaN, C4, Rest
++40:1.0, C5, G3, C4, Rest
+ 40:1.25, B4, NaN, NaN, NaN
+-40:1.5, C5, NaN, C4, NaN
++40:1.5, C5, G3, C4, NaN
+ 40:1.75, B4, NaN, NaN, NaN
+-40:2.0, C5, NaN, C4, Rest
++40:2.0, C5, G3, C4, Rest
+ 40:2.25, B4, NaN, NaN, NaN
+-40:2.5, C5, NaN, C4, NaN
++40:2.5, C5, G3, C4, NaN
+ 40:2.75, B4, NaN, NaN, NaN
+ 41:0.0, C5, C4, E-3, A-2
+ 41:1.5, NaN, NaN, F3, NaN
+ 41:1.75, NaN, NaN, E-3, NaN
+ 41:2.0, NaN, NaN, D3, NaN
+ 41:2.5, NaN, NaN, E-3, NaN
+-42:0.0, NaN, NaN, E-3, A2
++42:0.0, C5, C4, E-3, NaN
+ 42:1.0, NaN, C4, NaN, NaN
+ 42:1.5, D-5, NaN, NaN, NaN
+ 42:1.75, C5, NaN, NaN, NaN
 @@ -213,7 +222,7 @@
- 43:1.75, NaN, NaN, E-3, NaN
- 43:2.0, B-4, NaN, D3, NaN
- 43:2.5, A-4, NaN, E-3, NaN
--44:0.0, G4, D4, E-3, NaN
-+44:0.0, G4, NaN, E-3, NaN
- 44:1.0, Rest, D-4, NaN, NaN
- 44:1.5, E-5, NaN, NaN, NaN
- 44:1.75, D-5, NaN, NaN, NaN
+ 43:1.75, NaN, NaN, E-3, NaN
+ 43:2.0, B-4, NaN, D3, NaN
+ 43:2.5, A-4, NaN, E-3, NaN
+-44:0.0, G4, D4, E-3, NaN
++44:0.0, G4, NaN, E-3, NaN
+ 44:1.0, Rest, D-4, NaN, NaN
+ 44:1.5, E-5, NaN, NaN, NaN
+ 44:1.75, D-5, NaN, NaN, NaN
 @@ -224,7 +233,7 @@
- 45:1.75, NaN, NaN, E-3, NaN
- 45:2.0, C5, NaN, D3, NaN
- 45:2.5, B-4, NaN, E-3, NaN
--46:0.0, A4, E4, E-3, NaN
-+46:0.0, A4, NaN, E-3, NaN
- 46:1.0, Rest, G-4, A4, C3
- 46:1.5, F5, NaN, NaN, NaN
- 46:1.75, E-5, NaN, NaN, NaN
+ 45:1.75, NaN, NaN, E-3, NaN
+ 45:2.0, C5, NaN, D3, NaN
+ 45:2.5, B-4, NaN, E-3, NaN
+-46:0.0, A4, E4, E-3, NaN
++46:0.0, A4, NaN, E-3, NaN
+ 46:1.0, Rest, G-4, A4, C3
+ 46:1.5, F5, NaN, NaN, NaN
+ 46:1.75, E-5, NaN, NaN, NaN
 @@ -246,10 +255,10 @@
- 49:2.25, F#5, NaN, NaN, NaN
- 49:2.5, G5, E-4, C4, NaN
- 49:2.75, F#5, NaN, NaN, NaN
--50:0.0, G5, D4, B-3, G3
-+50:0.0, G5, D4, B3, G3
- 50:0.25, NaN, NaN, NaN, G2
- 50:0.5, NaN, NaN, NaN, A2
--50:0.75, NaN, NaN, NaN, B-2
-+50:0.75, NaN, NaN, NaN, B2
- 50:1.0, Rest, Rest, Rest, C3
- 50:1.25, NaN, NaN, NaN, D3
- 50:1.5, B5, D5, G4, E3
+ 49:2.25, F#5, NaN, NaN, NaN
+ 49:2.5, G5, E-4, C4, NaN
+ 49:2.75, F#5, NaN, NaN, NaN
+-50:0.0, G5, D4, B-3, G3
++50:0.0, G5, D4, B3, G3
+ 50:0.25, NaN, NaN, NaN, G2
+ 50:0.5, NaN, NaN, NaN, A2
+-50:0.75, NaN, NaN, NaN, B-2
++50:0.75, NaN, NaN, NaN, B2
+ 50:1.0, Rest, Rest, Rest, C3
+ 50:1.25, NaN, NaN, NaN, D3
+ 50:1.5, B5, D5, G4, E3
 @@ -283,16 +292,17 @@
- 52:2.5, C6, E-5, G4, G3
- 52:2.75, NaN, NaN, NaN, F#3
- 53:0.0, B5, D5, G4, G3
--53:0.5, G3, NaN, NaN, NaN
--53:0.75, A3, NaN, NaN, NaN
--53:1.0, B3, Rest, Rest, Rest
--53:1.25, C4, NaN, NaN, NaN
--53:1.5, D4, D5, B3, G3
--53:1.75, E4, NaN, NaN, NaN
--53:2.0, F#4, D5, B3, G3
--53:2.25, G4, NaN, NaN, NaN
--53:2.5, F#4, E-5, C4, C3
--53:2.75, G4, NaN, NaN, NaN
-+53:0.25, G3, NaN, NaN, NaN
-+53:0.5, A3, NaN, NaN, NaN
-+53:0.75, B3, NaN, NaN, NaN
-+53:1.0, C4, Rest, Rest, Rest
-+53:1.25, D4, NaN, NaN, NaN
-+53:1.5, E4, D5, B3, G3
-+53:1.75, F#4, NaN, NaN, NaN
-+53:2.0, G4, D5, B3, G3
-+53:2.25, F#4, NaN, NaN, NaN
-+53:2.5, G4, E-5, C4, C3
-+53:2.75, F#4, NaN, NaN, NaN
- 54:0.0, G4, D5, B3, G3
- 54:0.25, G4, G3, G3, G2
- 54:0.5, A4, A3, A3, A2
+ 52:2.5, C6, E-5, G4, G3
+ 52:2.75, NaN, NaN, NaN, F#3
+ 53:0.0, B5, D5, G4, G3
+-53:0.5, G3, NaN, NaN, NaN
+-53:0.75, A3, NaN, NaN, NaN
+-53:1.0, B3, Rest, Rest, Rest
+-53:1.25, C4, NaN, NaN, NaN
+-53:1.5, D4, D5, B3, G3
+-53:1.75, E4, NaN, NaN, NaN
+-53:2.0, F#4, D5, B3, G3
+-53:2.25, G4, NaN, NaN, NaN
+-53:2.5, F#4, E-5, C4, C3
+-53:2.75, G4, NaN, NaN, NaN
++53:0.25, G3, NaN, NaN, NaN
++53:0.5, A3, NaN, NaN, NaN
++53:0.75, B3, NaN, NaN, NaN
++53:1.0, C4, Rest, Rest, Rest
++53:1.25, D4, NaN, NaN, NaN
++53:1.5, E4, D5, B3, G3
++53:1.75, F#4, NaN, NaN, NaN
++53:2.0, G4, D5, B3, G3
++53:2.25, F#4, NaN, NaN, NaN
++53:2.5, G4, E-5, C4, C3
++53:2.75, F#4, NaN, NaN, NaN
+ 54:0.0, G4, D5, B3, G3
+ 54:0.25, G4, G3, G3, G2
+ 54:0.5, A4, A3, A3, A2
 @@ -309,7 +319,7 @@
- 55:0.5, G5, NaN, NaN, NaN
- 55:1.0, NaN, Rest, Rest, Rest
- 55:1.5, G5, NaN, NaN, NaN
--55:2.0, NaN, Rest, Rest, Rest
-+55:2.0, NaN, Rest, NaN, Rest
- 55:2.5, G5, NaN, NaN, NaN
- 56:0.0, G#5, Rest, Rest, Rest
- 56:0.5, G#5, NaN, NaN, NaN
+ 55:0.5, G5, NaN, NaN, NaN
+ 55:1.0, NaN, Rest, Rest, Rest
+ 55:1.5, G5, NaN, NaN, NaN
+-55:2.0, NaN, Rest, Rest, Rest
++55:2.0, NaN, Rest, NaN, Rest
+ 55:2.5, G5, NaN, NaN, NaN
+ 56:0.0, G#5, Rest, Rest, Rest
+ 56:0.5, G#5, NaN, NaN, NaN
 @@ -357,7 +367,7 @@
- 63:2.5, NaN, NaN, D4, NaN
- 64:0.0, A5, NaN, G3, Rest
- 64:0.5, NaN, NaN, G3, NaN
--64:1.0, G5, B-4, G4, Rest
-+64:1.0, G5, B4, G4, Rest
- 64:1.5, Rest, Rest, Rest, F#3
- 64:2.0, Rest, Rest, Rest, G3
- 64:2.5, NaN, NaN, NaN, G#3
+ 63:2.5, NaN, NaN, D4, NaN
+ 64:0.0, A5, NaN, G3, Rest
+ 64:0.5, NaN, NaN, G3, NaN
+-64:1.0, G5, B-4, G4, Rest
++64:1.0, G5, B4, G4, Rest
+ 64:1.5, Rest, Rest, Rest, F#3
+ 64:2.0, Rest, Rest, Rest, G3
+ 64:2.5, NaN, NaN, NaN, G#3
 @@ -373,10 +383,10 @@
- 66:1.5, NaN, NaN, NaN, G2
- 66:2.0, F5, D4, G3, B2
- 66:2.5, F5, D4, G3, B2
--67:0.0, E5, E4, NaN, C3
-+67:0.0, E5, E4, G3, C3
- 67:0.5, E5, C5, G4, C3
--67:1.0, D5, B-4, F4, D3
--67:1.5, D5, B-4, F4, D3
-+67:1.0, D5, B4, F4, D3
-+67:1.5, D5, B4, F4, D3
- 67:2.0, C5, G4, E4, E3
- 67:2.5, C5, G4, E4, E3
- 68:0.0, C5, A-4, D4, F3
+ 66:1.5, NaN, NaN, NaN, G2
+ 66:2.0, F5, D4, G3, B2
+ 66:2.5, F5, D4, G3, B2
+-67:0.0, E5, E4, NaN, C3
++67:0.0, E5, E4, G3, C3
+ 67:0.5, E5, C5, G4, C3
+-67:1.0, D5, B-4, F4, D3
+-67:1.5, D5, B-4, F4, D3
++67:1.0, D5, B4, F4, D3
++67:1.5, D5, B4, F4, D3
+ 67:2.0, C5, G4, E4, E3
+ 67:2.5, C5, G4, E4, E3
+ 68:0.0, C5, A-4, D4, F3
 @@ -390,10 +400,10 @@
- 69:1.5, NaN, F4, A-4, NaN
- 69:2.0, A-5, D4, F4, NaN
- 69:2.5, NaN, D4, F4, NaN
--70:0.0, A5, B3, D4, Rest
-+70:0.0, NaN, B3, D4, Rest
- 70:0.5, NaN, B3, D4, NaN
- 70:1.0, G5, C4, E-4, NaN
--70:1.5, NaN, E5, C4, NaN
-+70:1.5, NaN, E-5, C4, NaN
- 70:2.0, C6, NaN, F#3, NaN
- 70:2.5, NaN, E-5, F#3, NaN
- 71:0.0, C6, E-5, G3, Rest
+ 69:1.5, NaN, F4, A-4, NaN
+ 69:2.0, A-5, D4, F4, NaN
+ 69:2.5, NaN, D4, F4, NaN
+-70:0.0, A5, B3, D4, Rest
++70:0.0, NaN, B3, D4, Rest
+ 70:0.5, NaN, B3, D4, NaN
+ 70:1.0, G5, C4, E-4, NaN
+-70:1.5, NaN, E5, C4, NaN
++70:1.5, NaN, E-5, C4, NaN
+ 70:2.0, C6, NaN, F#3, NaN
+ 70:2.5, NaN, E-5, F#3, NaN
+ 71:0.0, C6, E-5, G3, Rest
 @@ -403,47 +413,53 @@
- 71:2.0, D6, F5, G3, NaN
- 71:2.5, NaN, NaN, G3, NaN
- 71:2.75, B5, D5, NaN, NaN
--72:0.0, C6, C5, C4, G5
-+72:0.0, C6, C5, C4, G4
- 72:0.5, NaN, G3, C3, NaN
- 72:1.0, Rest, G3, C3, NaN
--72:1.5, NaN, G3, C3, A5
--72:1.75, NaN, NaN, NaN, G5
--72:2.0, Rest, G3, C3, F#5
--72:2.5, NaN, G3, C3, G5
--73:0.0, E5, G3, C3, G5
-+72:1.5, NaN, G3, C3, A4
-+72:1.75, NaN, NaN, NaN, G4
-+72:2.0, Rest, G3, C3, F#4
-+72:2.5, NaN, G3, C3, G4
-+73:0.0, E5, G3, C3, G4
- 73:0.5, NaN, G3, C3, NaN
- 73:1.0, NaN, G3, C3, NaN
- 73:1.5, F5, G3, C3, NaN
- 73:1.75, E5, NaN, NaN, NaN
- 73:2.0, D5, G3, C3, NaN
- 73:2.5, C5, G3, C3, NaN
--74:0.0, B4, G3, D3, G5
--74:1.0, Rest, NaN, NaN, NaN
--74:1.5, NaN, NaN, NaN, A5
--74:1.75, NaN, NaN, NaN, G5
--74:2.0, Rest, NaN, NaN, F#5
--74:2.5, NaN, NaN, NaN, G5
--75:0.0, F5, B3, D3, G5
--75:1.5, G5, NaN, NaN, NaN
-+74:0.0, B4, G3, D3, G4
-+74:0.5, NaN, G3, D3, NaN
-+74:1.0, Rest, G3, D3, NaN
-+74:1.5, NaN, G3, D3, A4
-+74:1.75, NaN, NaN, NaN, G4
-+74:2.0, Rest, G3, D3, F#4
-+74:2.5, NaN, G3, D3, G4
-+75:0.0, F5, B3, D3, G4
-+75:0.5, NaN, B3, D3, NaN
-+75:1.0, NaN, B3, D3, NaN
-+75:1.5, G5, B3, D3, NaN
- 75:1.75, F5, NaN, NaN, NaN
--75:2.0, E5, NaN, NaN, NaN
--75:2.5, D5, NaN, NaN, NaN
--76:0.0, C#5, B-3, E3, G5
--76:1.0, Rest, NaN, NaN, NaN
--76:1.5, NaN, NaN, NaN, A5
--76:1.75, NaN, NaN, NaN, G5
--76:2.0, Rest, NaN, NaN, F#5
--76:2.5, NaN, NaN, NaN, G5
--77:0.0, B-5, G3, E3, B-5
--77:1.5, A5, NaN, NaN, NaN
-+75:2.0, E5, B3, D3, NaN
-+75:2.5, D5, B3, D3, NaN
-+76:0.0, C#5, B-3, E3, G4
-+76:0.5, NaN, B-3, E3, NaN
-+76:1.0, Rest, B-3, E3, NaN
-+76:1.5, NaN, B-3, E3, A4
-+76:1.75, NaN, NaN, NaN, G4
-+76:2.0, Rest, B-3, E3, F#4
-+76:2.5, NaN, B-3, E3, G4
-+77:0.0, B-5, G3, E3, B-4
-+77:0.5, NaN, G3, E3, NaN
-+77:1.0, NaN, G3, E3, NaN
-+77:1.5, A5, G3, E3, NaN
- 77:1.75, G5, NaN, NaN, NaN
--77:2.0, F5, NaN, NaN, NaN
-+77:2.0, F5, G3, E3, NaN
- 77:2.25, E5, NaN, NaN, NaN
--77:2.5, D5, NaN, NaN, NaN
-+77:2.5, D5, G3, E3, NaN
- 77:2.75, C#5, NaN, NaN, NaN
--78:0.0, D5, A3, F3, A5
-+78:0.0, D5, A3, F3, A4
- 78:0.25, A4, NaN, NaN, NaN
--78:0.5, B-4, NaN, NaN, NaN
-+78:0.5, B4, NaN, NaN, NaN
- 78:0.75, C#5, NaN, NaN, NaN
- 78:1.0, D5, F4, D4, F3
- 78:1.25, E5, NaN, NaN, NaN
+ 71:2.0, D6, F5, G3, NaN
+ 71:2.5, NaN, NaN, G3, NaN
+ 71:2.75, B5, D5, NaN, NaN
+-72:0.0, C6, C5, C4, G5
++72:0.0, C6, C5, C4, G4
+ 72:0.5, NaN, G3, C3, NaN
+ 72:1.0, Rest, G3, C3, NaN
+-72:1.5, NaN, G3, C3, A5
+-72:1.75, NaN, NaN, NaN, G5
+-72:2.0, Rest, G3, C3, F#5
+-72:2.5, NaN, G3, C3, G5
+-73:0.0, E5, G3, C3, G5
++72:1.5, NaN, G3, C3, A4
++72:1.75, NaN, NaN, NaN, G4
++72:2.0, Rest, G3, C3, F#4
++72:2.5, NaN, G3, C3, G4
++73:0.0, E5, G3, C3, G4
+ 73:0.5, NaN, G3, C3, NaN
+ 73:1.0, NaN, G3, C3, NaN
+ 73:1.5, F5, G3, C3, NaN
+ 73:1.75, E5, NaN, NaN, NaN
+ 73:2.0, D5, G3, C3, NaN
+ 73:2.5, C5, G3, C3, NaN
+-74:0.0, B4, G3, D3, G5
+-74:1.0, Rest, NaN, NaN, NaN
+-74:1.5, NaN, NaN, NaN, A5
+-74:1.75, NaN, NaN, NaN, G5
+-74:2.0, Rest, NaN, NaN, F#5
+-74:2.5, NaN, NaN, NaN, G5
+-75:0.0, F5, B3, D3, G5
+-75:1.5, G5, NaN, NaN, NaN
++74:0.0, B4, G3, D3, G4
++74:0.5, NaN, G3, D3, NaN
++74:1.0, Rest, G3, D3, NaN
++74:1.5, NaN, G3, D3, A4
++74:1.75, NaN, NaN, NaN, G4
++74:2.0, Rest, G3, D3, F#4
++74:2.5, NaN, G3, D3, G4
++75:0.0, F5, B3, D3, G4
++75:0.5, NaN, B3, D3, NaN
++75:1.0, NaN, B3, D3, NaN
++75:1.5, G5, B3, D3, NaN
+ 75:1.75, F5, NaN, NaN, NaN
+-75:2.0, E5, NaN, NaN, NaN
+-75:2.5, D5, NaN, NaN, NaN
+-76:0.0, C#5, B-3, E3, G5
+-76:1.0, Rest, NaN, NaN, NaN
+-76:1.5, NaN, NaN, NaN, A5
+-76:1.75, NaN, NaN, NaN, G5
+-76:2.0, Rest, NaN, NaN, F#5
+-76:2.5, NaN, NaN, NaN, G5
+-77:0.0, B-5, G3, E3, B-5
+-77:1.5, A5, NaN, NaN, NaN
++75:2.0, E5, B3, D3, NaN
++75:2.5, D5, B3, D3, NaN
++76:0.0, C#5, B-3, E3, G4
++76:0.5, NaN, B-3, E3, NaN
++76:1.0, Rest, B-3, E3, NaN
++76:1.5, NaN, B-3, E3, A4
++76:1.75, NaN, NaN, NaN, G4
++76:2.0, Rest, B-3, E3, F#4
++76:2.5, NaN, B-3, E3, G4
++77:0.0, B-5, G3, E3, B-4
++77:0.5, NaN, G3, E3, NaN
++77:1.0, NaN, G3, E3, NaN
++77:1.5, A5, G3, E3, NaN
+ 77:1.75, G5, NaN, NaN, NaN
+-77:2.0, F5, NaN, NaN, NaN
++77:2.0, F5, G3, E3, NaN
+ 77:2.25, E5, NaN, NaN, NaN
+-77:2.5, D5, NaN, NaN, NaN
++77:2.5, D5, G3, E3, NaN
+ 77:2.75, C#5, NaN, NaN, NaN
+-78:0.0, D5, A3, F3, A5
++78:0.0, D5, A3, F3, A4
+ 78:0.25, A4, NaN, NaN, NaN
+-78:0.5, B-4, NaN, NaN, NaN
++78:0.5, B4, NaN, NaN, NaN
+ 78:0.75, C#5, NaN, NaN, NaN
+ 78:1.0, D5, F4, D4, F3
+ 78:1.25, E5, NaN, NaN, NaN
 @@ -451,7 +467,7 @@
- 78:1.75, E5, NaN, NaN, NaN
- 78:2.0, D5, Rest, Rest, Rest
- 78:2.25, A4, NaN, NaN, NaN
--78:2.5, B-4, NaN, NaN, NaN
-+78:2.5, B4, NaN, NaN, NaN
- 78:2.75, C#5, NaN, NaN, NaN
- 79:0.0, D5, Rest, Rest, Rest
- 79:0.25, E5, NaN, NaN, NaN
+ 78:1.75, E5, NaN, NaN, NaN
+ 78:2.0, D5, Rest, Rest, Rest
+ 78:2.25, A4, NaN, NaN, NaN
+-78:2.5, B-4, NaN, NaN, NaN
++78:2.5, B4, NaN, NaN, NaN
+ 78:2.75, C#5, NaN, NaN, NaN
+ 79:0.0, D5, Rest, Rest, Rest
+ 79:0.25, E5, NaN, NaN, NaN
 @@ -467,7 +483,7 @@
- 79:2.75, E5, NaN, NaN, NaN
- 80:0.0, D5, Rest, Rest, Rest
- 80:0.25, A4, NaN, NaN, NaN
--80:0.5, B-4, NaN, NaN, NaN
-+80:0.5, B4, NaN, NaN, NaN
- 80:0.75, C#5, NaN, NaN, NaN
- 80:1.0, D5, Rest, Rest, Rest
- 80:1.25, E5, NaN, NaN, NaN
+ 79:2.75, E5, NaN, NaN, NaN
+ 80:0.0, D5, Rest, Rest, Rest
+ 80:0.25, A4, NaN, NaN, NaN
+-80:0.5, B-4, NaN, NaN, NaN
++80:0.5, B4, NaN, NaN, NaN
+ 80:0.75, C#5, NaN, NaN, NaN
+ 80:1.0, D5, Rest, Rest, Rest
+ 80:1.25, E5, NaN, NaN, NaN
 @@ -475,7 +491,7 @@
- 80:1.75, E5, NaN, NaN, NaN
- 80:2.0, D5, Rest, Rest, Rest
- 80:2.25, A4, A3, A3, A2
--80:2.5, B-4, B3, B3, B2
-+80:2.5, B4, B3, B3, B2
- 80:2.75, C#5, C#4, C#4, C#3
- 81:0.0, D5, D4, D4, D3
- 81:0.25, E5, E4, E4, E3
+ 80:1.75, E5, NaN, NaN, NaN
+ 80:2.0, D5, Rest, Rest, Rest
+ 80:2.25, A4, A3, A3, A2
+-80:2.5, B-4, B3, B3, B2
++80:2.5, B4, B3, B3, B2
+ 80:2.75, C#5, C#4, C#4, C#3
+ 81:0.0, D5, D4, D4, D3
+ 81:0.25, E5, E4, E4, E3
 @@ -487,8 +503,8 @@
- 81:1.75, E5, E4, E4, E3
- 81:2.0, D5, D4, D4, D3
- 81:2.25, C5, C4, C4, C3
--81:2.5, B4, A3, B3, B2
--81:2.75, A4, B3, A3, A2
-+81:2.5, B4, B3, B3, B2
-+81:2.75, A4, A3, A3, A2
- 82:0.0, G4, G3, G3, G2
- 82:1.5, NaN, A3, A3, A2
- 82:1.75, NaN, B3, B3, B2
+ 81:1.75, E5, E4, E4, E3
+ 81:2.0, D5, D4, D4, D3
+ 81:2.25, C5, C4, C4, C3
+-81:2.5, B4, A3, B3, B2
+-81:2.75, A4, B3, A3, A2
++81:2.5, B4, B3, B3, B2
++81:2.75, A4, A3, A3, A2
+ 82:0.0, G4, G3, G3, G2
+ 82:1.5, NaN, A3, A3, A2
+ 82:1.75, NaN, B3, B3, B2
 @@ -567,76 +583,83 @@
- 101:2.0, Rest, G3, C4, B2
- 101:2.5, NaN, G3, C4, C3
- 102:0.0, Rest, G3, C4, C2
--102:1.0, E5, NaN, NaN, Rest
--102:2.0, E5, NaN, NaN, Rest
-+102:0.5, NaN, G3, C4, NaN
-+102:1.0, E5, G3, C4, Rest
-+102:1.5, NaN, G3, C4, NaN
-+102:2.0, E5, G3, C4, Rest
-+102:2.5, NaN, G3, C4, NaN
- 103:0.0, G5, G3, D4, C3
--103:1.0, F5, NaN, NaN, NaN
--103:1.5, NaN, NaN, NaN, D3
-+103:0.5, NaN, G3, D4, NaN
-+103:1.0, F5, G3, D4, NaN
-+103:1.5, NaN, G3, D4, D3
- 103:1.75, NaN, NaN, NaN, C3
--103:2.0, Rest, NaN, NaN, B2
--103:2.5, NaN, NaN, NaN, C3
-+103:2.0, Rest, G3, D4, B2
-+103:2.5, NaN, G3, D4, C3
- 104:0.0, Rest, G3, D4, C2
--104:1.0, B5, NaN, NaN, Rest
--104:2.0, B5, NaN, NaN, Rest
-+104:0.5, NaN, G3, D4, NaN
-+104:1.0, B5, G3, D4, Rest
-+104:1.5, NaN, G3, D4, NaN
-+104:2.0, B5, G3, D4, Rest
-+104:2.5, NaN, G3, D4, NaN
- 105:0.0, C6, G3, C4, D3
- 105:0.25, NaN, NaN, NaN, C3
--105:0.5, E6, NaN, NaN, B2
-+105:0.5, E6, G3, C4, B2
- 105:0.75, NaN, NaN, NaN, C3
--105:1.0, G5, NaN, NaN, D3
-+105:1.0, G5, G3, C4, D3
- 105:1.25, NaN, NaN, NaN, C3
--105:1.5, NaN, NaN, NaN, B2
-+105:1.5, NaN, G3, C4, B2
- 105:1.75, NaN, NaN, NaN, C3
--105:2.0, Rest, NaN, NaN, D3
-+105:2.0, Rest, G3, C4, D3
- 105:2.25, NaN, NaN, NaN, C3
--105:2.5, NaN, NaN, NaN, B2
-+105:2.5, NaN, G3, C4, B2
- 105:2.75, NaN, NaN, NaN, C3
- 106:0.0, F5, G3, C4, C2
- 106:0.25, E5, NaN, NaN, NaN
--106:0.5, D5, NaN, NaN, NaN
-+106:0.5, D5, G3, C4, NaN
- 106:0.75, E5, NaN, NaN, NaN
--106:1.0, F5, NaN, NaN, Rest
-+106:1.0, F5, G3, C4, Rest
- 106:1.25, E5, NaN, NaN, NaN
--106:1.5, D5, NaN, NaN, NaN
-+106:1.5, D5, G3, C4, NaN
- 106:1.75, E5, NaN, NaN, NaN
--106:2.0, F5, NaN, NaN, Rest
-+106:2.0, F5, G3, C4, Rest
- 106:2.25, E5, NaN, NaN, NaN
--106:2.5, D5, NaN, NaN, NaN
-+106:2.5, D5, G3, C4, NaN
- 106:2.75, E5, NaN, NaN, NaN
- 107:0.0, G5, G3, D4, D3
- 107:0.25, NaN, NaN, NaN, C3
--107:0.5, NaN, NaN, NaN, B2
-+107:0.5, NaN, G3, D4, B2
- 107:0.75, NaN, NaN, NaN, C3
--107:1.0, F5, NaN, NaN, D3
-+107:1.0, F5, G3, D4, D3
- 107:1.25, NaN, NaN, NaN, C3
--107:1.5, NaN, NaN, NaN, B2
-+107:1.5, NaN, G3, D4, B2
- 107:1.75, NaN, NaN, NaN, C3
--107:2.0, Rest, NaN, NaN, D3
-+107:2.0, Rest, G3, D4, D3
- 107:2.25, NaN, NaN, NaN, C3
--107:2.5, NaN, NaN, NaN, B2
-+107:2.5, NaN, G3, D4, B2
- 107:2.75, NaN, NaN, NaN, C3
- 108:0.0, C6, G3, D4, C2
- 108:0.25, B5, NaN, NaN, NaN
--108:0.5, A5, NaN, NaN, NaN
-+108:0.5, A5, G3, D4, NaN
- 108:0.75, B5, NaN, NaN, NaN
--108:1.0, C6, NaN, NaN, Rest
-+108:1.0, C6, G3, D4, Rest
- 108:1.25, B5, NaN, NaN, NaN
--108:1.5, A5, NaN, NaN, NaN
-+108:1.5, A5, G3, D4, NaN
- 108:1.75, B5, NaN, NaN, NaN
--108:2.0, C6, NaN, NaN, Rest
-+108:2.0, C6, G3, D4, Rest
- 108:2.25, B5, NaN, NaN, NaN
--108:2.5, A5, NaN, NaN, NaN
-+108:2.5, A5, G3, D4, NaN
- 108:2.75, B5, NaN, NaN, NaN
- 109:0.0, C6, G3, C4, C3
- 109:0.25, E6, NaN, NaN, NaN
- 109:0.5, D6, NaN, NaN, NaN
- 109:0.75, C6, NaN, NaN, NaN
--109:1.0, B-5, G3, G3, C3
-+109:1.0, B5, G3, G3, C3
- 109:1.25, A5, NaN, NaN, NaN
- 109:1.5, G5, NaN, NaN, NaN
- 109:1.75, F5, NaN, NaN, NaN
- 109:2.0, E5, Rest, Rest, Rest
- 109:2.25, C6, NaN, NaN, NaN
--109:2.5, B-5, NaN, NaN, NaN
-+109:2.5, B5, NaN, NaN, NaN
- 109:2.75, A5, NaN, NaN, NaN
- 110:0.0, G5, Rest, Rest, Rest
- 110:0.25, F5, NaN, NaN, NaN
+ 101:2.0, Rest, G3, C4, B2
+ 101:2.5, NaN, G3, C4, C3
+ 102:0.0, Rest, G3, C4, C2
+-102:1.0, E5, NaN, NaN, Rest
+-102:2.0, E5, NaN, NaN, Rest
++102:0.5, NaN, G3, C4, NaN
++102:1.0, E5, G3, C4, Rest
++102:1.5, NaN, G3, C4, NaN
++102:2.0, E5, G3, C4, Rest
++102:2.5, NaN, G3, C4, NaN
+ 103:0.0, G5, G3, D4, C3
+-103:1.0, F5, NaN, NaN, NaN
+-103:1.5, NaN, NaN, NaN, D3
++103:0.5, NaN, G3, D4, NaN
++103:1.0, F5, G3, D4, NaN
++103:1.5, NaN, G3, D4, D3
+ 103:1.75, NaN, NaN, NaN, C3
+-103:2.0, Rest, NaN, NaN, B2
+-103:2.5, NaN, NaN, NaN, C3
++103:2.0, Rest, G3, D4, B2
++103:2.5, NaN, G3, D4, C3
+ 104:0.0, Rest, G3, D4, C2
+-104:1.0, B5, NaN, NaN, Rest
+-104:2.0, B5, NaN, NaN, Rest
++104:0.5, NaN, G3, D4, NaN
++104:1.0, B5, G3, D4, Rest
++104:1.5, NaN, G3, D4, NaN
++104:2.0, B5, G3, D4, Rest
++104:2.5, NaN, G3, D4, NaN
+ 105:0.0, C6, G3, C4, D3
+ 105:0.25, NaN, NaN, NaN, C3
+-105:0.5, E6, NaN, NaN, B2
++105:0.5, E6, G3, C4, B2
+ 105:0.75, NaN, NaN, NaN, C3
+-105:1.0, G5, NaN, NaN, D3
++105:1.0, G5, G3, C4, D3
+ 105:1.25, NaN, NaN, NaN, C3
+-105:1.5, NaN, NaN, NaN, B2
++105:1.5, NaN, G3, C4, B2
+ 105:1.75, NaN, NaN, NaN, C3
+-105:2.0, Rest, NaN, NaN, D3
++105:2.0, Rest, G3, C4, D3
+ 105:2.25, NaN, NaN, NaN, C3
+-105:2.5, NaN, NaN, NaN, B2
++105:2.5, NaN, G3, C4, B2
+ 105:2.75, NaN, NaN, NaN, C3
+ 106:0.0, F5, G3, C4, C2
+ 106:0.25, E5, NaN, NaN, NaN
+-106:0.5, D5, NaN, NaN, NaN
++106:0.5, D5, G3, C4, NaN
+ 106:0.75, E5, NaN, NaN, NaN
+-106:1.0, F5, NaN, NaN, Rest
++106:1.0, F5, G3, C4, Rest
+ 106:1.25, E5, NaN, NaN, NaN
+-106:1.5, D5, NaN, NaN, NaN
++106:1.5, D5, G3, C4, NaN
+ 106:1.75, E5, NaN, NaN, NaN
+-106:2.0, F5, NaN, NaN, Rest
++106:2.0, F5, G3, C4, Rest
+ 106:2.25, E5, NaN, NaN, NaN
+-106:2.5, D5, NaN, NaN, NaN
++106:2.5, D5, G3, C4, NaN
+ 106:2.75, E5, NaN, NaN, NaN
+ 107:0.0, G5, G3, D4, D3
+ 107:0.25, NaN, NaN, NaN, C3
+-107:0.5, NaN, NaN, NaN, B2
++107:0.5, NaN, G3, D4, B2
+ 107:0.75, NaN, NaN, NaN, C3
+-107:1.0, F5, NaN, NaN, D3
++107:1.0, F5, G3, D4, D3
+ 107:1.25, NaN, NaN, NaN, C3
+-107:1.5, NaN, NaN, NaN, B2
++107:1.5, NaN, G3, D4, B2
+ 107:1.75, NaN, NaN, NaN, C3
+-107:2.0, Rest, NaN, NaN, D3
++107:2.0, Rest, G3, D4, D3
+ 107:2.25, NaN, NaN, NaN, C3
+-107:2.5, NaN, NaN, NaN, B2
++107:2.5, NaN, G3, D4, B2
+ 107:2.75, NaN, NaN, NaN, C3
+ 108:0.0, C6, G3, D4, C2
+ 108:0.25, B5, NaN, NaN, NaN
+-108:0.5, A5, NaN, NaN, NaN
++108:0.5, A5, G3, D4, NaN
+ 108:0.75, B5, NaN, NaN, NaN
+-108:1.0, C6, NaN, NaN, Rest
++108:1.0, C6, G3, D4, Rest
+ 108:1.25, B5, NaN, NaN, NaN
+-108:1.5, A5, NaN, NaN, NaN
++108:1.5, A5, G3, D4, NaN
+ 108:1.75, B5, NaN, NaN, NaN
+-108:2.0, C6, NaN, NaN, Rest
++108:2.0, C6, G3, D4, Rest
+ 108:2.25, B5, NaN, NaN, NaN
+-108:2.5, A5, NaN, NaN, NaN
++108:2.5, A5, G3, D4, NaN
+ 108:2.75, B5, NaN, NaN, NaN
+ 109:0.0, C6, G3, C4, C3
+ 109:0.25, E6, NaN, NaN, NaN
+ 109:0.5, D6, NaN, NaN, NaN
+ 109:0.75, C6, NaN, NaN, NaN
+-109:1.0, B-5, G3, G3, C3
++109:1.0, B5, G3, G3, C3
+ 109:1.25, A5, NaN, NaN, NaN
+ 109:1.5, G5, NaN, NaN, NaN
+ 109:1.75, F5, NaN, NaN, NaN
+ 109:2.0, E5, Rest, Rest, Rest
+ 109:2.25, C6, NaN, NaN, NaN
+-109:2.5, B-5, NaN, NaN, NaN
++109:2.5, B5, NaN, NaN, NaN
+ 109:2.75, A5, NaN, NaN, NaN
+ 110:0.0, G5, Rest, Rest, Rest
+ 110:0.25, F5, NaN, NaN, NaN
 @@ -719,11 +742,11 @@
- 118:0.0, A3, A3, A3, A2
- 118:1.0, A3, A3, A3, A2
- 118:2.0, A3, A3, A3, A2
--119:0.0, B-3, B-3, B-3, B-2
-+119:0.0, B-3, B-3, B-3, B2
- 119:1.5, NaN, NaN, C4, C3
--119:1.75, NaN, NaN, B-3, B-2
-+119:1.75, NaN, NaN, B-3, B2
- 119:2.0, NaN, NaN, A3, A2
--119:2.5, NaN, NaN, B-3, B-2
-+119:2.5, NaN, NaN, B-3, B2
- 120:0.0, NaN, NaN, F3, F2
- 120:0.25, D5, NaN, NaN, NaN
- 120:0.5, F5, NaN, NaN, NaN
+ 118:0.0, A3, A3, A3, A2
+ 118:1.0, A3, A3, A3, A2
+ 118:2.0, A3, A3, A3, A2
+-119:0.0, B-3, B-3, B-3, B-2
++119:0.0, B-3, B-3, B-3, B2
+ 119:1.5, NaN, NaN, C4, C3
+-119:1.75, NaN, NaN, B-3, B-2
++119:1.75, NaN, NaN, B-3, B2
+ 119:2.0, NaN, NaN, A3, A2
+-119:2.5, NaN, NaN, B-3, B-2
++119:2.5, NaN, NaN, B-3, B2
+ 120:0.0, NaN, NaN, F3, F2
+ 120:0.25, D5, NaN, NaN, NaN
+ 120:0.5, F5, NaN, NaN, NaN
 @@ -736,12 +759,12 @@
- 120:2.25, B-5, NaN, NaN, NaN
- 120:2.5, D6, NaN, NaN, NaN
- 120:2.75, B-5, NaN, NaN, NaN
--121:0.0, E-6, B-3, B-3, B-2
-+121:0.0, E-6, B-3, B-3, B2
- 121:1.0, Rest, NaN, NaN, NaN
- 121:1.5, NaN, NaN, C4, C3
--121:1.75, NaN, NaN, B-3, B-2
-+121:1.75, NaN, NaN, B-3, B2
- 121:2.0, Rest, NaN, A3, A2
--121:2.5, NaN, NaN, B-3, B-2
-+121:2.5, NaN, NaN, B-3, B2
- 122:0.0, Rest, NaN, G3, G2
- 122:0.25, E-5, NaN, NaN, NaN
- 122:0.5, G5, NaN, NaN, NaN
+ 120:2.25, B-5, NaN, NaN, NaN
+ 120:2.5, D6, NaN, NaN, NaN
+ 120:2.75, B-5, NaN, NaN, NaN
+-121:0.0, E-6, B-3, B-3, B-2
++121:0.0, E-6, B-3, B-3, B2
+ 121:1.0, Rest, NaN, NaN, NaN
+ 121:1.5, NaN, NaN, C4, C3
+-121:1.75, NaN, NaN, B-3, B-2
++121:1.75, NaN, NaN, B-3, B2
+ 121:2.0, Rest, NaN, A3, A2
+-121:2.5, NaN, NaN, B-3, B-2
++121:2.5, NaN, NaN, B-3, B2
+ 122:0.0, Rest, NaN, G3, G2
+ 122:0.25, E-5, NaN, NaN, NaN
+ 122:0.5, G5, NaN, NaN, NaN
 @@ -812,8 +835,8 @@
- 134:2.0, NaN, E5, NaN, NaN
- 134:2.5, D6, D5, A4, F4
- 135:0.0, Rest, E-5, Rest, Rest
--135:1.5, NaN, F5, NaN, NaN
--135:1.75, NaN, E-5, NaN, NaN
-+135:1.5, NaN, E-5, NaN, NaN
-+135:1.75, NaN, D5, NaN, NaN
- 135:2.0, NaN, D5, NaN, NaN
- 135:2.5, NaN, E-5, NaN, NaN
- 136:0.0, Rest, F#4, Rest, E-4
+ 134:2.0, NaN, E5, NaN, NaN
+ 134:2.5, D6, D5, A4, F4
+ 135:0.0, Rest, E-5, Rest, Rest
+-135:1.5, NaN, F5, NaN, NaN
+-135:1.75, NaN, E-5, NaN, NaN
++135:1.5, NaN, E-5, NaN, NaN
++135:1.75, NaN, D5, NaN, NaN
+ 135:2.0, NaN, D5, NaN, NaN
+ 135:2.5, NaN, E-5, NaN, NaN
+ 136:0.0, Rest, F#4, Rest, E-4
 @@ -826,7 +849,7 @@
- 137:1.0, NaN, B-4, E-4, G3
- 137:1.5, F6, NaN, NaN, NaN
- 137:1.75, E-6, NaN, NaN, NaN
--137:2.0, D6, B4, NaN, G-3
-+137:2.0, D6, B4, NaN, G#3
- 137:2.5, E-6, NaN, F4, NaN
- 137:2.75, NaN, NaN, E-4, NaN
- 138:0.0, F#5, C5, D4, A3
+ 137:1.0, NaN, B-4, E-4, G3
+ 137:1.5, F6, NaN, NaN, NaN
+ 137:1.75, E-6, NaN, NaN, NaN
+-137:2.0, D6, B4, NaN, G-3
++137:2.0, D6, B4, NaN, G#3
+ 137:2.5, E-6, NaN, F4, NaN
+ 137:2.75, NaN, NaN, E-4, NaN
+ 138:0.0, F#5, C5, D4, A3
 @@ -874,7 +897,7 @@
- 145:0.0, A-5, B4, F4, D4
- 145:0.5, NaN, D5, A-4, F4
- 145:0.75, NaN, C5, G4, E-4
--145:1.0, A5, B4, F4, D4
-+145:1.0, NaN, B4, F4, D4
- 145:1.5, F5, NaN, NaN, NaN
- 145:1.75, G5, NaN, NaN, NaN
- 145:2.0, A-5, NaN, NaN, NaN
+ 145:0.0, A-5, B4, F4, D4
+ 145:0.5, NaN, D5, A-4, F4
+ 145:0.75, NaN, C5, G4, E-4
+-145:1.0, A5, B4, F4, D4
++145:1.0, NaN, B4, F4, D4
+ 145:1.5, F5, NaN, NaN, NaN
+ 145:1.75, G5, NaN, NaN, NaN
+ 145:2.0, A-5, NaN, NaN, NaN
 @@ -926,1539 +949,1047 @@
- 151:1.75, D-6, NaN, NaN, NaN
- 151:2.0, C6, D-4, B-3, Rest
- 151:2.5, D-6, D-4, B-3, NaN
--152:0.0, B-5, D-4, B-3, Rest
--152:1.5, C6, NaN, NaN, NaN
-+152:0.0, B-5, D4, B-3, Rest
-+152:0.5, NaN, D4, B-3, NaN
-+152:1.0, NaN, D4, B-3, NaN
-+152:1.5, C6, D4, B-3, NaN
- 152:1.75, B-5, NaN, NaN, NaN
--152:2.0, A5, D-4, NaN, NaN
--152:2.5, B-5, NaN, NaN, NaN
--153:0.0, F5, NaN, B-3, Rest
--153:1.5, G-5, NaN, NaN, NaN
-+152:2.0, A5, D4, B-3, NaN
-+152:2.5, B-5, D4, B-3, NaN
-+153:0.0, F5, D4, B-3, Rest
-+153:0.5, NaN, D4, B-3, NaN
-+153:1.0, NaN, D4, B-3, NaN
-+153:1.5, G-5, D4, B-3, NaN
- 153:1.75, F5, NaN, NaN, NaN
--153:2.0, E5, D-4, NaN, NaN
--153:2.5, F5, NaN, NaN, NaN
--154:0.0, D-5, NaN, B-3, Rest
--154:1.5, E-5, NaN, NaN, NaN
-+153:2.0, E5, D4, B-3, NaN
-+153:2.5, F5, D4, B-3, NaN
-+154:0.0, D-5, D4, B-3, Rest
-+154:0.5, NaN, D4, B-3, NaN
-+154:1.0, NaN, D4, B-3, NaN
-+154:1.5, E-5, D4, B-3, NaN
- 154:1.75, D-5, NaN, NaN, NaN
--154:2.0, C5, G-5, NaN, NaN
--154:2.5, D-5, NaN, NaN, NaN
--155:0.0, D-4, NaN, B-3, G-3
--155:0.5, D-4, A-5, NaN, NaN
--155:0.75, NaN, G-5, NaN, NaN
--155:1.0, D-4, F5, NaN, NaN
--155:1.5, D-4, G-5, NaN, NaN
--155:2.0, D-4, D-5, NaN, NaN
--155:2.5, D-4, NaN, NaN, NaN
--156:0.0, D-4, NaN, B-3, D-3
--156:0.5, D-4, E-5, NaN, NaN
--156:0.75, NaN, D-5, NaN, NaN
--156:1.0, D-4, C5, NaN, NaN
--156:1.5, D-4, D-5, NaN, NaN
--156:2.0, D-4, B-4, NaN, NaN
--156:2.5, D-4, NaN, NaN, NaN
--157:0.0, D-4, NaN, B-3, B-2
--157:0.5, D-4, C-5, NaN, NaN
--157:0.75, NaN, B-4, NaN, NaN
--157:1.0, D-4, A4, NaN, NaN
--157:1.5, D-4, B-4, NaN, NaN
--157:2.0, D-4, G-4, NaN, NaN
--157:2.5, D-4, NaN, NaN, NaN
--158:0.0, D-4, F4, B-3, G-2
--158:0.5, D-4, NaN, NaN, NaN
--158:1.0, D-4, E4, NaN, F2
--158:1.5, D-4, NaN, NaN, NaN
--158:2.0, C4, C4, NaN, E2
--158:2.5, C4, C4, NaN, NaN
-+154:2.0, C5, D4, B-3, NaN
-+154:2.5, D-5, D4, B-3, NaN
-+155:0.0, D-4, G-5, B-3, G-3
-+155:0.5, D-4, NaN, B-3, NaN
-+155:1.0, D-4, G-5, B-3, NaN
-+155:1.5, D-4, A-5, B-3, NaN
-+155:1.75, NaN, G-5, NaN, NaN
-+155:2.0, D-4, F5, B-3, NaN
-+155:2.5, D-4, G-5, B-3, NaN
-+156:0.0, D-4, D-5, B-3, D-3
-+156:0.5, D-4, NaN, B-3, NaN
-+156:1.0, D-4, NaN, B-3, NaN
-+156:1.5, D-4, E-5, B-3, NaN
-+156:1.75, NaN, D-5, NaN, NaN
-+156:2.0, D-4, C5, B-3, NaN
-+156:2.5, D-4, D-5, B-3, NaN
-+157:0.0, D-4, B-4, B-3, B-2
-+157:0.5, D-4, NaN, B-3, NaN
-+157:1.0, D-4, NaN, B-3, NaN
-+157:1.5, D-4, C-5, B-3, NaN
-+157:1.75, NaN, B-4, NaN, NaN
-+157:2.0, D-4, A4, B-3, NaN
-+157:2.5, D-4, B-4, B-3, NaN
-+158:0.0, D-4, G-4, B-3, G-2
-+158:0.5, D-4, NaN, B-3, NaN
-+158:1.0, D-4, F4, B-3, F2
-+158:1.5, D-4, NaN, B-3, NaN
-+158:2.0, C4, E4, B-3, E2
-+158:2.5, C4, NaN, B-3, NaN
- 159:0.0, F5, C4, A-3, F2
--159:0.5, NaN, C4, NaN, NaN
--159:1.0, NaN, C4, NaN, Rest
--159:1.5, G5, C4, NaN, NaN
-+159:0.5, NaN, C4, A-3, NaN
-+159:1.0, NaN, C4, A-3, Rest
-+159:1.5, G5, C4, A-3, NaN
- 159:1.75, F5, NaN, NaN, NaN
--159:2.0, E5, C4, NaN, Rest
--159:2.5, F5, NaN, NaN, NaN
--160:0.0, C5, NaN, A-3, Rest
--160:1.5, D-5, NaN, NaN, NaN
-+159:2.0, E5, C4, A-3, Rest
-+159:2.5, F5, C4, A-3, NaN
-+160:0.0, C5, C4, A-3, Rest
-+160:0.5, NaN, C4, A-3, NaN
-+160:1.0, NaN, C4, A-3, NaN
-+160:1.5, D-5, C4, A-3, NaN
- 160:1.75, C5, NaN, NaN, NaN
--160:2.0, B4, C4, NaN, NaN
--160:2.5, C5, NaN, NaN, NaN
--161:0.0, A-4, NaN, A-3, Rest
--161:1.5, B-4, NaN, NaN, NaN
-+160:2.0, B4, C4, A-3, NaN
-+160:2.5, C5, C4, A-3, NaN
-+161:0.0, A-4, C4, A-3, Rest
-+161:0.5, NaN, C4, A-3, NaN
-+161:1.0, NaN, C4, A-3, NaN
-+161:1.5, B-4, C4, A-3, NaN
- 161:1.75, A-4, NaN, NaN, NaN
--161:2.0, G4, C4, NaN, NaN
--161:2.5, A-4, NaN, NaN, NaN
--162:0.0, F4, NaN, A-3, Rest
--162:1.5, G4, NaN, NaN, NaN
-+161:2.0, G4, C4, A-3, NaN
-+161:2.5, A-4, C4, A-3, NaN
-+162:0.0, F4, C4, A-3, Rest
-+162:0.5, NaN, C4, A-3, NaN
-+162:1.0, NaN, C4, A-3, NaN
-+162:1.5, G4, C4, A-3, NaN
- 162:1.75, F4, NaN, NaN, NaN
--162:2.0, E4, D-5, NaN, NaN
--162:2.5, F4, NaN, NaN, NaN
--163:0.0, F4, NaN, A-3, D-3
--163:0.5, F4, E-5, NaN, NaN
--163:0.75, NaN, D-5, NaN, NaN
--163:1.0, F4, C5, NaN, NaN
--163:1.5, F4, D-5, NaN, NaN
--163:2.0, F4, A-4, NaN, NaN
--163:2.5, F4, NaN, NaN, NaN
--164:0.0, F4, NaN, A-3, A-2
--164:0.5, F4, B-4, NaN, NaN
--164:0.75, NaN, A-4, NaN, NaN
--164:1.0, F4, G4, NaN, NaN
--164:1.5, F4, A-4, NaN, NaN
--164:2.0, F4, F4, A-3, NaN
--164:2.5, F4, NaN, NaN, NaN
--165:0.0, F4, NaN, NaN, F2
--165:0.5, F4, G-4, NaN, NaN
--165:0.75, NaN, F4, NaN, NaN
--165:1.0, F4, E-4, NaN, NaN
--165:1.5, F4, F4, NaN, NaN
--165:2.0, F4, D-4, A-3, D-2
--165:2.5, F4, NaN, NaN, NaN
--166:0.0, F4, C4, NaN, D-3
--166:0.5, F4, NaN, NaN, NaN
--166:1.0, F4, B3, NaN, C3
--166:1.5, F4, NaN, NaN, NaN
--166:2.0, F4, C4, G3, B2
--166:2.5, F4, NaN, NaN, NaN
--167:0.0, E4, G3, C4, C2
-+162:2.0, E4, C4, A-3, NaN
-+162:2.5, F4, C4, A-3, NaN
-+163:0.0, F4, D-5, A-3, D-3
-+163:0.5, F4, NaN, A-3, NaN
-+163:1.0, F4, NaN, A-3, NaN
-+163:1.5, F4, E-5, A-3, NaN
-+163:1.75, NaN, D-5, NaN, NaN
-+163:2.0, F4, C5, A-3, NaN
-+163:2.5, F4, D-5, A-3, NaN
-+164:0.0, F4, A-4, A-3, A-2
-+164:0.5, F4, NaN, A-3, NaN
-+164:1.0, F4, NaN, A-3, NaN
-+164:1.5, F4, B-4, A-3, NaN
-+164:1.75, NaN, A-4, NaN, NaN
-+164:2.0, F4, G4, A-3, NaN
-+164:2.5, F4, A-4, A-3, NaN
-+165:0.0, F4, F4, A-3, F2
-+165:0.5, F4, NaN, A-3, NaN
-+165:1.0, F4, NaN, A-3, NaN
-+165:1.5, F4, G4, A-3, NaN
-+165:1.75, NaN, F4, NaN, NaN
-+165:2.0, F4, E4, A-3, D-2
-+165:2.5, F4, F4, A-3, NaN
-+166:0.0, F4, D-4, A-3, D-3
-+166:0.5, F4, NaN, A-3, NaN
-+166:1.0, F4, C4, A-3, C3
-+166:1.5, F4, NaN, A-3, NaN
-+166:2.0, F4, B3, A-3, B2
-+166:2.5, F4, NaN, A-3, NaN
-+167:0.0, E4, C4, G3, C2
- 167:0.25, C6, NaN, NaN, NaN
- 167:0.5, B5, NaN, NaN, NaN
- 167:0.75, A5, NaN, NaN, NaN
--167:1.0, G5, NaN, NaN, Rest
-+167:1.0, G5, G3, C4, Rest
- 167:1.25, F5, NaN, NaN, NaN
- 167:1.5, E5, NaN, NaN, C3
- 167:1.75, D5, NaN, NaN, NaN
- 167:2.0, C5, NaN, NaN, C3
- 167:2.5, NaN, NaN, NaN, C3
--168:0.0, NaN, G3, C4, E2
-+168:0.0, NaN, G3, NaN, E2
- 168:0.25, C6, NaN, NaN, NaN
- 168:0.5, B5, NaN, NaN, NaN
- 168:0.75, A5, NaN, NaN, NaN
--168:1.0, G5, NaN, NaN, Rest
-+168:1.0, G5, G3, C4, Rest
- 168:1.25, F5, NaN, NaN, NaN
- 168:1.5, E5, NaN, NaN, E3
- 168:1.75, D5, NaN, NaN, NaN
- 168:2.0, C5, NaN, NaN, E3
- 168:2.5, NaN, NaN, NaN, E3
--169:0.0, NaN, G3, C4, G2
-+169:0.0, NaN, NaN, NaN, G2
- 169:0.25, C6, NaN, NaN, NaN
- 169:0.5, B5, NaN, NaN, NaN
- 169:0.75, A5, NaN, NaN, NaN
--169:1.0, G5, NaN, NaN, Rest
-+169:1.0, G5, G3, C4, Rest
- 169:1.25, F5, NaN, NaN, NaN
- 169:1.5, E5, NaN, NaN, G3
- 169:1.75, D5, NaN, NaN, NaN
- 169:2.0, C5, NaN, NaN, G3
- 169:2.25, C6, NaN, NaN, NaN
--169:2.5, NaN, NaN, NaN, G3
--169:2.625, B5, NaN, NaN, NaN
--169:2.875, A5, NaN, NaN, NaN
--170:0.0, NaN, G3, C4, C3
--170:0.125, G5, NaN, NaN, NaN
--170:0.375, F5, NaN, NaN, NaN
--170:0.625, E5, NaN, NaN, NaN
--170:0.875, D5, NaN, NaN, NaN
--170:1.0, NaN, G3, C4, Rest
--170:1.125, C5, NaN, NaN, NaN
--170:1.375, B4, NaN, NaN, NaN
--170:1.5, NaN, NaN, NaN, C4
--170:1.625, D5, NaN, NaN, NaN
--170:1.875, C5, NaN, NaN, NaN
--170:2.0, NaN, G3, C4, C4
--170:2.125, B4, NaN, NaN, NaN
--170:2.375, C5, NaN, NaN, NaN
--170:2.5, NaN, NaN, NaN, C4
--170:2.625, D5, NaN, NaN, NaN
--170:2.875, C5, NaN, NaN, NaN
--171:0.0, NaN, Rest, C3, C2
--171:0.125, B-4, NaN, NaN, NaN
-+169:2.5, B5, NaN, NaN, G3
-+169:2.75, A5, NaN, NaN, NaN
-+170:0.0, G5, NaN, NaN, C3
-+170:0.25, F5, NaN, NaN, NaN
-+170:0.5, E5, NaN, NaN, NaN
-+170:0.75, D5, NaN, NaN, NaN
-+170:1.0, C5, G3, C4, Rest
-+170:1.25, B4, NaN, NaN, NaN
-+170:1.5, D5, NaN, NaN, C4
-+170:1.75, C5, NaN, NaN, NaN
-+170:2.0, B4, G3, C4, C4
-+170:2.25, C5, NaN, NaN, NaN
-+170:2.5, D5, NaN, NaN, C4
-+170:2.75, C5, NaN, NaN, NaN
-+171:0.0, B-4, G3, C4, C2
- 171:0.25, NaN, NaN, NaN, C3
- 171:0.5, NaN, NaN, NaN, B2
- 171:0.75, NaN, NaN, NaN, A2
--171:1.0, NaN, Rest, NaN, G2
--171:1.125, E5, NaN, NaN, NaN
--171:1.25, NaN, C4, NaN, F2
--171:1.5, NaN, D4, NaN, E2
--171:1.75, NaN, E4, NaN, D2
--171:2.0, NaN, F4, NaN, C2
--171:2.25, NaN, G4, NaN, NaN
--171:2.5, NaN, A4, NaN, NaN
--171:2.75, NaN, B4, NaN, NaN
--172:0.0, NaN, C5, C4, NaN
--172:0.25, NaN, NaN, NaN, C3
--172:0.5, NaN, NaN, NaN, B2
--172:0.75, NaN, NaN, NaN, A2
--172:1.0, NaN, NaN, NaN, G2
--172:1.125, G5, NaN, NaN, NaN
--172:1.25, NaN, C4, NaN, F2
--172:1.5, NaN, D4, NaN, E2
--172:1.75, NaN, E4, NaN, D2
--172:2.0, NaN, F4, NaN, C2
--172:2.25, NaN, G4, NaN, NaN
--172:2.5, NaN, A4, NaN, NaN
--172:2.75, NaN, B4, NaN, NaN
--173:0.0, NaN, C5, C4, NaN
--173:0.25, NaN, NaN, NaN, C3
--173:0.5, NaN, NaN, NaN, B2
--173:0.75, NaN, NaN, NaN, A2
--173:1.0, NaN, NaN, NaN, G2
--173:1.125, B-5, NaN, NaN, NaN
--173:1.25, NaN, C4, NaN, F2
--173:1.5, NaN, D4, NaN, E2
--173:1.75, NaN, E4, NaN, D2
--173:2.0, NaN, F4, NaN, C2
--173:2.25, NaN, G4, NaN, C3
--173:2.5, NaN, A4, NaN, B2
--173:2.75, NaN, B4, NaN, A2
--174:0.0, NaN, C5, C4, G2
--174:0.25, NaN, C4, NaN, F2
--174:0.5, NaN, D4, NaN, E2
--174:0.75, NaN, E4, NaN, D2
--174:1.0, NaN, F4, C4, C2
--174:1.125, E6, NaN, NaN, NaN
--174:1.25, NaN, G4, NaN, C3
--174:1.5, NaN, A4, NaN, B2
--174:1.75, NaN, B4, NaN, A2
--174:2.0, NaN, C5, C4, G2
--174:2.125, G6, NaN, NaN, NaN
--174:2.25, NaN, NaN, NaN, F2
--174:2.5, NaN, NaN, NaN, E2
--174:2.75, NaN, NaN, NaN, D2
--175:0.0, NaN, NaN, NaN, C2
--175:0.125, B-6, NaN, NaN, NaN
-+171:1.0, E5, Rest, C3, G2
-+171:1.25, NaN, NaN, NaN, F2
-+171:1.5, NaN, NaN, NaN, E2
-+171:1.75, NaN, NaN, NaN, D2
-+171:2.0, NaN, Rest, NaN, C2
-+171:2.25, NaN, C4, NaN, NaN
-+171:2.5, NaN, D4, NaN, NaN
-+171:2.75, NaN, E4, NaN, NaN
-+172:0.0, NaN, F4, NaN, NaN
-+172:0.25, NaN, G4, NaN, C3
-+172:0.5, NaN, A4, NaN, B2
-+172:0.75, NaN, B4, NaN, A2
-+172:1.0, G5, C5, C4, G2
-+172:1.25, NaN, NaN, NaN, F2
-+172:1.5, NaN, NaN, NaN, E2
-+172:1.75, NaN, NaN, NaN, D2
-+172:2.0, NaN, NaN, NaN, C2
-+172:2.25, NaN, C4, NaN, NaN
-+172:2.5, NaN, D4, NaN, NaN
-+172:2.75, NaN, E4, NaN, NaN
-+173:0.0, NaN, F4, NaN, NaN
-+173:0.25, NaN, G4, NaN, C3
-+173:0.5, NaN, A4, NaN, B2
-+173:0.75, NaN, B4, NaN, A2
-+173:1.0, B-5, C5, C4, G2
-+173:1.25, NaN, NaN, NaN, F2
-+173:1.5, NaN, NaN, NaN, E2
-+173:1.75, NaN, NaN, NaN, D2
-+173:2.0, NaN, NaN, NaN, C2
-+173:2.25, NaN, C4, NaN, C3
-+173:2.5, NaN, D4, NaN, B2
-+173:2.75, NaN, E4, NaN, A2
-+174:0.0, NaN, F4, NaN, G2
-+174:0.25, NaN, G4, NaN, F2
-+174:0.5, NaN, A4, NaN, E2
-+174:0.75, NaN, B4, NaN, D2
-+174:1.0, E6, C5, C4, C2
-+174:1.25, NaN, C4, NaN, C3
-+174:1.5, NaN, D4, NaN, B2
-+174:1.75, NaN, E4, NaN, A2
-+174:2.0, G6, F4, C4, G2
-+174:2.25, NaN, G4, NaN, F2
-+174:2.5, NaN, A4, NaN, E2
-+174:2.75, NaN, B4, NaN, D2
-+175:0.0, B-6, C5, C4, C2
- 175:0.5, NaN, NaN, NaN, D2
- 175:0.75, NaN, NaN, NaN, E2
- 175:1.0, NaN, NaN, NaN, F2
- 175:1.25, NaN, NaN, NaN, G2
--175:1.5, NaN, B4, NaN, A2
--175:1.75, NaN, A4, NaN, B2
--175:2.0, NaN, G4, C3, C3
--175:2.25, NaN, F4, NaN, NaN
--175:2.5, NaN, E4, NaN, NaN
--175:2.75, NaN, D4, NaN, NaN
--176:0.0, NaN, C4, NaN, NaN
--176:0.125, E5, NaN, NaN, NaN
--176:0.5, NaN, NaN, NaN, C3
--176:0.75, NaN, NaN, NaN, D3
--176:1.0, NaN, NaN, NaN, E3
-+175:1.5, NaN, NaN, NaN, A2
-+175:1.75, NaN, NaN, NaN, B2
-+175:2.0, NaN, NaN, NaN, C3
-+175:2.5, NaN, B4, NaN, NaN
-+175:2.75, NaN, A4, NaN, NaN
-+176:0.0, E5, G4, C3, NaN
-+176:0.25, NaN, F4, NaN, NaN
-+176:0.5, NaN, E4, NaN, C3
-+176:0.75, NaN, D4, NaN, D3
-+176:1.0, NaN, C4, NaN, E3
- 176:1.25, NaN, NaN, NaN, F3
--176:1.5, NaN, C4, NaN, G3
--176:1.75, NaN, D4, NaN, A3
--176:2.0, NaN, E4, C3, B-3
--176:2.25, NaN, F4, NaN, NaN
--176:2.5, NaN, G4, C3, NaN
--176:2.75, NaN, A4, NaN, NaN
--177:0.0, NaN, B-4, C3, NaN
--177:0.125, G5, NaN, NaN, NaN
--177:0.5, NaN, A4, C3, A3
--177:1.0, NaN, G4, C3, G3
--177:1.5, NaN, F4, C3, F3
--177:2.0, NaN, E4, C3, E3
-+176:1.5, NaN, NaN, NaN, G3
-+176:1.75, NaN, NaN, NaN, A3
-+176:2.0, NaN, NaN, NaN, B-3
-+176:2.5, NaN, C4, NaN, NaN
-+176:2.75, NaN, D4, NaN, NaN
-+177:0.0, G5, E4, C3, NaN
-+177:0.25, NaN, F4, NaN, NaN
-+177:0.5, NaN, G4, C3, A3
-+177:0.75, NaN, A4, NaN, NaN
-+177:1.0, NaN, B-4, C3, G3
-+177:1.5, NaN, A4, C3, F3
-+177:2.0, NaN, G4, C3, E3
- 177:2.5, NaN, F4, C3, D3
--178:0.0, NaN, E4, C3, C3
--178:0.125, C4, NaN, NaN, NaN
--178:0.375, B3, NaN, NaN, NaN
--178:0.5, NaN, D4, C3, D3
--178:0.625, C4, NaN, NaN, NaN
--178:0.875, D4, NaN, NaN, NaN
--178:1.0, NaN, C4, C3, C3
--178:1.125, E4, NaN, NaN, NaN
--178:1.375, F4, NaN, NaN, NaN
--178:1.5, NaN, B-3, C3, B-2
--178:1.625, G4, NaN, NaN, NaN
--178:1.875, A4, NaN, NaN, NaN
--178:2.0, NaN, A3, F3, A2
--178:2.125, B-4, NaN, NaN, NaN
--178:2.375, C5, NaN, NaN, NaN
--178:2.5, NaN, NaN, NaN, G2
--178:2.625, D5, NaN, NaN, NaN
--178:2.875, E5, NaN, NaN, NaN
--179:0.0, NaN, NaN, NaN, F2
--179:0.125, F5, NaN, NaN, NaN
--179:0.5, NaN, G4, G3, NaN
--179:0.75, NaN, F4, F3, NaN
--179:1.0, NaN, E4, E3, NaN
--179:1.5, NaN, F4, F3, G2
--179:1.625, G5, NaN, NaN, NaN
--179:1.75, NaN, NaN, NaN, F2
--179:1.875, F5, NaN, NaN, NaN
--179:2.0, NaN, C4, C3, E2
--179:2.125, E5, NaN, NaN, NaN
--179:2.5, NaN, NaN, NaN, F2
--179:2.625, F5, NaN, NaN, NaN
--180:0.0, NaN, Rest, Rest, C2
--180:0.125, C5, NaN, NaN, NaN
--180:1.0, NaN, Rest, Rest, Rest
--180:1.125, Rest, NaN, NaN, NaN
--180:2.0, NaN, F4, F3, Rest
--180:2.125, Rest, NaN, NaN, NaN
--181:0.0, NaN, NaN, NaN, F2
--181:0.125, F5, NaN, NaN, NaN
--181:0.5, NaN, G4, G3, NaN
--181:0.75, NaN, F4, F3, NaN
--181:1.0, NaN, E4, E3, NaN
--181:1.5, NaN, F4, F3, G2
--181:1.625, G5, NaN, NaN, NaN
--181:1.75, NaN, NaN, NaN, F2
--181:1.875, F5, NaN, NaN, NaN
--181:2.0, NaN, D4, D3, E2
--181:2.125, E5, NaN, NaN, NaN
--181:2.5, NaN, NaN, NaN, F2
--181:2.625, F5, NaN, NaN, NaN
--182:0.0, NaN, Rest, Rest, D2
--182:0.125, D5, NaN, NaN, NaN
--182:1.0, NaN, Rest, Rest, Rest
--182:1.125, Rest, NaN, NaN, NaN
--182:2.0, NaN, B-4, D4, Rest
--182:2.125, Rest, NaN, NaN, NaN
--183:0.0, NaN, NaN, NaN, D3
--183:0.125, F5, NaN, NaN, NaN
--183:1.625, G5, NaN, NaN, NaN
--183:1.875, F5, NaN, NaN, NaN
--183:2.0, NaN, NaN, C4, NaN
--183:2.125, E5, NaN, NaN, NaN
--183:2.625, F5, NaN, NaN, NaN
--184:0.0, NaN, NaN, NaN, E3
--184:0.125, G5, NaN, NaN, NaN
--184:1.0, NaN, G4, NaN, NaN
--184:2.0, NaN, F4, NaN, NaN
--184:2.125, B-4, NaN, NaN, NaN
--185:0.0, NaN, NaN, D4, F3
--185:0.125, A4, NaN, NaN, NaN
--185:1.0, NaN, B-4, G3, D3
--185:1.75, NaN, G4, NaN, NaN
--185:2.0, NaN, F4, C4, B-2
--185:2.125, D5, NaN, NaN, NaN
--185:2.5, NaN, NaN, B3, NaN
--185:2.875, B-4, NaN, NaN, NaN
--186:0.0, NaN, NaN, C4, C3
--186:0.125, A4, NaN, NaN, NaN
-+178:0.0, C4, E4, C3, C3
-+178:0.25, B3, NaN, NaN, NaN
-+178:0.5, C4, F4, C3, D3
-+178:0.75, D4, NaN, NaN, NaN
-+178:1.0, E4, E4, C3, C3
-+178:1.25, F4, NaN, NaN, NaN
-+178:1.5, G4, D4, C3, B-2
-+178:1.75, A4, NaN, NaN, NaN
-+178:2.0, B-4, C4, C3, A2
-+178:2.25, C5, NaN, NaN, NaN
-+178:2.5, D5, B-3, C3, G2
-+178:2.75, E5, NaN, NaN, NaN
-+179:0.0, F5, A3, F3, F2
-+179:1.5, G5, G4, G3, G2
-+179:1.75, F5, F4, F3, F2
-+179:2.0, E5, E4, E3, E2
-+179:2.5, F5, F4, F3, F2
-+180:0.0, C5, C4, C3, C2
-+180:1.0, Rest, Rest, Rest, Rest
-+180:2.0, Rest, Rest, Rest, Rest
-+181:0.0, F5, F4, F3, F2
-+181:1.5, G5, G4, G3, G2
-+181:1.75, F5, F4, F3, F2
-+181:2.0, E5, E4, E3, E2
-+181:2.5, F5, F4, F3, F2
-+182:0.0, D5, D4, D3, D2
-+182:1.0, Rest, Rest, Rest, Rest
-+182:2.0, Rest, Rest, Rest, Rest
-+183:0.0, F5, B-4, D4, D3
-+183:1.5, G5, NaN, NaN, NaN
-+183:1.75, F5, NaN, NaN, NaN
-+183:2.0, E5, NaN, NaN, NaN
-+183:2.5, F5, NaN, NaN, NaN
-+184:0.0, G5, NaN, C4, E3
-+184:2.0, B-4, G4, NaN, NaN
-+185:0.0, A4, F4, C4, F3
-+185:1.0, NaN, NaN, D4, D3
-+185:2.0, D5, B-4, G3, B-2
-+185:2.75, B-4, G4, NaN, NaN
-+186:0.0, A4, F4, C4, C3
- 186:0.5, NaN, NaN, B3, NaN
--186:1.0, NaN, E4, C4, NaN
--186:2.0, NaN, B-4, Rest, NaN
--186:2.125, G4, NaN, NaN, NaN
--187:0.0, NaN, NaN, NaN, Rest
--187:0.125, Rest, NaN, NaN, NaN
--187:0.5, NaN, C5, NaN, NaN
--187:0.75, NaN, B-4, NaN, NaN
--187:1.0, NaN, A4, NaN, NaN
--187:1.5, NaN, B-4, NaN, NaN
--187:2.0, NaN, C5, A4, NaN
--188:0.0, NaN, NaN, NaN, Rest
--188:0.125, F5, NaN, NaN, NaN
--188:0.5, NaN, D-5, B-4, NaN
--188:0.75, NaN, C5, A4, NaN
--188:1.0, NaN, B-4, G4, NaN
--188:1.5, NaN, C5, A4, NaN
--188:2.0, NaN, D-5, B-4, NaN
--189:0.0, NaN, NaN, G-4, Rest
--189:1.0, NaN, G-5, E-4, NaN
--189:1.125, B-5, NaN, NaN, NaN
--189:1.75, NaN, E-5, NaN, NaN
--189:2.0, NaN, D-5, A-4, NaN
--189:2.875, G-5, NaN, NaN, NaN
--190:0.0, NaN, NaN, A-3, Rest
--190:0.125, F5, NaN, NaN, NaN
--190:1.0, NaN, C5, Rest, NaN
--190:2.0, NaN, F4, D-4, NaN
--190:2.125, E-5, NaN, NaN, NaN
--191:0.0, NaN, NaN, NaN, D-3
--191:0.125, Rest, NaN, NaN, NaN
--191:1.0, NaN, B-4, G-4, B-2
--191:1.75, NaN, G-4, E-4, NaN
--191:2.0, NaN, F4, D-4, G-2
--192:0.0, NaN, NaN, NaN, A-2
--192:0.125, Rest, NaN, NaN, NaN
--192:1.0, NaN, E-4, C4, A-3
--192:2.0, NaN, B-4, B-4, Rest
--193:0.0, NaN, NaN, G-4, Rest
--193:0.125, D-5, NaN, NaN, NaN
--193:1.0, NaN, B-4, E-4, NaN
--193:2.0, NaN, B-4, F4, NaN
--193:2.125, G-5, NaN, NaN, NaN
--193:2.875, E-5, NaN, NaN, NaN
--194:0.0, NaN, NaN, F3, Rest
--194:0.125, D-5, NaN, NaN, NaN
--194:1.0, NaN, A4, Rest, NaN
--194:2.0, NaN, D-4, B-3, NaN
--194:2.125, C5, NaN, NaN, NaN
--195:0.0, NaN, NaN, NaN, B-3
--195:0.125, Rest, NaN, NaN, NaN
--195:1.0, NaN, G-4, NaN, G-3
--195:1.75, NaN, E-4, NaN, NaN
--195:2.0, NaN, D-4, A-3, E-3
--196:0.0, NaN, NaN, NaN, F3
--196:0.125, Rest, NaN, NaN, NaN
--196:1.125, D-5, NaN, NaN, NaN
--196:2.0, NaN, A-4, F3, NaN
--196:2.125, D-5, NaN, NaN, NaN
--197:0.0, NaN, NaN, NaN, D-3
--197:0.125, D-5, NaN, NaN, NaN
--197:0.625, C-5, NaN, NaN, NaN
--197:1.0, NaN, NaN, NaN, D-2
--197:1.125, B-4, NaN, NaN, NaN
--197:1.625, C-5, NaN, NaN, NaN
--197:2.0, NaN, G-4, D-3, D-2
--197:2.125, D-5, NaN, NaN, NaN
--197:2.625, C-5, NaN, NaN, NaN
--198:0.0, NaN, Rest, NaN, G-2
--198:0.125, B-4, NaN, NaN, NaN
--198:0.5, NaN, NaN, E-3, NaN
--198:0.75, NaN, NaN, D-3, NaN
--198:1.0, NaN, Rest, C3, NaN
--198:1.125, Rest, NaN, NaN, NaN
--198:1.5, NaN, NaN, D-3, NaN
--198:2.0, NaN, Rest, D-3, NaN
--198:2.125, Rest, NaN, NaN, NaN
--199:0.0, NaN, B-3, NaN, NaN
--199:0.125, Rest, NaN, NaN, NaN
--199:1.0, NaN, B-3, NaN, NaN
--199:1.125, Rest, NaN, NaN, NaN
--199:1.625, B-4, NaN, NaN, NaN
--199:2.0, NaN, C-4, NaN, NaN
--199:2.125, B-4, NaN, NaN, NaN
--200:0.0, NaN, NaN, NaN, A-2
--200:0.125, D-5, NaN, NaN, NaN
--200:0.5, NaN, NaN, E-3, NaN
--200:0.75, NaN, NaN, D-3, NaN
--200:1.0, NaN, NaN, C3, NaN
--200:1.5, NaN, NaN, D-3, NaN
--200:1.625, C-5, NaN, NaN, NaN
--200:2.0, NaN, NaN, D-3, NaN
--200:2.125, A-4, NaN, NaN, NaN
--200:2.625, G-4, NaN, NaN, NaN
--201:0.0, NaN, C-4, NaN, NaN
--201:0.125, F4, NaN, NaN, NaN
--201:1.0, NaN, C-4, NaN, NaN
--201:1.125, Rest, NaN, NaN, NaN
--201:1.625, C-5, NaN, NaN, NaN
--201:2.0, NaN, D-4, NaN, NaN
--201:2.125, C-5, NaN, NaN, NaN
--202:0.0, NaN, NaN, NaN, B-2
--202:0.125, E-5, NaN, NaN, NaN
--202:0.5, NaN, NaN, E-3, NaN
--202:0.75, NaN, NaN, D-3, NaN
--202:1.0, NaN, NaN, C3, NaN
--202:1.5, NaN, NaN, D-3, NaN
--202:1.625, D-5, NaN, NaN, NaN
--202:2.0, NaN, NaN, D-3, NaN
--202:2.125, B-4, NaN, NaN, NaN
--202:2.625, A-4, NaN, NaN, NaN
--203:0.0, NaN, D-4, NaN, NaN
--203:0.125, G-4, NaN, NaN, NaN
--203:1.0, NaN, D-4, NaN, NaN
--203:1.125, Rest, NaN, NaN, NaN
--203:1.625, G-5, NaN, NaN, NaN
--203:2.0, NaN, A-4, D-3, NaN
--203:2.125, G-5, NaN, NaN, NaN
--204:0.0, NaN, NaN, NaN, F2
--204:0.125, B-5, NaN, NaN, NaN
--204:0.5, NaN, NaN, E-3, NaN
--204:0.75, NaN, NaN, D-3, NaN
--204:1.0, NaN, A-4, C3, NaN
--204:1.5, NaN, G-4, D-3, NaN
--204:1.625, A-5, NaN, NaN, NaN
--204:2.0, NaN, G-4, D-3, NaN
--204:2.125, A-5, NaN, NaN, NaN
--204:2.5, NaN, F4, NaN, NaN
--204:2.625, G-5, NaN, NaN, NaN
--205:0.0, NaN, F4, NaN, NaN
--205:0.125, G-5, NaN, NaN, NaN
--205:0.5, NaN, E-4, NaN, NaN
--205:0.625, F5, NaN, NaN, NaN
--205:1.0, NaN, D-4, NaN, A-2
--205:1.125, F5, NaN, NaN, NaN
--205:1.5, NaN, C-4, NaN, NaN
--205:1.625, E-5, NaN, NaN, NaN
--205:2.0, NaN, A3, D-3, D-2
--205:2.125, D-5, NaN, NaN, NaN
--205:2.625, C-5, NaN, NaN, NaN
--206:0.0, NaN, B-3, NaN, G-2
--206:0.125, A4, NaN, NaN, NaN
--206:0.5, NaN, NaN, E-3, NaN
--206:0.75, NaN, NaN, D-3, NaN
--206:1.0, NaN, B-3, C3, NaN
--206:1.125, B-4, NaN, NaN, NaN
--206:1.5, NaN, NaN, D-3, NaN
--206:2.0, NaN, B-3, D-3, NaN
--206:2.125, B-4, NaN, NaN, NaN
--207:0.0, NaN, NaN, NaN, F2
--207:0.125, B-4, NaN, NaN, NaN
--207:0.5, NaN, C4, NaN, NaN
--207:0.75, NaN, B-3, NaN, NaN
--207:1.0, NaN, A3, NaN, NaN
--207:1.5, NaN, B-3, NaN, NaN
--207:1.625, C5, NaN, NaN, NaN
--207:1.875, B-4, NaN, NaN, NaN
--207:2.0, NaN, G4, C3, NaN
--207:2.125, A4, NaN, NaN, NaN
--207:2.625, B-4, NaN, NaN, NaN
--208:0.0, NaN, NaN, NaN, E2
--208:0.125, G5, NaN, NaN, NaN
--208:0.5, NaN, NaN, D-4, NaN
--208:0.75, NaN, NaN, C4, NaN
--208:1.0, NaN, G4, B3, NaN
--208:1.5, NaN, NaN, C4, NaN
--208:2.0, NaN, C4, C4, E3
--208:2.125, B-4, NaN, NaN, NaN
--209:0.0, NaN, C4, G3, F3
--209:0.125, A-4, NaN, NaN, NaN
--209:1.0, NaN, B3, A-3, E-3
--209:1.125, G4, NaN, NaN, NaN
--209:1.5, NaN, NaN, F3, NaN
--209:2.0, NaN, G3, E3, D-3
--209:2.125, F4, NaN, NaN, NaN
--210:0.0, NaN, Rest, Rest, C3
--210:0.125, C5, NaN, NaN, NaN
--210:0.375, C4, NaN, NaN, NaN
--210:0.5, NaN, G4, E4, NaN
--210:0.625, D4, NaN, NaN, NaN
--210:0.875, E4, NaN, NaN, NaN
--210:1.0, NaN, G4, E4, Rest
--210:1.125, F4, NaN, NaN, NaN
--210:1.375, G4, NaN, NaN, NaN
--210:1.5, NaN, A-4, F4, NaN
--210:1.625, A4, NaN, NaN, NaN
--210:1.875, B4, NaN, NaN, NaN
--210:2.0, NaN, G4, E4, Rest
--210:2.125, C5, NaN, NaN, NaN
--210:2.375, B4, NaN, NaN, NaN
--210:2.625, C5, NaN, NaN, NaN
--210:2.875, B4, NaN, NaN, NaN
--211:0.0, NaN, Rest, Rest, Rest
--211:0.125, C5, NaN, NaN, NaN
-+186:1.0, NaN, NaN, C4, NaN
-+186:1.5, NaN, NaN, B3, NaN
-+186:2.0, G4, E4, C4, NaN
-+187:0.0, Rest, B-4, Rest, Rest
-+187:1.5, NaN, C5, NaN, NaN
-+187:1.75, NaN, B-4, NaN, NaN
-+187:2.0, NaN, A4, NaN, NaN
-+187:2.5, NaN, B-4, NaN, NaN
-+188:0.0, F5, C5, A4, Rest
-+188:1.5, NaN, D-5, B-4, NaN
-+188:1.75, NaN, C5, A4, NaN
-+188:2.0, NaN, B-4, G4, NaN
-+188:2.5, NaN, C5, A4, NaN
-+189:0.0, NaN, D-5, B-4, Rest
-+189:1.0, B-5, NaN, G-4, NaN
-+189:2.0, B-5, G-5, E-4, NaN
-+189:2.75, G-5, E-5, NaN, NaN
-+190:0.0, F5, D-5, A-4, Rest
-+190:1.0, NaN, NaN, A-3, NaN
-+190:2.0, E-5, C5, Rest, NaN
-+191:0.0, Rest, F4, D-4, D-3
-+191:1.0, NaN, NaN, NaN, B-2
-+191:2.0, NaN, B-4, G-4, G-2
-+191:2.75, NaN, G-4, E-4, NaN
-+192:0.0, Rest, F4, D-4, A-2
-+192:1.0, NaN, NaN, NaN, A-3
-+192:2.0, NaN, E-4, C4, Rest
-+193:0.0, D-5, B-4, B-4, Rest
-+193:1.0, NaN, NaN, G-4, NaN
-+193:2.0, G-5, C5, E-4, NaN
-+193:2.75, E5, NaN, NaN, NaN
-+194:0.0, D-5, B-4, F4, Rest
-+194:1.0, NaN, NaN, F3, NaN
-+194:2.0, C5, A4, Rest, NaN
-+195:0.0, Rest, D-4, B-3, B-3
-+195:1.0, NaN, NaN, NaN, G-3
-+195:2.0, NaN, G-4, B-3, E-3
-+195:2.75, NaN, E-4, NaN, NaN
-+196:0.0, Rest, D-4, A-3, F3
-+196:1.0, D-5, NaN, NaN, NaN
-+196:2.0, D-5, NaN, NaN, NaN
-+197:0.0, D-5, A-4, F3, D-3
-+197:0.5, C-5, NaN, NaN, NaN
-+197:1.0, B-4, NaN, NaN, D-2
-+197:1.5, C-5, NaN, NaN, NaN
-+197:2.0, D-5, NaN, NaN, D-2
-+197:2.5, C-5, NaN, NaN, NaN
-+198:0.0, B-4, G-4, D-3, G-2
-+198:1.0, Rest, Rest, NaN, NaN
-+198:1.5, NaN, NaN, E-3, NaN
-+198:1.75, NaN, NaN, D-3, NaN
-+198:2.0, Rest, Rest, C3, NaN
-+198:2.5, NaN, NaN, D-3, NaN
-+199:0.0, Rest, Rest, D-3, NaN
-+199:1.0, Rest, B-3, NaN, NaN
-+199:1.5, B-4, NaN, NaN, NaN
-+199:2.0, B-4, B-3, NaN, NaN
-+200:0.0, D-5, C-4, D-3, A-2
-+200:1.5, C-5, NaN, E-3, NaN
-+200:1.75, NaN, NaN, D-3, NaN
-+200:2.0, A-4, NaN, C3, NaN
-+200:2.5, G-4, NaN, D-3, NaN
-+201:0.0, F4, NaN, D-3, NaN
-+201:1.0, Rest, C-4, NaN, NaN
-+201:1.5, C-5, NaN, NaN, NaN
-+201:2.0, C-5, C-4, NaN, NaN
-+202:0.0, E-5, D-4, D-3, B-2
-+202:1.5, D-5, NaN, E-3, NaN
-+202:1.75, NaN, NaN, D-3, NaN
-+202:2.0, B-4, NaN, C3, NaN
-+202:2.5, A-4, NaN, D-3, NaN
-+203:0.0, G-4, NaN, D-3, NaN
-+203:1.0, Rest, D-4, NaN, NaN
-+203:1.5, G-5, NaN, NaN, NaN
-+203:2.0, G-5, D-4, NaN, NaN
-+204:0.0, B-5, A-4, D-3, F2
-+204:1.5, A-5, NaN, E-3, NaN
-+204:1.75, NaN, NaN, D-3, NaN
-+204:2.0, A-5, A-4, C3, NaN
-+204:2.5, G-5, G-4, D-3, NaN
-+205:0.0, G-5, G-4, D-3, NaN
-+205:0.5, F5, F4, NaN, NaN
-+205:1.0, F5, F4, NaN, A-2
-+205:1.5, E-5, E-4, NaN, NaN
-+205:2.0, D-5, D-4, NaN, D-2
-+205:2.5, C-5, C-4, NaN, NaN
-+206:0.0, A4, A3, D-3, G-2
-+206:1.0, B-4, B-3, NaN, NaN
-+206:1.5, NaN, NaN, E-3, NaN
-+206:1.75, NaN, NaN, D-3, NaN
-+206:2.0, B-4, B-3, C3, NaN
-+206:2.5, NaN, NaN, D-3, NaN
-+207:0.0, B-4, B-3, D-3, F2
-+207:1.5, C5, C4, NaN, NaN
-+207:1.75, B-4, B-3, NaN, NaN
-+207:2.0, A4, A3, NaN, NaN
-+207:2.5, B-4, B-3, NaN, NaN
-+208:0.0, G5, G4, C3, E2
-+208:1.5, NaN, NaN, D-4, NaN
-+208:1.75, NaN, NaN, C4, NaN
-+208:2.0, B-4, G4, B3, E3
-+208:2.5, NaN, NaN, C4, NaN
-+209:0.0, A-4, C4, C4, F3
-+209:1.0, G4, C4, G3, E-3
-+209:2.0, F4, B3, A-3, D-3
-+209:2.5, NaN, NaN, F3, NaN
-+210:0.0, C5, G3, E3, C3
-+210:0.25, C4, NaN, NaN, NaN
-+210:0.5, D4, NaN, NaN, NaN
-+210:0.75, E4, NaN, NaN, NaN
-+210:1.0, F4, Rest, Rest, Rest
-+210:1.25, G4, NaN, NaN, NaN
-+210:1.5, A4, G4, E4, NaN
-+210:1.75, B4, NaN, NaN, NaN
-+210:2.0, C5, G4, E4, Rest
-+210:2.25, B4, NaN, NaN, NaN
-+210:2.5, C5, A-4, F4, NaN
-+210:2.75, B4, NaN, NaN, NaN
-+211:0.0, C5, G4, E4, Rest
- 211:0.25, NaN, NaN, NaN, C3
--211:0.5, NaN, G4, C4, D3
-+211:0.5, NaN, NaN, NaN, D3
- 211:0.75, NaN, NaN, NaN, E3
--211:1.0, NaN, G4, C4, F3
--211:1.125, Rest, NaN, NaN, NaN
-+211:1.0, Rest, Rest, Rest, F3
- 211:1.25, NaN, NaN, NaN, G3
--211:1.5, NaN, A-4, C4, A3
--211:1.625, E5, NaN, NaN, NaN
-+211:1.5, E5, G4, C4, A3
- 211:1.75, NaN, NaN, NaN, B3
--211:2.0, NaN, G4, C4, C4
--211:2.125, E5, NaN, NaN, NaN
-+211:2.0, E5, G4, C4, C4
- 211:2.25, NaN, NaN, NaN, B3
--211:2.5, NaN, NaN, NaN, C4
--211:2.625, F5, NaN, NaN, NaN
-+211:2.5, F5, A-4, C4, C4
- 211:2.75, NaN, NaN, NaN, B3
--212:0.0, NaN, Rest, Rest, C4
--212:0.125, E5, NaN, NaN, NaN
--212:0.375, C4, NaN, NaN, NaN
--212:0.5, NaN, G3, E3, NaN
--212:0.625, D4, NaN, NaN, NaN
--212:0.875, E4, NaN, NaN, NaN
--212:1.0, NaN, G3, E3, Rest
--212:1.125, F4, NaN, NaN, NaN
--212:1.375, G4, NaN, NaN, NaN
--212:1.5, NaN, A-3, F3, NaN
--212:1.625, A4, NaN, NaN, NaN
--212:1.875, B4, NaN, NaN, NaN
--212:2.0, NaN, G3, E3, Rest
--212:2.125, C5, NaN, NaN, NaN
--212:2.375, B4, NaN, NaN, NaN
--212:2.625, C5, NaN, NaN, NaN
--212:2.875, B4, NaN, NaN, NaN
--213:0.0, NaN, Rest, Rest, Rest
--213:0.125, C5, NaN, NaN, NaN
-+212:0.0, E5, G4, C4, C4
-+212:0.25, C4, NaN, NaN, NaN
-+212:0.5, D4, NaN, NaN, NaN
-+212:0.75, E4, NaN, NaN, NaN
-+212:1.0, F4, Rest, Rest, Rest
-+212:1.25, G4, NaN, NaN, NaN
-+212:1.5, A4, G3, E3, NaN
-+212:1.75, B4, NaN, NaN, NaN
-+212:2.0, C5, G3, E3, Rest
-+212:2.25, B4, NaN, NaN, NaN
-+212:2.5, C5, A-3, F3, NaN
-+212:2.75, B4, NaN, NaN, NaN
-+213:0.0, C5, G3, E3, Rest
- 213:0.25, NaN, NaN, NaN, C3
--213:0.5, NaN, G4, C4, D3
-+213:0.5, NaN, NaN, NaN, D3
- 213:0.75, NaN, NaN, NaN, E3
--213:1.0, NaN, G4, C4, F3
--213:1.125, Rest, NaN, NaN, NaN
-+213:1.0, Rest, Rest, Rest, F3
- 213:1.25, NaN, NaN, NaN, G3
--213:1.5, NaN, A-4, C4, A3
--213:1.625, E5, NaN, NaN, NaN
-+213:1.5, E5, G4, C4, A3
- 213:1.75, NaN, NaN, NaN, B3
--213:2.0, NaN, G4, C4, C4
--213:2.125, E5, NaN, NaN, NaN
-+213:2.0, E5, G4, C4, C4
- 213:2.25, NaN, NaN, NaN, B3
--213:2.5, NaN, NaN, NaN, C4
--213:2.625, F5, NaN, NaN, NaN
-+213:2.5, F5, A-4, C4, C4
- 213:2.75, NaN, NaN, NaN, B3
--214:0.0, NaN, Rest, Rest, C4
--214:0.125, E5, NaN, NaN, NaN
--214:0.375, C4, NaN, NaN, NaN
--214:0.5, NaN, E5, G4, NaN
--214:0.625, D4, NaN, NaN, NaN
--214:0.875, E4, NaN, NaN, NaN
--214:1.0, NaN, E5, G4, Rest
--214:1.125, F4, NaN, NaN, NaN
--214:1.375, G4, NaN, NaN, NaN
--214:1.5, NaN, F5, A-4, C4
--214:1.625, A4, NaN, NaN, NaN
--214:1.875, B4, NaN, NaN, NaN
--214:2.0, NaN, E5, G4, C4
--214:2.125, C5, NaN, NaN, NaN
--214:2.25, NaN, C4, C3, NaN
--214:2.375, B4, NaN, NaN, NaN
--214:2.5, NaN, D4, D3, F3
--214:2.625, C5, NaN, NaN, NaN
--214:2.75, NaN, E4, E3, NaN
--214:2.875, B4, NaN, NaN, NaN
--215:0.0, NaN, F4, F3, C4
--215:0.125, C5, NaN, NaN, NaN
--215:0.25, NaN, G4, G3, C2
--215:0.375, C5, NaN, NaN, NaN
--215:0.5, NaN, A4, A3, D2
--215:0.625, D5, NaN, NaN, NaN
--215:0.75, NaN, B4, B3, E2
--215:0.875, E5, NaN, NaN, NaN
--215:1.0, NaN, C5, C4, F2
--215:1.125, F5, NaN, NaN, NaN
--215:1.25, NaN, B4, B3, G2
--215:1.375, G5, NaN, NaN, NaN
--215:1.5, NaN, C5, C4, A2
--215:1.625, A5, NaN, NaN, NaN
--215:1.75, NaN, B4, B3, B2
--215:1.875, B5, NaN, NaN, NaN
--215:2.0, NaN, C5, C4, C3
--215:2.125, C6, NaN, NaN, NaN
--215:2.25, NaN, NaN, NaN, B2
--215:2.375, B5, NaN, NaN, NaN
--215:2.5, NaN, NaN, NaN, C3
--215:2.625, C6, NaN, NaN, NaN
--215:2.75, NaN, NaN, NaN, B2
--215:2.875, B5, NaN, NaN, NaN
--216:0.0, NaN, Rest, Rest, C3
--216:0.125, C6, NaN, NaN, NaN
--216:0.625, C6, NaN, NaN, NaN
-+214:0.0, E5, G4, C4, C4
-+214:0.25, C4, NaN, NaN, NaN
-+214:0.5, D4, NaN, NaN, NaN
-+214:0.75, E4, NaN, NaN, NaN
-+214:1.0, F4, Rest, Rest, Rest
-+214:1.25, G4, NaN, NaN, NaN
-+214:1.5, A4, E5, G4, C4
-+214:1.75, B4, NaN, NaN, NaN
-+214:2.0, C5, E5, G4, C4
-+214:2.25, B4, NaN, NaN, NaN
-+214:2.5, C5, F5, A-4, F3
-+214:2.75, B4, NaN, NaN, NaN
-+215:0.0, C5, E5, G4, C4
-+215:0.25, C5, C4, C3, C2
-+215:0.5, D5, D4, D3, D2
-+215:0.75, E5, E4, E3, E2
-+215:1.0, F5, F4, F3, F2
-+215:1.25, G5, G4, G3, G2
-+215:1.5, A5, A4, A3, A2
-+215:1.75, B5, B4, B3, B2
-+215:2.0, C6, C5, C4, C3
-+215:2.25, B5, B4, B3, B2
-+215:2.5, C6, C5, C4, C3
-+215:2.75, B5, B4, B3, B2
-+216:0.0, C6, C5, C4, C3
-+216:0.5, C6, NaN, NaN, NaN
- 216:1.0, NaN, Rest, Rest, Rest
--216:1.625, C6, NaN, NaN, NaN
--216:2.0, NaN, Rest, Rest, Rest
--216:2.625, C6, NaN, NaN, NaN
--217:0.0, NaN, NaN, NaN, Rest
--217:0.125, C#6, NaN, NaN, NaN
--217:0.625, C#6, NaN, NaN, NaN
--217:1.625, C#6, NaN, NaN, NaN
--217:2.0, NaN, Rest, Rest, NaN
--217:2.625, C#6, NaN, NaN, NaN
--218:0.0, NaN, NaN, NaN, Rest
--218:0.125, D6, NaN, NaN, NaN
--218:0.625, D6, NaN, NaN, NaN
--218:1.125, B-5, NaN, NaN, NaN
--218:1.625, B-5, NaN, NaN, NaN
--218:2.0, NaN, Rest, Rest, NaN
--218:2.125, G5, NaN, NaN, NaN
--218:2.625, G5, NaN, NaN, NaN
--219:0.0, NaN, Rest, Rest, Rest
--219:0.125, E5, NaN, NaN, NaN
--219:0.625, E5, NaN, NaN, NaN
--219:1.0, NaN, C5, B-4, NaN
--219:1.125, C5, NaN, NaN, NaN
--219:1.5, NaN, C5, B-4, NaN
--219:1.625, C5, NaN, NaN, NaN
--219:2.0, NaN, NaN, A4, NaN
--219:2.125, E5, NaN, NaN, NaN
--219:2.5, NaN, C5, A4, NaN
--219:2.625, E5, NaN, NaN, NaN
--220:0.0, NaN, E5, G4, Rest
--220:0.125, F5, NaN, NaN, NaN
--220:0.5, NaN, E5, G4, NaN
--220:0.625, F5, NaN, NaN, NaN
--220:1.0, NaN, F5, F4, NaN
--220:1.125, G5, NaN, NaN, NaN
--220:1.5, NaN, F5, F4, NaN
--220:1.625, G5, NaN, NaN, NaN
--220:2.0, NaN, A5, E4, NaN
--220:2.125, A5, NaN, NaN, NaN
--220:2.625, A5, NaN, NaN, NaN
--221:0.0, NaN, G5, NaN, Rest
--221:0.125, C6, NaN, NaN, NaN
--221:0.5, NaN, Rest, Rest, NaN
--221:1.0, NaN, Rest, A4, NaN
--221:1.125, B-5, NaN, NaN, NaN
--221:1.5, NaN, NaN, A4, NaN
--221:1.625, Rest, NaN, NaN, NaN
--221:2.0, NaN, Rest, B-4, NaN
--221:2.125, Rest, NaN, NaN, NaN
--221:2.5, NaN, NaN, B-4, NaN
--222:0.0, NaN, NaN, G4, Rest
--222:0.125, Rest, NaN, NaN, NaN
--222:0.5, NaN, NaN, G4, NaN
--222:1.0, NaN, NaN, E4, NaN
--222:1.5, NaN, NaN, E4, NaN
--222:2.0, NaN, Rest, C#4, NaN
--222:2.5, NaN, NaN, C#4, NaN
--223:0.0, NaN, Rest, A4, Rest
--223:0.125, Rest, NaN, NaN, NaN
--223:0.5, NaN, NaN, A4, NaN
--223:1.0, NaN, E5, G4, NaN
--223:1.125, Rest, NaN, NaN, NaN
--223:1.5, NaN, NaN, G4, NaN
--223:2.0, NaN, F5, F4, NaN
--223:2.125, C#6, NaN, NaN, NaN
--223:2.5, NaN, NaN, F4, NaN
--224:0.0, NaN, A5, D4, Rest
--224:0.125, D6, NaN, NaN, NaN
--224:0.5, NaN, NaN, D4, NaN
--224:1.0, NaN, D5, G4, NaN
--224:1.125, F6, NaN, NaN, NaN
--224:1.5, NaN, NaN, G4, NaN
--224:2.0, NaN, F5, C4, NaN
--224:2.125, B5, NaN, NaN, NaN
--225:0.0, NaN, E5, NaN, Rest
--225:0.125, D6, NaN, NaN, NaN
--225:0.5, NaN, Rest, Rest, NaN
--225:1.0, NaN, Rest, Rest, Rest
--225:1.125, C6, NaN, NaN, NaN
--225:1.5, NaN, NaN, NaN, B3
--225:1.625, Rest, NaN, NaN, NaN
--225:2.0, NaN, Rest, Rest, C4
--225:2.125, Rest, NaN, NaN, NaN
-+216:1.5, C6, NaN, NaN, NaN
-+216:2.0, NaN, Rest, NaN, Rest
-+216:2.5, C6, NaN, NaN, NaN
-+217:0.0, C#6, Rest, Rest, Rest
-+217:0.5, C#6, NaN, NaN, NaN
-+217:1.5, C#6, NaN, NaN, NaN
-+217:2.5, C#6, NaN, NaN, NaN
-+218:0.0, D6, Rest, Rest, Rest
-+218:0.5, D6, NaN, NaN, NaN
-+218:1.0, B-5, NaN, NaN, NaN
-+218:1.5, B-5, NaN, NaN, NaN
-+218:2.0, G5, NaN, NaN, NaN
-+218:2.5, G5, NaN, NaN, NaN
-+219:0.0, E5, Rest, Rest, Rest
-+219:0.5, E5, NaN, NaN, NaN
-+219:1.0, C5, Rest, Rest, NaN
-+219:1.5, C5, NaN, NaN, NaN
-+219:2.0, E5, C5, B-4, NaN
-+219:2.5, E5, C5, B-4, NaN
-+220:0.0, F5, NaN, A4, Rest
-+220:0.5, F5, C5, A4, NaN
-+220:1.0, G5, E5, G4, NaN
-+220:1.5, G5, E5, G4, NaN
-+220:2.0, A5, F5, F4, NaN
-+220:2.5, A5, F5, F4, NaN
-+221:0.0, C6, A5, E4, Rest
-+221:1.0, B-5, G5, NaN, NaN
-+221:1.5, Rest, Rest, Rest, NaN
-+221:2.0, Rest, Rest, A4, NaN
-+221:2.5, NaN, NaN, A4, NaN
-+222:0.0, Rest, Rest, B-4, Rest
-+222:0.5, NaN, NaN, B-4, NaN
-+222:1.0, NaN, NaN, G4, NaN
-+222:1.5, NaN, NaN, G4, NaN
-+222:2.0, NaN, NaN, E4, NaN
-+222:2.5, NaN, NaN, E4, NaN
-+223:0.0, Rest, Rest, C#4, Rest
-+223:0.5, NaN, NaN, C#4, NaN
-+223:1.0, Rest, Rest, A4, NaN
-+223:1.5, NaN, NaN, A4, NaN
-+223:2.0, C#6, E5, G4, NaN
-+223:2.5, NaN, NaN, G4, NaN
-+224:0.0, D6, F5, F4, Rest
-+224:0.5, NaN, NaN, F4, NaN
-+224:1.0, F6, A5, D4, NaN
-+224:1.5, NaN, NaN, D4, NaN
-+224:2.0, B5, D5, G4, NaN
-+224:2.5, NaN, NaN, G4, NaN
-+225:0.0, D6, F5, C4, Rest
-+225:1.0, C6, E5, NaN, Rest
-+225:1.5, Rest, Rest, Rest, B3
-+225:2.0, Rest, Rest, Rest, C4
- 225:2.5, NaN, NaN, NaN, C#4
--226:0.0, NaN, NaN, NaN, D4
--226:0.125, Rest, NaN, NaN, NaN
-+226:0.0, Rest, Rest, Rest, D4
- 226:0.5, NaN, NaN, NaN, D4
- 226:1.0, NaN, NaN, NaN, B-3
- 226:1.5, NaN, NaN, NaN, B-3
--226:2.0, NaN, Rest, Rest, G3
-+226:2.0, NaN, NaN, NaN, G3
- 226:2.5, NaN, NaN, NaN, G3
--227:0.0, NaN, Rest, Rest, E3
--227:0.125, Rest, NaN, NaN, NaN
-+227:0.0, Rest, Rest, Rest, E3
- 227:0.5, NaN, NaN, NaN, E3
--227:1.0, NaN, C5, G4, C3
--227:1.125, Rest, NaN, NaN, NaN
--227:1.5, NaN, C5, G4, C3
--227:2.0, NaN, NaN, F4, E3
--227:2.125, B-5, NaN, NaN, NaN
--227:2.5, NaN, C5, F4, E3
--227:2.625, B-5, NaN, NaN, NaN
--228:0.0, NaN, B-4, E4, F3
--228:0.125, A5, NaN, NaN, NaN
--228:0.5, NaN, B-4, E4, F3
--228:0.625, A5, NaN, NaN, NaN
--228:1.0, NaN, A4, C4, G3
--228:1.125, G5, NaN, NaN, NaN
--228:1.5, NaN, A4, C4, G3
--228:1.625, G5, NaN, NaN, NaN
--228:2.0, NaN, G4, D-4, A3
--228:2.125, F5, NaN, NaN, NaN
--228:2.5, NaN, NaN, NaN, A3
--228:2.625, F5, NaN, NaN, NaN
--229:0.0, NaN, NaN, NaN, B-3
--229:0.125, F5, NaN, NaN, NaN
--229:0.5, NaN, Rest, Rest, NaN
--229:1.0, NaN, C5, Rest, NaN
--229:1.125, E5, NaN, NaN, NaN
--229:1.5, NaN, C5, NaN, Rest
--229:2.0, NaN, D-5, Rest, Rest
--229:2.125, Rest, NaN, NaN, NaN
--229:2.5, NaN, D-5, NaN, NaN
--230:0.0, NaN, B-4, D-5, Rest
--230:0.125, Rest, NaN, NaN, NaN
--230:0.5, NaN, B-4, D-5, NaN
--230:1.0, NaN, G4, B-4, NaN
--230:1.125, Rest, NaN, NaN, NaN
--230:1.5, NaN, G4, B-4, NaN
--230:2.0, NaN, E4, G4, NaN
--230:2.125, D-6, NaN, NaN, NaN
--230:2.5, NaN, E4, G4, NaN
--231:0.0, NaN, F4, A-4, Rest
--231:0.125, D6, NaN, NaN, NaN
--231:0.5, NaN, A-5, F4, NaN
--231:1.0, NaN, NaN, B-3, NaN
--231:1.125, C6, NaN, NaN, NaN
--231:1.5, NaN, A-5, B-3, NaN
--231:2.0, NaN, A-5, C4, NaN
--231:2.125, F6, NaN, NaN, NaN
--231:2.5, NaN, NaN, C4, NaN
--232:0.0, NaN, NaN, C5, Rest
--232:0.125, F6, NaN, NaN, NaN
--232:0.5, NaN, NaN, C5, NaN
--232:1.0, NaN, B-5, C4, NaN
--232:1.5, NaN, NaN, C4, NaN
--232:1.75, NaN, G5, NaN, NaN
--232:2.0, NaN, F5, F4, NaN
--232:2.125, G6, NaN, NaN, NaN
--232:2.5, NaN, A3, F3, NaN
--232:2.875, E6, NaN, NaN, NaN
--233:0.0, NaN, A3, F3, C5
--233:0.125, F6, NaN, NaN, NaN
-+227:1.0, Rest, Rest, Rest, C3
-+227:1.5, NaN, NaN, NaN, C3
-+227:2.0, B-5, C5, G4, E3
-+227:2.5, B-5, C5, G4, E3
-+228:0.0, A5, NaN, F4, F3
-+228:0.5, A5, C5, F4, F3
-+228:1.0, G5, B-4, E4, G3
-+228:1.5, G5, B-4, E4, G3
-+228:2.0, F5, A4, C4, A3
-+228:2.5, F5, A4, C4, A3
-+229:0.0, F5, G4, D-4, B-3
-+229:1.0, E5, NaN, NaN, NaN
-+229:1.5, NaN, Rest, Rest, Rest
-+229:2.0, Rest, C5, Rest, Rest
-+229:2.5, NaN, C5, NaN, NaN
-+230:0.0, Rest, D-5, Rest, Rest
-+230:0.5, NaN, D-5, NaN, NaN
-+230:1.0, Rest, B-4, D-5, NaN
-+230:1.5, NaN, B-4, D-5, NaN
-+230:2.0, D-6, G4, B-4, NaN
-+230:2.5, NaN, G4, B-4, NaN
-+231:0.0, NaN, E4, G4, Rest
-+231:0.5, NaN, E4, G4, NaN
-+231:1.0, C6, F4, A-4, NaN
-+231:1.5, NaN, A-5, F4, NaN
-+231:2.0, F6, NaN, B3, NaN
-+231:2.5, NaN, A-5, B3, NaN
-+232:0.0, F6, A-5, C4, Rest
-+232:0.5, NaN, NaN, C4, NaN
-+232:1.0, NaN, NaN, C5, NaN
-+232:1.5, NaN, NaN, C5, NaN
-+232:2.0, G6, B-5, C4, NaN
-+232:2.5, NaN, NaN, C4, NaN
-+232:2.75, E6, G5, NaN, NaN
-+233:0.0, F6, F5, F4, C4
- 233:0.5, NaN, A3, F3, NaN
--233:1.0, NaN, A3, F3, NaN
--233:1.125, Rest, NaN, NaN, NaN
--233:1.5, NaN, A3, F3, D5
--233:1.75, NaN, NaN, NaN, C5
--233:2.0, NaN, A3, F3, B4
--233:2.125, Rest, NaN, NaN, NaN
--233:2.5, NaN, NaN, NaN, C5
--234:0.0, NaN, NaN, NaN, C5
--234:0.125, A5, NaN, NaN, NaN
--234:1.0, NaN, NaN, G3, NaN
--234:1.625, B-5, NaN, NaN, NaN
--234:1.875, A5, NaN, NaN, NaN
--234:2.0, NaN, B-3, NaN, NaN
--234:2.125, G5, NaN, NaN, NaN
--234:2.625, F5, NaN, NaN, NaN
--235:0.0, NaN, NaN, NaN, C5
--235:0.125, E5, NaN, NaN, NaN
--235:1.0, NaN, NaN, G3, NaN
--235:1.125, Rest, NaN, NaN, NaN
--235:1.5, NaN, NaN, NaN, D5
--235:1.75, NaN, NaN, NaN, C5
--235:2.0, NaN, B-3, NaN, B4
--235:2.125, Rest, NaN, NaN, NaN
--235:2.5, NaN, B-3, NaN, C5
--236:0.0, NaN, B-3, NaN, C5
--236:0.125, B-5, NaN, NaN, NaN
--236:0.5, NaN, B-3, NaN, NaN
--236:1.0, NaN, B-3, A3, NaN
--236:1.5, NaN, B-3, NaN, NaN
--236:1.625, C6, NaN, NaN, NaN
--236:1.875, B-5, NaN, NaN, NaN
--236:2.0, NaN, C4, NaN, NaN
--236:2.125, A5, NaN, NaN, NaN
--236:2.5, NaN, C4, NaN, NaN
--236:2.625, G5, NaN, NaN, NaN
--237:0.0, NaN, C4, NaN, C5
--237:0.125, F#5, NaN, NaN, NaN
--237:0.5, NaN, C4, NaN, NaN
--237:1.0, NaN, C4, A3, NaN
--237:1.125, Rest, NaN, NaN, NaN
--237:1.5, NaN, C4, NaN, D5
--237:1.75, NaN, NaN, NaN, C5
--237:2.0, NaN, C4, NaN, B4
--237:2.125, Rest, NaN, NaN, NaN
--237:2.5, NaN, NaN, NaN, C5
--238:0.0, NaN, NaN, NaN, E-5
--238:0.125, E-6, NaN, NaN, NaN
--238:1.0, NaN, NaN, B-3, NaN
--238:1.625, D6, NaN, NaN, NaN
--238:1.875, C6, NaN, NaN, NaN
--238:2.0, NaN, G4, D4, C5
--238:2.125, B-5, NaN, NaN, NaN
--238:2.375, A5, NaN, NaN, NaN
--238:2.625, G5, NaN, NaN, NaN
--238:2.875, F#5, NaN, NaN, NaN
--239:0.0, NaN, B-3, Rest, D5
--239:0.125, G5, NaN, NaN, NaN
--239:0.375, D5, NaN, NaN, NaN
--239:0.625, E5, NaN, NaN, NaN
--239:0.875, F#5, NaN, NaN, NaN
--239:1.0, NaN, Rest, Rest, B-2
--239:1.125, G5, NaN, NaN, NaN
--239:1.375, A5, NaN, NaN, NaN
--239:1.625, B-5, NaN, NaN, NaN
--239:1.875, A5, NaN, NaN, NaN
--239:2.0, NaN, Rest, NaN, Rest
--239:2.125, G5, NaN, NaN, NaN
--239:2.375, D5, NaN, NaN, NaN
--239:2.625, E5, NaN, NaN, NaN
--239:2.875, F#5, NaN, NaN, NaN
--240:0.0, NaN, NaN, NaN, Rest
--240:0.125, G5, NaN, NaN, NaN
--240:0.375, A5, NaN, NaN, NaN
--240:0.625, B-5, NaN, NaN, NaN
--240:0.875, A5, NaN, NaN, NaN
--240:1.0, NaN, NaN, Rest, NaN
--240:1.125, G5, NaN, NaN, NaN
--240:1.375, D5, NaN, NaN, NaN
--240:1.625, E5, NaN, NaN, NaN
--240:1.875, F#5, NaN, NaN, NaN
--240:2.0, NaN, Rest, Rest, NaN
--240:2.125, G5, NaN, NaN, NaN
--240:2.375, A5, NaN, NaN, NaN
--240:2.625, B-5, NaN, NaN, NaN
--240:2.875, A5, NaN, NaN, NaN
--241:0.0, NaN, Rest, Rest, Rest
--241:0.125, G5, NaN, NaN, NaN
--241:0.25, NaN, NaN, D3, NaN
--241:0.375, D5, NaN, NaN, NaN
--241:0.5, NaN, NaN, E3, NaN
--241:0.625, E5, NaN, NaN, NaN
--241:0.75, NaN, NaN, F#3, NaN
--241:0.875, F#5, NaN, NaN, NaN
--241:1.0, NaN, Rest, G3, Rest
--241:1.125, G5, NaN, NaN, NaN
--241:1.25, NaN, D4, A3, NaN
--241:1.375, A5, NaN, NaN, NaN
--241:1.5, NaN, E4, B-3, NaN
--241:1.625, B-5, NaN, NaN, NaN
--241:1.75, NaN, F#4, C4, NaN
--241:1.875, A5, NaN, NaN, NaN
--241:2.0, NaN, G4, D4, Rest
--241:2.125, G5, NaN, NaN, NaN
--241:2.25, NaN, A4, C4, D3
--241:2.375, D5, NaN, NaN, NaN
--241:2.5, NaN, B-4, B-3, E3
--241:2.625, E5, NaN, NaN, NaN
--241:2.75, NaN, C5, A3, F#3
--241:2.875, F#5, NaN, NaN, NaN
--242:0.0, NaN, D5, G3, G3
--242:0.125, G5, NaN, NaN, NaN
--242:0.25, NaN, C5, F3, A3
--242:0.375, A5, NaN, NaN, NaN
--242:0.5, NaN, B-4, E3, B-3
--242:0.625, B-5, NaN, NaN, NaN
--242:0.75, NaN, A4, D3, C4
--242:0.875, C6, NaN, NaN, NaN
--242:1.0, NaN, G4, C3, D4
--242:1.125, D6, NaN, NaN, NaN
--242:1.25, NaN, F4, NaN, C4
--242:1.375, C6, NaN, NaN, NaN
--242:1.5, NaN, E4, NaN, B-3
--242:1.625, B-5, NaN, NaN, NaN
--242:1.75, NaN, D4, NaN, A3
--242:1.875, A5, NaN, NaN, NaN
--242:2.0, NaN, C4, NaN, G3
--242:2.125, G5, NaN, NaN, NaN
--242:2.25, NaN, NaN, NaN, F3
--242:2.375, F5, NaN, NaN, NaN
--242:2.5, NaN, NaN, D3, E3
--242:2.625, E5, NaN, NaN, NaN
--242:2.75, NaN, NaN, E3, D3
--242:2.875, D5, NaN, NaN, NaN
--243:0.0, NaN, NaN, F3, C3
--243:0.125, C5, NaN, NaN, NaN
--243:0.25, NaN, NaN, G3, NaN
--243:0.5, NaN, D4, A3, NaN
--243:0.75, NaN, E4, B3, NaN
--243:1.0, NaN, F4, C4, NaN
--243:1.25, NaN, G4, NaN, NaN
--243:1.5, NaN, A4, B-3, D3
--243:1.75, NaN, B4, NaN, E3
--243:2.0, NaN, C5, B-3, F3
--243:2.25, NaN, NaN, NaN, G3
--243:2.5, NaN, E4, B-3, A3
--243:2.75, NaN, NaN, NaN, B3
--244:0.0, NaN, E4, B-3, C4
--244:0.125, G5, NaN, NaN, NaN
-+233:1.0, Rest, A3, F3, NaN
-+233:1.5, NaN, A3, F3, D4
-+233:1.75, NaN, NaN, NaN, C4
-+233:2.0, Rest, A3, F3, B3
-+233:2.5, NaN, A3, F3, C4
-+234:0.0, A5, A3, F3, C4
-+234:0.5, NaN, A3, F3, NaN
-+234:1.0, NaN, A3, F3, NaN
-+234:1.5, B-5, A3, F3, NaN
-+234:1.75, A5, NaN, NaN, NaN
-+234:2.0, G5, A3, F3, NaN
-+234:2.5, F5, A3, F3, NaN
-+235:0.0, E5, B-3, G3, C4
-+235:0.5, NaN, B-3, G3, NaN
-+235:1.0, Rest, B-3, G3, NaN
-+235:1.5, NaN, B-3, G3, D4
-+235:1.75, NaN, NaN, NaN, C4
-+235:2.0, Rest, B-3, G3, B3
-+235:2.5, NaN, B-3, G3, C4
-+236:0.0, B-5, B-3, G3, C4
-+236:0.5, NaN, B-3, G3, NaN
-+236:1.0, NaN, B-3, G3, NaN
-+236:1.5, C6, B-3, G3, NaN
-+236:1.75, B-5, NaN, NaN, NaN
-+236:2.0, A5, B-3, G3, NaN
-+236:2.5, G5, B-3, G3, NaN
-+237:0.0, F#5, C4, A3, C4
-+237:0.5, NaN, C4, A3, NaN
-+237:1.0, Rest, C4, A3, NaN
-+237:1.5, NaN, C4, A3, D4
-+237:1.75, NaN, NaN, NaN, C4
-+237:2.0, Rest, C4, A3, B3
-+237:2.5, NaN, C4, A3, C4
-+238:0.0, E-6, C4, A3, E-4
-+238:0.5, NaN, C4, A3, NaN
-+238:1.0, NaN, C4, A3, NaN
-+238:1.5, D6, C4, A3, NaN
-+238:1.75, C6, NaN, NaN, NaN
-+238:2.0, B-5, C4, A3, C4
-+238:2.25, A5, NaN, NaN, NaN
-+238:2.5, G5, C4, A3, NaN
-+238:2.75, F#5, NaN, NaN, NaN
-+239:0.0, G5, G4, B-3, D4
-+239:0.25, D5, NaN, NaN, NaN
-+239:0.5, E5, NaN, NaN, NaN
-+239:0.75, F#5, NaN, NaN, NaN
-+239:1.0, G5, B-3, D4, B-2
-+239:1.25, A5, NaN, NaN, NaN
-+239:1.5, B-5, NaN, NaN, NaN
-+239:1.75, A5, NaN, NaN, NaN
-+239:2.0, G5, Rest, Rest, Rest
-+239:2.25, D5, NaN, NaN, NaN
-+239:2.5, E5, NaN, NaN, NaN
-+239:2.75, F#5, NaN, NaN, NaN
-+240:0.0, G5, Rest, Rest, Rest
-+240:0.25, A5, NaN, NaN, NaN
-+240:0.5, B-5, NaN, NaN, NaN
-+240:0.75, A5, NaN, NaN, NaN
-+240:1.0, G5, NaN, NaN, NaN
-+240:1.25, D5, NaN, NaN, NaN
-+240:1.5, E5, NaN, NaN, NaN
-+240:1.75, F#5, NaN, NaN, NaN
-+240:2.0, G5, NaN, NaN, NaN
-+240:2.25, A5, NaN, NaN, NaN
-+240:2.5, B-5, NaN, NaN, NaN
-+240:2.75, A5, NaN, NaN, NaN
-+241:0.0, G5, Rest, Rest, Rest
-+241:0.25, D5, NaN, NaN, NaN
-+241:0.5, E5, NaN, NaN, NaN
-+241:0.75, F#5, NaN, NaN, NaN
-+241:1.0, G5, Rest, Rest, Rest
-+241:1.25, A5, NaN, NaN, NaN
-+241:1.5, B-5, NaN, NaN, NaN
-+241:1.75, A5, NaN, NaN, NaN
-+241:2.0, G5, Rest, Rest, Rest
-+241:2.25, D5, D4, D3, D3
-+241:2.5, E5, E4, E3, E3
-+241:2.75, F#5, F#4, F#3, F#3
-+242:0.0, G5, G4, G3, G3
-+242:0.25, A5, A4, A3, A3
-+242:0.5, B-5, B-4, B-3, B-3
-+242:0.75, C6, C5, C4, C4
-+242:1.0, D6, D5, D4, D4
-+242:1.25, C6, C5, C4, C4
-+242:1.5, B-5, B-4, B-3, B-3
-+242:1.75, A5, A4, A3, A3
-+242:2.0, G5, G4, G3, G3
-+242:2.25, F5, F4, F3, F3
-+242:2.5, E5, E4, E3, E3
-+242:2.75, D5, D4, D3, D3
-+243:0.0, C5, C4, C3, C3
-+243:1.5, NaN, D4, D3, D3
-+243:1.75, NaN, E4, E3, E3
-+243:2.0, NaN, F4, F3, F3
-+243:2.25, NaN, G4, G3, G3
-+243:2.5, NaN, A4, A3, A3
-+243:2.75, NaN, B-4, B-3, B-3
-+244:0.0, G5, C5, C4, C4
- 244:0.5, NaN, E4, B-3, C3
--244:1.0, NaN, E4, A3, C3
--244:1.5, NaN, E4, NaN, C3
--244:2.0, NaN, F4, A3, C3
--244:2.5, NaN, NaN, NaN, C3
--245:0.0, NaN, C4, NaN, F3
--245:0.125, F5, NaN, NaN, NaN
--245:0.5, NaN, NaN, G3, NaN
--245:1.0, NaN, NaN, G3, Rest
--245:1.125, F4, NaN, NaN, NaN
--245:1.5, NaN, C4, E3, NaN
--245:2.0, NaN, C4, E3, Rest
--245:2.5, NaN, G4, F3, NaN
--245:2.625, E4, NaN, NaN, NaN
--246:0.0, NaN, G4, F3, Rest
--246:0.125, E4, NaN, NaN, NaN
--246:0.5, NaN, F4, B-3, NaN
--246:0.625, B-4, NaN, NaN, NaN
--246:1.0, NaN, F4, B-3, NaN
--246:1.125, B-4, NaN, NaN, NaN
--246:1.5, NaN, F4, A3, NaN
--246:1.625, A4, NaN, NaN, NaN
--246:2.0, NaN, F4, A3, NaN
--246:2.125, A4, NaN, NaN, NaN
--246:2.5, NaN, F4, B-4, NaN
--246:2.625, D5, NaN, NaN, NaN
--247:0.0, NaN, F4, B-4, Rest
--247:0.125, D5, NaN, NaN, NaN
--247:0.5, NaN, C5, G4, NaN
--247:0.625, C5, NaN, NaN, NaN
--247:1.0, NaN, C5, G4, NaN
--247:1.125, C5, NaN, NaN, NaN
--247:1.5, NaN, B-4, E4, NaN
--247:1.625, F5, NaN, NaN, NaN
--247:2.0, NaN, B-4, E4, NaN
--247:2.125, F5, NaN, NaN, NaN
--247:2.5, NaN, G4, NaN, NaN
--247:2.625, E5, NaN, NaN, NaN
--248:0.0, NaN, G4, Rest, Rest
--248:0.125, E5, NaN, NaN, NaN
--248:0.625, B-5, NaN, NaN, NaN
--248:1.0, NaN, Rest, Rest, NaN
--248:1.125, B-5, NaN, NaN, NaN
--248:2.0, NaN, Rest, NaN, NaN
--248:2.125, Rest, NaN, NaN, NaN
--249:0.0, NaN, NaN, NaN, Rest
--249:0.125, Rest, NaN, NaN, NaN
--249:1.0, NaN, NaN, C4, NaN
--249:2.0, NaN, F4, NaN, NaN
--250:0.0, NaN, NaN, NaN, F3
--250:0.125, A4, NaN, NaN, NaN
--250:1.0, NaN, NaN, G3, NaN
--250:1.625, B-4, NaN, NaN, NaN
--250:1.875, A4, NaN, NaN, NaN
--250:2.0, NaN, F4, NaN, NaN
--250:2.125, G4, NaN, NaN, NaN
--250:2.625, A4, NaN, NaN, NaN
--251:0.0, NaN, NaN, NaN, B-2
--251:0.125, D5, NaN, NaN, NaN
--251:2.0, NaN, NaN, A3, NaN
--252:0.0, NaN, F4, G3, NaN
--252:1.0, NaN, B-3, F3, C3
--252:1.125, C5, NaN, NaN, NaN
--252:2.0, NaN, A3, A4, C2
--252:2.125, E4, NaN, NaN, NaN
--253:0.0, NaN, C5, NaN, F2
--253:0.125, F4, NaN, NaN, NaN
--253:0.5, NaN, NaN, G4, NaN
--253:1.0, NaN, NaN, G4, Rest
--253:1.125, F5, NaN, NaN, NaN
--253:1.5, NaN, B-4, E4, NaN
--253:2.0, NaN, B-4, E4, Rest
--253:2.5, NaN, G4, F4, NaN
--253:2.625, E5, NaN, NaN, NaN
--254:0.0, NaN, G4, F4, Rest
--254:0.125, E5, NaN, NaN, NaN
--254:0.5, NaN, A4, B-4, NaN
--254:0.625, B-5, NaN, NaN, NaN
--254:1.0, NaN, A4, B-4, NaN
--254:1.125, B-5, NaN, NaN, NaN
--254:1.5, NaN, F5, A4, NaN
--254:1.625, A5, NaN, NaN, NaN
--254:2.0, NaN, F5, A3, NaN
--254:2.125, A5, NaN, NaN, NaN
--254:2.5, NaN, F5, A4, NaN
--254:2.625, D6, NaN, NaN, NaN
--255:0.0, NaN, F5, A4, Rest
--255:0.125, D5, NaN, NaN, NaN
--255:0.5, NaN, C5, G4, NaN
--255:0.625, C5, NaN, NaN, NaN
--255:1.0, NaN, C5, G4, NaN
--255:1.125, C5, NaN, NaN, NaN
--255:1.5, NaN, B-4, E4, NaN
--255:1.625, F5, NaN, NaN, NaN
--255:2.0, NaN, B-4, E4, NaN
--255:2.125, F5, NaN, NaN, NaN
--255:2.5, NaN, A5, NaN, NaN
--255:2.625, E5, NaN, NaN, NaN
--256:0.0, NaN, G5, Rest, Rest
--256:0.125, E6, NaN, NaN, NaN
--256:0.625, B-6, NaN, NaN, NaN
--256:1.0, NaN, Rest, Rest, NaN
--256:1.125, B-6, NaN, NaN, NaN
--256:2.0, NaN, Rest, NaN, NaN
--256:2.125, Rest, NaN, NaN, NaN
--257:0.0, NaN, NaN, NaN, Rest
--257:0.125, Rest, NaN, NaN, NaN
--257:1.0, NaN, NaN, F4, NaN
--257:2.0, NaN, C4, NaN, NaN
--258:0.0, NaN, NaN, NaN, F3
--258:0.125, A-3, NaN, NaN, NaN
--258:1.0, NaN, NaN, D-4, NaN
--258:2.0, NaN, F4, NaN, NaN
--259:0.0, NaN, NaN, NaN, D-3
--259:0.125, A-3, NaN, NaN, NaN
--259:1.0, NaN, NaN, B3, NaN
--259:2.0, NaN, D4, NaN, NaN
--260:0.0, NaN, NaN, B-3, B2
--260:0.125, A-3, NaN, NaN, NaN
--260:1.0, NaN, D4, A3, NaN
--260:2.0, NaN, D4, D4, B-2
--260:2.125, A-3, NaN, NaN, NaN
--261:0.0, NaN, G4, B-3, A2
--261:0.125, A3, NaN, NaN, NaN
--261:1.0, NaN, E4, A3, G2
--261:1.125, B-4, NaN, NaN, NaN
--261:1.5, NaN, NaN, C4, NaN
--261:2.0, NaN, F4, C4, C3
--261:2.125, G4, NaN, NaN, NaN
--261:2.5, NaN, A3, C4, NaN
--262:0.0, NaN, A3, C4, F3
--262:0.125, F4, NaN, NaN, NaN
-+244:1.0, NaN, E4, B-3, C3
-+244:1.5, NaN, E4, B-3, C3
-+244:2.0, NaN, E4, B-3, C3
-+244:2.5, NaN, E4, B-3, C3
-+245:0.0, F5, F4, A3, F3
-+245:1.0, F4, C4, A3, Rest
-+245:2.0, NaN, NaN, NaN, Rest
-+245:2.5, E4, C4, G3, NaN
-+246:0.0, E4, C4, G3, Rest
-+246:0.5, B-4, G4, E3, NaN
-+246:1.0, B-4, G4, E3, NaN
-+246:1.5, A4, F4, F3, NaN
-+246:2.0, A4, F4, F3, NaN
-+246:2.5, D5, F4, B-3, NaN
-+247:0.0, D5, F4, B-3, Rest
-+247:0.5, C5, F4, A3, NaN
-+247:1.0, C5, F4, A3, NaN
-+247:1.5, F5, C5, A4, NaN
-+247:2.0, F5, C5, A4, NaN
-+247:2.5, E5, B-4, G4, NaN
-+248:0.0, E5, B-4, G4, Rest
-+248:0.5, B-5, G4, E4, NaN
-+248:1.0, B-5, G4, E4, NaN
-+248:2.0, Rest, Rest, Rest, NaN
-+249:0.0, Rest, Rest, Rest, Rest
-+250:0.0, A4, F4, C4, F3
-+250:1.5, B-4, NaN, NaN, NaN
-+250:1.75, A4, NaN, NaN, NaN
-+250:2.0, G4, NaN, NaN, NaN
-+250:2.5, A4, NaN, NaN, NaN
-+251:0.0, D5, F4, G3, B2
-+252:1.0, C5, F4, A3, C3
-+252:2.0, E4, B-3, G3, C2
-+253:0.0, F4, A3, F3, F2
-+253:1.0, F5, C5, A4, Rest
-+253:2.0, NaN, NaN, NaN, Rest
-+253:2.5, E5, B-4, G4, NaN
-+254:0.0, E5, B-4, G4, Rest
-+254:0.5, B-5, G4, E4, NaN
-+254:1.0, B-5, G4, E4, NaN
-+254:1.5, A5, A4, F4, NaN
-+254:2.0, A5, A4, F4, NaN
-+254:2.5, D6, F5, B-4, NaN
-+255:0.0, D6, F5, B-4, Rest
-+255:0.5, C6, F5, A4, NaN
-+255:1.0, C6, F5, A3, NaN
-+255:1.5, F6, C5, A4, NaN
-+255:2.0, F6, C5, A4, NaN
-+255:2.5, E6, B-4, G4, NaN
-+256:0.0, E6, B-4, G4, Rest
-+256:0.5, B-6, G5, E4, NaN
-+256:1.0, B-6, G5, E4, NaN
-+256:2.0, Rest, Rest, Rest, NaN
-+257:0.0, Rest, Rest, Rest, Rest
-+258:0.0, C-4, C4, F4, F3
-+259:0.0, C-4, F4, D-4, D-3
-+260:0.0, C-4, D4, B3, B2
-+260:2.0, C-4, D4, B-3, B-2
-+261:0.0, C4, D4, A3, A2
-+261:1.0, B-4, G4, D4, G2
-+261:2.0, G4, E4, B-3, C3
-+262:0.0, F4, A3, A3, F3
- 262:0.5, NaN, A3, C4, NaN
--262:1.0, NaN, A3, C4, NaN
--262:1.125, Rest, NaN, NaN, NaN
--262:1.5, NaN, A3, NaN, G3
-+262:1.0, Rest, A3, C4, NaN
-+262:1.5, NaN, A3, C4, G3
- 262:1.75, NaN, NaN, NaN, F3
--262:2.0, NaN, A3, NaN, E3
--262:2.125, Rest, NaN, NaN, NaN
--262:2.5, NaN, NaN, NaN, F3
--263:0.0, NaN, NaN, NaN, F2
--263:0.125, Rest, NaN, NaN, NaN
--263:1.0, NaN, NaN, C4, Rest
--263:1.125, A4, NaN, NaN, NaN
--263:2.0, NaN, B-3, NaN, Rest
--263:2.125, A4, NaN, NaN, NaN
--264:0.0, NaN, NaN, NaN, F3
--264:0.125, C5, NaN, NaN, NaN
--264:1.0, NaN, NaN, C4, NaN
--264:1.125, B-4, NaN, NaN, NaN
--264:1.5, NaN, NaN, NaN, G3
-+262:2.0, Rest, A3, C4, E3
-+262:2.5, NaN, A3, C4, F3
-+263:0.0, Rest, A3, C4, F2
-+263:0.5, NaN, A3, C4, NaN
-+263:1.0, A4, A3, C4, Rest
-+263:1.5, NaN, A3, C4, NaN
-+263:2.0, A4, A3, C4, Rest
-+263:2.5, NaN, A3, C4, NaN
-+264:0.0, C5, B-3, C4, F3
-+264:0.5, NaN, B-3, C4, NaN
-+264:1.0, B-4, B-3, C4, NaN
-+264:1.5, NaN, B-3, C4, G3
- 264:1.75, NaN, NaN, NaN, F3
--264:2.0, NaN, B-3, NaN, E3
--264:2.125, Rest, NaN, NaN, NaN
--264:2.5, NaN, NaN, NaN, F3
--265:0.0, NaN, NaN, C4, F2
--265:0.125, Rest, NaN, NaN, NaN
--265:1.0, NaN, NaN, NaN, Rest
--265:1.125, E5, NaN, NaN, NaN
--265:2.0, NaN, A3, C4, Rest
--265:2.125, E5, NaN, NaN, NaN
--265:2.5, NaN, F4, NaN, NaN
--266:0.0, NaN, F4, NaN, G3
--266:0.125, F5, NaN, NaN, NaN
-+264:2.0, Rest, B-3, C4, E3
-+264:2.5, NaN, B-3, C4, F3
-+265:0.0, Rest, B-3, C4, F2
-+265:0.5, NaN, B-3, C4, NaN
-+265:1.0, E5, B-3, C4, Rest
-+265:1.5, NaN, B-3, C4, NaN
-+265:2.0, E5, B-3, C4, Rest
-+265:2.5, NaN, B-3, C4, NaN
-+266:0.0, F5, A3, C4, G3
- 266:0.25, NaN, NaN, NaN, F3
--266:0.5, NaN, F4, NaN, E3
--266:0.625, A5, NaN, NaN, NaN
-+266:0.5, A5, F4, C4, E3
- 266:0.75, NaN, NaN, NaN, F3
--266:1.0, NaN, F4, C4, G3
--266:1.125, C5, NaN, NaN, NaN
-+266:1.0, C5, F4, C4, G3
- 266:1.25, NaN, NaN, NaN, F3
--266:1.5, NaN, F4, NaN, E3
-+266:1.5, NaN, F4, C4, E3
- 266:1.75, NaN, NaN, NaN, F3
--266:2.0, NaN, F4, NaN, G3
--266:2.125, Rest, NaN, NaN, NaN
-+266:2.0, Rest, F4, C4, G3
- 266:2.25, NaN, NaN, NaN, F3
--266:2.5, NaN, NaN, NaN, E3
-+266:2.5, NaN, F4, C4, E3
- 266:2.75, NaN, NaN, NaN, F3
--267:0.0, NaN, NaN, NaN, F2
--267:0.125, B-5, NaN, NaN, NaN
--267:0.375, A5, NaN, NaN, NaN
--267:0.625, G5, NaN, NaN, NaN
--267:0.875, A5, NaN, NaN, NaN
--267:1.0, NaN, NaN, C4, Rest
--267:1.125, B-5, NaN, NaN, NaN
--267:1.375, A5, NaN, NaN, NaN
--267:1.625, G5, NaN, NaN, NaN
--267:1.875, A5, NaN, NaN, NaN
--267:2.0, NaN, G4, NaN, Rest
--267:2.125, B-5, NaN, NaN, NaN
--267:2.375, A5, NaN, NaN, NaN
--267:2.625, G5, NaN, NaN, NaN
--267:2.875, A5, NaN, NaN, NaN
--268:0.0, NaN, NaN, NaN, G3
--268:0.125, C6, NaN, NaN, NaN
-+267:0.0, B-5, F4, C4, F2
-+267:0.25, A5, NaN, NaN, NaN
-+267:0.5, G5, F4, C4, NaN
-+267:0.75, A5, NaN, NaN, NaN
-+267:1.0, B-5, F4, C4, Rest
-+267:1.25, A5, NaN, NaN, NaN
-+267:1.5, G5, F4, C4, NaN
-+267:1.75, A5, NaN, NaN, NaN
-+267:2.0, B-5, F4, C4, Rest
-+267:2.25, A5, NaN, NaN, NaN
-+267:2.5, G5, F4, C4, NaN
-+267:2.75, A5, NaN, NaN, NaN
-+268:0.0, C6, G4, C4, G3
- 268:0.25, NaN, NaN, NaN, F3
--268:0.5, NaN, NaN, NaN, E3
-+268:0.5, NaN, G4, C4, E3
- 268:0.75, NaN, NaN, NaN, F3
--268:1.0, NaN, NaN, C4, G3
--268:1.125, B-5, NaN, NaN, NaN
-+268:1.0, B-5, G4, C4, G3
- 268:1.25, NaN, NaN, NaN, F3
--268:1.5, NaN, NaN, NaN, E3
-+268:1.5, NaN, G4, C4, E3
- 268:1.75, NaN, NaN, NaN, F3
--268:2.0, NaN, G4, C4, G3
--268:2.125, Rest, NaN, NaN, NaN
-+268:2.0, Rest, G4, C4, G3
- 268:2.25, NaN, NaN, NaN, F3
--268:2.5, NaN, NaN, NaN, E3
-+268:2.5, NaN, G4, C4, E3
- 268:2.75, NaN, NaN, NaN, F3
--269:0.0, NaN, NaN, Rest, F2
--269:0.125, F6, NaN, NaN, NaN
--269:0.375, E6, NaN, NaN, NaN
--269:0.625, D6, NaN, NaN, NaN
--269:0.875, E6, NaN, NaN, NaN
--269:1.0, NaN, NaN, Rest, Rest
--269:1.125, F6, NaN, NaN, NaN
--269:1.375, E6, NaN, NaN, NaN
--269:1.625, D6, NaN, NaN, NaN
--269:1.875, E6, NaN, NaN, NaN
--269:2.0, NaN, F4, NaN, Rest
--269:2.125, F6, NaN, NaN, NaN
--269:2.375, E6, NaN, NaN, NaN
--269:2.625, D6, NaN, NaN, NaN
--269:2.875, E6, NaN, NaN, NaN
--270:0.0, NaN, F4, NaN, F2
--270:0.125, F6, NaN, NaN, NaN
--270:0.625, E6, NaN, NaN, NaN
--270:0.875, D6, NaN, NaN, NaN
--270:1.0, NaN, Rest, Rest, F3
--270:1.125, C6, NaN, NaN, NaN
--270:1.25, NaN, NaN, F4, NaN
--270:1.375, B-5, NaN, NaN, NaN
--270:1.5, NaN, NaN, E4, NaN
--270:1.625, A5, NaN, NaN, NaN
--270:1.75, NaN, NaN, D4, NaN
--270:1.875, G5, NaN, NaN, NaN
--270:2.0, NaN, Rest, C4, Rest
--270:2.125, F5, NaN, NaN, NaN
--270:2.25, NaN, NaN, B-3, NaN
--270:2.375, C6, NaN, NaN, NaN
--270:2.5, NaN, NaN, A3, NaN
--270:2.625, B-5, NaN, NaN, NaN
--270:2.75, NaN, NaN, G3, NaN
--270:2.875, A5, NaN, NaN, NaN
--271:0.0, NaN, NaN, F3, Rest
--271:0.125, G5, NaN, NaN, NaN
--271:0.25, NaN, NaN, F4, NaN
--271:0.375, F5, NaN, NaN, NaN
--271:0.5, NaN, NaN, E4, NaN
--271:0.625, E5, NaN, NaN, NaN
--271:0.75, NaN, NaN, D4, NaN
--271:0.875, D5, NaN, NaN, NaN
--271:1.0, NaN, NaN, C4, NaN
--271:1.125, C5, NaN, NaN, NaN
--271:1.25, NaN, NaN, B-3, NaN
--271:1.375, A5, NaN, NaN, NaN
--271:1.5, NaN, NaN, A3, NaN
--271:1.625, G5, NaN, NaN, NaN
--271:1.75, NaN, NaN, G3, NaN
--271:1.875, F5, NaN, NaN, NaN
--271:2.0, NaN, Rest, F3, NaN
--271:2.125, E5, NaN, NaN, NaN
--271:2.25, NaN, F5, E3, NaN
--271:2.375, D5, NaN, NaN, NaN
--271:2.5, NaN, E5, F3, NaN
--271:2.625, C5, NaN, NaN, NaN
--271:2.75, NaN, D5, E3, NaN
--271:2.875, B-4, NaN, NaN, NaN
--272:0.0, NaN, C5, F3, Rest
--272:0.125, A4, NaN, NaN, NaN
--272:0.25, NaN, B-4, E3, F3
--272:0.375, F5, NaN, NaN, NaN
--272:0.5, NaN, A4, F3, E3
--272:0.625, E5, NaN, NaN, NaN
--272:0.75, NaN, G4, E3, D3
--272:0.875, D5, NaN, NaN, NaN
--272:1.0, NaN, F4, F3, C3
--272:1.125, C5, NaN, NaN, NaN
--272:1.25, NaN, F5, NaN, B-2
--272:1.375, B-4, NaN, NaN, NaN
--272:1.5, NaN, E5, NaN, A2
--272:1.625, A4, NaN, NaN, NaN
--272:1.75, NaN, D5, NaN, G2
--272:1.875, G4, NaN, NaN, NaN
--272:2.0, NaN, C5, G3, F2
--272:2.125, F4, NaN, NaN, NaN
--272:2.25, NaN, B-4, NaN, F3
--272:2.375, F5, NaN, NaN, NaN
--272:2.5, NaN, A4, NaN, E3
--272:2.625, E5, NaN, NaN, NaN
--272:2.75, NaN, G4, NaN, D3
--272:2.875, D5, NaN, NaN, NaN
--273:0.0, NaN, F4, A3, C3
--273:0.125, C5, NaN, NaN, NaN
--273:0.25, NaN, E4, NaN, B-2
--273:0.375, B-4, NaN, NaN, NaN
--273:0.5, NaN, F4, NaN, A2
--273:0.625, A4, NaN, NaN, NaN
--273:0.75, NaN, E4, NaN, G2
--273:0.875, G4, NaN, NaN, NaN
--273:1.0, NaN, F4, B-3, F2
--273:1.125, F4, NaN, NaN, NaN
--273:1.25, NaN, E4, NaN, E2
--273:1.375, E4, NaN, NaN, NaN
--273:1.5, NaN, F4, NaN, F2
--273:1.625, F4, NaN, NaN, NaN
--273:1.75, NaN, E4, NaN, E2
--273:1.875, E4, NaN, NaN, NaN
--273:2.0, NaN, F4, C4, F2
--273:2.125, F4, NaN, NaN, NaN
--273:2.25, NaN, NaN, NaN, E2
--273:2.375, E4, NaN, NaN, NaN
--273:2.5, NaN, NaN, NaN, F2
--273:2.625, F4, NaN, NaN, NaN
--273:2.75, NaN, NaN, NaN, E2
--273:2.875, E4, NaN, NaN, NaN
--274:0.0, NaN, G4, D4, F2
--274:0.125, F4, NaN, NaN, NaN
--274:1.0, NaN, A4, E-4, G2
--274:1.125, G4, NaN, NaN, NaN
--274:2.0, NaN, B-3, NaN, A2
--274:2.125, A4, NaN, NaN, NaN
--275:0.0, NaN, C4, NaN, B-2
--275:0.125, B-4, NaN, NaN, NaN
--275:1.0, NaN, D4, NaN, C3
--275:1.125, C5, NaN, NaN, NaN
--275:2.0, NaN, E-4, NaN, D3
--275:2.125, D5, NaN, NaN, NaN
--276:0.0, NaN, NaN, NaN, E-3
--276:0.125, E-5, NaN, NaN, NaN
--276:1.0, NaN, NaN, D3, NaN
--276:2.0, NaN, NaN, E3, NaN
--277:0.0, NaN, NaN, F#3, NaN
--277:1.0, NaN, NaN, G3, NaN
--277:2.0, NaN, D4, A3, NaN
--278:0.0, NaN, E4, B-3, D2
--278:0.125, D4, NaN, NaN, NaN
--278:1.0, NaN, F#4, C4, E2
--278:1.125, E4, NaN, NaN, NaN
--278:2.0, NaN, G3, NaN, F#2
--278:2.125, F#4, NaN, NaN, NaN
--279:0.0, NaN, A3, NaN, G2
--279:0.125, G4, NaN, NaN, NaN
--279:1.0, NaN, B-3, NaN, A2
--279:1.125, A4, NaN, NaN, NaN
--279:2.0, NaN, C4, NaN, B-2
--279:2.125, B-4, NaN, NaN, NaN
--280:0.0, NaN, NaN, NaN, C3
--280:0.125, C5, NaN, NaN, NaN
--280:1.0, NaN, NaN, Rest, NaN
--281:1.0, NaN, NaN, Rest, NaN
--281:2.0, NaN, G3, NaN, NaN
--282:0.0, NaN, A3, NaN, Rest
--282:0.125, F5, NaN, NaN, NaN
--282:0.625, G5, NaN, NaN, NaN
--282:0.875, F5, NaN, NaN, NaN
--282:1.0, NaN, B3, Rest, NaN
--282:1.125, E5, NaN, NaN, NaN
--282:1.625, F5, NaN, NaN, NaN
--282:1.875, E5, NaN, NaN, NaN
--282:2.0, NaN, C4, NaN, NaN
--282:2.125, D5, NaN, NaN, NaN
--282:2.625, E5, NaN, NaN, NaN
--282:2.875, D5, NaN, NaN, NaN
--283:0.0, NaN, D4, NaN, Rest
--283:0.125, C5, NaN, NaN, NaN
--283:0.625, D5, NaN, NaN, NaN
--283:0.875, C5, NaN, NaN, NaN
--283:1.0, NaN, E4, G3, NaN
--283:1.125, B-4, NaN, NaN, NaN
--283:1.625, C5, NaN, NaN, NaN
--283:1.875, B-4, NaN, NaN, NaN
--283:2.0, NaN, F4, NaN, NaN
--283:2.125, A4, NaN, NaN, NaN
--283:2.5, NaN, NaN, A3, NaN
--283:2.625, B-4, NaN, NaN, NaN
--283:2.75, NaN, NaN, G3, NaN
--283:2.875, A4, NaN, NaN, NaN
--284:0.0, NaN, D4, F#3, Rest
--284:0.125, G4, NaN, NaN, NaN
--284:0.5, NaN, NaN, G3, NaN
--284:1.0, NaN, B3, C3, NaN
--284:1.625, A4, NaN, NaN, NaN
--284:1.875, G4, NaN, NaN, NaN
--284:2.0, NaN, G3, D3, NaN
--284:2.125, F#4, NaN, NaN, NaN
--284:2.625, G4, NaN, NaN, NaN
--285:0.0, NaN, Rest, E3, B2
--285:0.125, D6, NaN, NaN, NaN
--285:1.0, NaN, Rest, F3, D3
--285:1.125, B5, NaN, NaN, NaN
--285:2.0, NaN, B-4, G3, G2
--285:2.125, F5, NaN, NaN, NaN
--285:2.5, NaN, C5, NaN, NaN
--285:2.75, NaN, B-4, NaN, NaN
--286:0.0, NaN, A4, A3, C3
--286:0.125, E5, NaN, NaN, NaN
--286:0.5, NaN, B-4, NaN, NaN
--286:0.75, NaN, A4, NaN, NaN
--286:1.0, NaN, G4, B-3, Rest
--286:1.125, Rest, NaN, NaN, NaN
--286:1.5, NaN, A4, NaN, NaN
--286:1.75, NaN, G4, NaN, NaN
--286:2.0, NaN, F4, G3, Rest
--286:2.125, Rest, NaN, NaN, NaN
--286:2.5, NaN, G4, NaN, NaN
--286:2.75, NaN, F4, NaN, NaN
--287:0.0, NaN, E4, D3, Rest
--287:0.125, Rest, NaN, NaN, NaN
--287:0.5, NaN, F4, NaN, NaN
--287:0.75, NaN, E4, NaN, NaN
--287:1.0, NaN, D4, C3, NaN
--287:1.5, NaN, E4, NaN, NaN
--287:1.75, NaN, D4, NaN, NaN
--287:2.0, NaN, C4, NaN, NaN
--287:2.5, NaN, NaN, D4, NaN
--287:2.75, NaN, NaN, C4, NaN
--288:0.0, NaN, NaN, B3, Rest
--288:0.125, Rest, NaN, NaN, NaN
--288:0.5, NaN, D4, C4, NaN
--288:0.75, NaN, C4, NaN, NaN
--288:1.0, NaN, B3, C4, NaN
--288:1.5, NaN, C4, NaN, NaN
--288:2.0, NaN, B-4, A3, NaN
--289:0.0, NaN, Rest, F3, C2
--289:0.125, G5, NaN, NaN, NaN
--289:1.0, NaN, Rest, C3, E2
--289:1.125, E5, NaN, NaN, NaN
--289:2.0, NaN, C4, NaN, G2
--289:2.125, B-4, NaN, NaN, NaN
--289:2.5, NaN, NaN, D4, NaN
--289:2.75, NaN, NaN, C4, NaN
--290:0.0, NaN, NaN, B3, C3
--290:0.125, F4, NaN, NaN, NaN
--290:0.5, NaN, D4, C4, NaN
--290:0.75, NaN, C4, NaN, NaN
--290:1.0, NaN, B3, G4, Rest
--290:1.125, Rest, NaN, NaN, NaN
--290:1.5, NaN, C4, NaN, NaN
--290:2.0, NaN, A4, E4, Rest
--290:2.125, Rest, NaN, NaN, NaN
--291:0.0, NaN, Rest, C4, C2
--291:0.125, A5, NaN, NaN, NaN
--291:1.0, NaN, Rest, E5, F2
--291:1.125, F5, NaN, NaN, NaN
--291:2.0, NaN, Rest, B-4, A2
--291:2.125, C5, NaN, NaN, NaN
--292:0.0, NaN, NaN, G4, C3
--292:0.125, B-4, NaN, NaN, NaN
--292:1.0, NaN, NaN, F4, Rest
--292:1.625, C5, NaN, NaN, NaN
--292:1.875, B-4, NaN, NaN, NaN
--292:2.0, NaN, G5, NaN, Rest
--292:2.125, A4, NaN, NaN, NaN
--292:2.625, B-4, NaN, NaN, NaN
--293:0.0, NaN, E5, NaN, C2
--293:0.125, B-5, NaN, NaN, NaN
--293:1.0, NaN, B4, B-3, C3
--293:1.125, G5, NaN, NaN, NaN
--293:2.0, NaN, A4, NaN, C#3
--293:2.125, E5, NaN, NaN, NaN
--294:0.0, NaN, NaN, NaN, D3
--294:0.125, F5, NaN, NaN, NaN
--294:1.0, NaN, NaN, E-4, NaN
--294:1.625, G5, NaN, NaN, NaN
--294:1.875, F5, NaN, NaN, NaN
--294:2.0, NaN, C#5, NaN, NaN
--294:2.125, E5, NaN, NaN, NaN
--294:2.625, F5, NaN, NaN, NaN
--295:0.0, NaN, NaN, D4, E3
--295:0.125, G5, NaN, NaN, NaN
--295:2.0, NaN, C5, NaN, NaN
--296:0.0, NaN, NaN, G4, F#3
--296:0.125, A5, NaN, NaN, NaN
--296:1.625, B-5, NaN, NaN, NaN
--296:1.875, A5, NaN, NaN, NaN
--296:2.0, NaN, B-4, NaN, NaN
--296:2.125, G5, NaN, NaN, NaN
--296:2.625, A5, NaN, NaN, NaN
--297:0.0, NaN, NaN, F4, G3
--297:0.125, B-5, NaN, NaN, NaN
--297:2.0, NaN, E-5, NaN, NaN
--298:0.0, NaN, NaN, F4, A3
--298:0.125, C6, NaN, NaN, NaN
--298:1.5, NaN, NaN, G4, NaN
--298:1.625, D6, NaN, NaN, NaN
--298:1.75, NaN, NaN, F4, NaN
--298:1.875, C6, NaN, NaN, NaN
--298:2.0, NaN, A-4, E4, NaN
--298:2.125, B-5, NaN, NaN, NaN
--298:2.5, NaN, NaN, F4, NaN
--298:2.625, C6, NaN, NaN, NaN
--299:0.0, NaN, NaN, G4, B3
--299:0.125, D6, NaN, NaN, NaN
--299:2.0, NaN, A4, E3, NaN
--300:0.0, NaN, NaN, F3, C4
--300:0.125, Rest, NaN, NaN, NaN
--300:0.5, NaN, B-4, NaN, NaN
--300:0.75, NaN, A4, NaN, NaN
--300:1.0, NaN, G4, C3, NaN
--300:1.125, C5, NaN, NaN, NaN
--300:1.5, NaN, A4, NaN, NaN
--300:2.0, NaN, B-4, C3, NaN
--300:2.125, C5, NaN, NaN, NaN
--301:0.0, NaN, NaN, D-3, C3
--301:0.125, C5, NaN, NaN, NaN
--301:1.0, NaN, G3, NaN, NaN
--301:1.625, D5, NaN, NaN, NaN
--301:1.875, C5, NaN, NaN, NaN
--301:2.0, NaN, A3, NaN, C2
--301:2.125, B4, NaN, NaN, NaN
--301:2.625, C5, NaN, NaN, NaN
--302:0.0, NaN, A3, C3, F2
--302:0.125, F4, NaN, NaN, NaN
--302:1.0, NaN, A3, NaN, NaN
--302:1.125, Rest, NaN, NaN, NaN
-+269:0.0, F6, G4, C4, F2
-+269:0.25, E6, NaN, NaN, NaN
-+269:0.5, D6, G4, C4, NaN
-+269:0.75, E6, NaN, NaN, NaN
-+269:1.0, F6, G4, C4, Rest
-+269:1.25, E6, NaN, NaN, NaN
-+269:1.5, D6, G4, C4, NaN
-+269:1.75, E6, NaN, NaN, NaN
-+269:2.0, F6, G4, C4, Rest
-+269:2.25, E6, NaN, NaN, NaN
-+269:2.5, D6, G4, C4, NaN
-+269:2.75, E6, NaN, NaN, NaN
-+270:0.0, F6, F4, C4, F2
-+270:0.5, E6, NaN, NaN, NaN
-+270:0.75, D6, NaN, NaN, NaN
-+270:1.0, C6, F4, C4, F3
-+270:1.25, B-5, NaN, NaN, NaN
-+270:1.5, A5, NaN, NaN, NaN
-+270:1.75, G5, NaN, NaN, NaN
-+270:2.0, F5, Rest, Rest, Rest
-+270:2.25, C6, NaN, NaN, NaN
-+270:2.5, B-5, NaN, NaN, NaN
-+270:2.75, A5, NaN, NaN, NaN
-+271:0.0, G5, Rest, Rest, Rest
-+271:0.25, F5, NaN, NaN, NaN
-+271:0.5, E5, NaN, NaN, NaN
-+271:0.75, D5, NaN, NaN, NaN
-+271:1.0, C5, NaN, NaN, NaN
-+271:1.25, A5, NaN, NaN, NaN
-+271:1.5, G5, NaN, NaN, NaN
-+271:1.75, F5, NaN, NaN, NaN
-+271:2.0, E5, NaN, NaN, NaN
-+271:2.25, D5, NaN, NaN, NaN
-+271:2.5, C5, NaN, NaN, NaN
-+271:2.75, B-4, NaN, NaN, NaN
-+272:0.0, A4, Rest, Rest, Rest
-+272:0.25, F5, F5, F4, F3
-+272:0.5, E5, E5, E4, E3
-+272:0.75, D5, D5, D4, D3
-+272:1.0, C5, C5, C4, C3
-+272:1.25, B-4, B-4, B-3, B-2
-+272:1.5, A4, A4, A3, A2
-+272:1.75, G4, G4, G3, G2
-+272:2.0, F4, F4, F3, F2
-+272:2.25, F5, F5, F4, F3
-+272:2.5, E5, E5, E4, E3
-+272:2.75, D5, D5, D4, D3
-+273:0.0, C5, C5, C4, C3
-+273:0.25, B-4, B-4, B-3, B-2
-+273:0.5, A4, A4, A3, A2
-+273:0.75, G4, G4, G3, G2
-+273:1.0, F4, F4, F3, F2
-+273:1.25, E4, E4, E3, E2
-+273:1.5, F4, F4, F3, F2
-+273:1.75, E4, E4, E3, E2
-+273:2.0, F4, F4, F3, F2
-+273:2.25, E4, E4, E3, E2
-+273:2.5, F4, F4, F3, F2
-+273:2.75, E4, E4, E3, E2
-+274:0.0, F4, F4, F3, F2
-+274:1.0, G4, G4, G3, G2
-+274:2.0, A4, A4, A3, A2
-+275:0.0, B-4, B-3, B-3, B-2
-+275:1.0, C5, C4, C4, C3
-+275:2.0, D5, D4, D4, D3
-+276:0.0, E-5, E-4, E-4, E-3
-+278:0.0, D4, D4, D3, D2
-+278:1.0, E4, E4, E3, E2
-+278:2.0, F#4, F#4, F#3, F#2
-+279:0.0, G4, G3, G3, G2
-+279:1.0, A4, A3, A3, A2
-+279:2.0, B-4, B-3, B-3, B-2
-+280:0.0, C5, C4, C4, C3
-+282:0.0, F5, G3, Rest, Rest
-+282:0.5, G5, NaN, NaN, NaN
-+282:0.75, F5, NaN, NaN, NaN
-+282:1.0, E5, A3, NaN, NaN
-+282:1.5, F5, NaN, NaN, NaN
-+282:1.75, E5, NaN, NaN, NaN
-+282:2.0, D5, B3, NaN, NaN
-+282:2.5, E5, NaN, NaN, NaN
-+282:2.75, D5, NaN, NaN, NaN
-+283:0.0, C5, C4, Rest, Rest
-+283:0.5, D5, NaN, NaN, NaN
-+283:0.75, C5, NaN, NaN, NaN
-+283:1.0, B4, D4, NaN, NaN
-+283:1.5, C5, NaN, NaN, NaN
-+283:1.75, B4, NaN, NaN, NaN
-+283:2.0, A4, E4, NaN, NaN
-+283:2.5, B4, NaN, NaN, NaN
-+283:2.75, A4, NaN, NaN, NaN
-+284:0.0, G4, F4, Rest, Rest
-+284:1.0, NaN, D4, NaN, NaN
-+284:1.5, A4, NaN, NaN, NaN
-+284:1.75, G4, NaN, NaN, NaN
-+284:2.0, F#4, B3, NaN, NaN
-+284:2.5, G4, NaN, NaN, NaN
-+285:0.0, D6, G3, G3, B2
-+285:1.0, B5, Rest, NaN, D3
-+285:1.5, NaN, NaN, A3, NaN
-+285:1.75, NaN, NaN, G3, NaN
-+285:2.0, F5, Rest, F#3, G2
-+285:2.5, NaN, NaN, G3, NaN
-+286:0.0, E5, B-4, C3, C3
-+286:0.5, NaN, C5, NaN, NaN
-+286:0.75, NaN, B-4, NaN, NaN
-+286:1.0, Rest, A4, D3, Rest
-+286:1.5, NaN, B-4, NaN, NaN
-+286:1.75, NaN, A4, NaN, NaN
-+286:2.0, Rest, G4, E3, Rest
-+286:2.5, NaN, A4, NaN, NaN
-+286:2.75, NaN, G4, NaN, NaN
-+287:0.0, Rest, F4, F3, Rest
-+287:0.5, NaN, G4, NaN, NaN
-+287:0.75, NaN, F4, NaN, NaN
-+287:1.0, NaN, E4, G3, NaN
-+287:1.5, NaN, F4, NaN, NaN
-+287:1.75, NaN, E4, NaN, NaN
-+287:2.0, NaN, D4, A3, NaN
-+287:2.5, NaN, E4, NaN, NaN
-+287:2.75, NaN, D4, NaN, NaN
-+288:0.0, Rest, C4, B-3, Rest
-+288:1.0, NaN, NaN, G3, NaN
-+288:1.5, NaN, D4, NaN, NaN
-+288:1.75, NaN, C4, NaN, NaN
-+288:2.0, NaN, B3, E3, NaN
-+288:2.5, NaN, C4, NaN, NaN
-+289:0.0, G5, B-4, C3, C2
-+289:1.0, E5, Rest, NaN, E2
-+289:1.5, NaN, NaN, D4, NaN
-+289:1.75, NaN, NaN, C4, NaN
-+289:2.0, B-4, Rest, B3, G2
-+289:2.5, NaN, NaN, C4, NaN
-+290:0.0, F4, C4, C4, C3
-+290:1.0, Rest, NaN, A3, Rest
-+290:1.5, NaN, D4, NaN, NaN
-+290:1.75, NaN, C4, NaN, NaN
-+290:2.0, Rest, B3, F3, Rest
-+290:2.5, NaN, C4, NaN, NaN
-+291:0.0, A5, A4, C3, C2
-+291:1.0, F5, Rest, NaN, F2
-+291:1.5, NaN, NaN, D4, NaN
-+291:1.75, NaN, NaN, C4, NaN
-+291:2.0, C5, Rest, B3, A2
-+291:2.5, NaN, NaN, C4, NaN
-+292:0.0, B-4, Rest, G4, C3
-+292:1.0, NaN, NaN, E4, Rest
-+292:1.5, C5, NaN, NaN, NaN
-+292:1.75, B-4, NaN, NaN, NaN
-+292:2.0, A4, NaN, C4, Rest
-+292:2.5, B-4, NaN, NaN, NaN
-+293:0.0, B-5, G5, E5, C2
-+293:1.0, G5, E5, B-4, C3
-+293:2.0, E5, B-4, G4, C#3
-+294:0.0, F5, A4, F4, D3
-+294:1.5, G5, NaN, NaN, NaN
-+294:1.75, F5, NaN, NaN, NaN
-+294:2.0, E5, NaN, NaN, NaN
-+294:2.5, F5, NaN, NaN, NaN
-+295:0.0, G5, C#5, B-3, E3
-+296:0.0, A5, C5, E-4, F#3
-+296:1.5, B-5, NaN, NaN, NaN
-+296:1.75, A5, NaN, NaN, NaN
-+296:2.0, G5, NaN, NaN, NaN
-+296:2.5, A5, NaN, NaN, NaN
-+297:0.0, B-5, B-4, D4, G3
-+298:0.0, C6, E-5, G-4, A3
-+298:1.5, D6, NaN, NaN, NaN
-+298:1.75, C6, NaN, NaN, NaN
-+298:2.0, B-5, NaN, NaN, NaN
-+298:2.5, C6, NaN, NaN, NaN
-+299:0.0, D6, A-4, F4, B3
-+300:0.0, Rest, A4, F4, C4
-+300:1.0, C5, NaN, NaN, NaN
-+300:1.5, NaN, B-4, G4, NaN
-+300:1.75, NaN, A4, F4, NaN
-+300:2.0, C5, G4, E4, NaN
-+300:2.5, NaN, A4, F4, NaN
-+301:0.0, C5, B-4, G4, C3
-+301:1.5, D5, NaN, NaN, NaN
-+301:1.75, C5, NaN, NaN, NaN
-+301:2.0, B4, G3, E3, C2
-+301:2.5, C5, NaN, NaN, NaN
-+302:0.0, F4, A3, F3, F2
-+302:1.0, Rest, A3, C3, NaN
- 302:1.5, NaN, NaN, NaN, G2
- 302:1.75, NaN, NaN, NaN, F2
--302:2.0, NaN, B3, NaN, E2
--302:2.125, Rest, NaN, NaN, NaN
-+302:2.0, Rest, A3, C3, E2
- 302:2.5, NaN, NaN, NaN, F2
--303:0.0, NaN, NaN, D-3, F2
--303:0.125, F4, NaN, NaN, NaN
--303:0.375, E4, NaN, NaN, NaN
--303:0.625, D4, NaN, NaN, NaN
--303:0.875, E4, NaN, NaN, NaN
--303:1.125, F4, NaN, NaN, NaN
--303:1.375, E4, NaN, NaN, NaN
--303:1.625, D4, NaN, NaN, NaN
--303:1.875, E4, NaN, NaN, NaN
--303:2.0, NaN, A3, NaN, NaN
--303:2.125, F4, NaN, NaN, NaN
--303:2.375, E4, NaN, NaN, NaN
--303:2.625, D4, NaN, NaN, NaN
--303:2.875, E4, NaN, NaN, NaN
--304:0.0, NaN, F4, C3, F2
--304:0.125, F4, NaN, NaN, NaN
--304:1.0, NaN, F4, F4, NaN
--304:1.125, A4, NaN, NaN, NaN
-+303:0.0, F4, B-3, D-3, F2
-+303:0.25, E4, NaN, NaN, NaN
-+303:0.5, D4, NaN, NaN, NaN
-+303:0.75, E4, NaN, NaN, NaN
-+303:1.0, F4, NaN, NaN, NaN
-+303:1.25, E4, NaN, NaN, NaN
-+303:1.5, D4, NaN, NaN, NaN
-+303:1.75, E4, NaN, NaN, NaN
-+303:2.0, F4, NaN, NaN, Rest
-+303:2.25, E4, NaN, NaN, NaN
-+303:2.5, D4, NaN, NaN, NaN
-+303:2.75, E4, NaN, NaN, NaN
-+304:0.0, F4, A3, C3, F2
-+304:1.0, A4, F4, NaN, NaN
- 304:1.5, NaN, NaN, NaN, G2
- 304:1.75, NaN, NaN, NaN, F2
--304:2.0, NaN, F4, F4, E2
--304:2.125, A4, NaN, NaN, NaN
--304:2.25, NaN, E4, NaN, NaN
--304:2.5, NaN, D4, NaN, F2
--304:2.75, NaN, E4, NaN, NaN
--305:0.0, NaN, F4, F4, F2
--305:0.125, B-4, NaN, NaN, NaN
--305:0.25, NaN, E4, E4, NaN
--305:0.5, NaN, D4, D4, NaN
--305:0.75, NaN, E4, E4, NaN
--305:1.0, NaN, F4, F4, NaN
--305:1.25, NaN, E4, E4, NaN
--305:1.5, NaN, D4, D4, NaN
--305:1.75, NaN, E4, E4, NaN
--305:2.0, NaN, F4, F4, NaN
--305:2.25, NaN, NaN, E4, NaN
--305:2.5, NaN, NaN, D4, NaN
--305:2.75, NaN, NaN, E4, NaN
--306:0.0, NaN, Rest, F4, NaN
--306:0.125, A4, NaN, NaN, NaN
--306:0.5, NaN, B-4, NaN, NaN
--306:0.75, NaN, A4, NaN, NaN
--306:1.0, NaN, G4, C5, Rest
--306:1.125, Rest, NaN, NaN, NaN
--306:1.5, NaN, A4, NaN, NaN
--306:1.625, D-5, NaN, NaN, NaN
--306:1.875, C5, NaN, NaN, NaN
--306:2.0, NaN, B-4, C5, Rest
--306:2.125, B-4, NaN, NaN, NaN
--306:2.625, C5, NaN, NaN, NaN
--307:0.0, NaN, NaN, D-5, Rest
--307:0.125, D-5, NaN, NaN, NaN
--307:2.0, NaN, A4, NaN, NaN
--308:0.0, NaN, Rest, C5, Rest
--308:0.125, C5, NaN, NaN, NaN
--308:0.5, NaN, G5, NaN, NaN
--308:0.75, NaN, F5, NaN, NaN
--308:1.0, NaN, E5, Rest, F2
--308:1.125, Rest, NaN, NaN, NaN
--308:1.5, NaN, F5, NaN, NaN
--308:1.625, B-5, NaN, NaN, NaN
--308:1.875, A5, NaN, NaN, NaN
--308:2.0, NaN, G5, E4, F2
--308:2.125, G5, NaN, NaN, NaN
--308:2.5, NaN, NaN, F4, NaN
--308:2.625, A5, NaN, NaN, NaN
--309:0.0, NaN, NaN, C4, F2
--309:0.125, B-5, NaN, NaN, NaN
-+304:2.0, A4, F4, NaN, E2
-+304:2.5, NaN, NaN, NaN, F2
-+305:0.0, B-4, F4, D3, F2
-+305:0.25, NaN, E4, NaN, NaN
-+305:0.5, NaN, D4, NaN, NaN
-+305:0.75, NaN, E4, NaN, NaN
-+305:1.0, NaN, F4, NaN, NaN
-+305:1.25, NaN, E4, NaN, NaN
-+305:1.5, NaN, D4, NaN, NaN
-+305:1.75, NaN, E4, NaN, NaN
-+305:2.0, NaN, F4, NaN, NaN
-+305:2.25, NaN, E4, NaN, NaN
-+305:2.5, NaN, D4, NaN, NaN
-+305:2.75, NaN, E4, NaN, NaN
-+306:0.0, A4, F4, C3, NaN
-+306:1.0, Rest, Rest, F4, Rest
-+306:1.5, D-5, B-4, NaN, NaN
-+306:1.75, C5, A4, NaN, NaN
-+306:2.0, B-4, G4, F4, Rest
-+306:2.5, C5, A4, NaN, NaN
-+307:0.0, D-5, B-4, F4, Rest
-+307:0.25, NaN, NaN, E4, NaN
-+307:0.5, NaN, NaN, D4, NaN
-+307:0.75, NaN, NaN, E4, NaN
-+307:1.0, NaN, NaN, F4, NaN
-+307:1.25, NaN, NaN, E4, NaN
-+307:1.5, NaN, NaN, D4, NaN
-+307:1.75, NaN, NaN, E4, NaN
-+307:2.0, NaN, NaN, F4, NaN
-+307:2.25, NaN, NaN, E4, NaN
-+307:2.5, NaN, NaN, D4, NaN
-+307:2.75, NaN, NaN, E4, NaN
-+308:0.0, C5, A4, F4, Rest
-+308:1.0, Rest, Rest, C5, F2
-+308:1.5, B-5, G5, NaN, NaN
-+308:1.75, A5, F5, NaN, NaN
-+308:2.0, G5, E5, C5, F2
-+308:2.5, A5, F5, NaN, NaN
-+309:0.0, B-5, G5, D-5, F2
- 309:0.25, NaN, NaN, NaN, E2
- 309:0.5, NaN, NaN, NaN, D2
- 309:0.75, NaN, NaN, NaN, E2
--309:1.0, NaN, NaN, Rest, F2
-+309:1.0, NaN, NaN, NaN, F2
- 309:1.25, NaN, NaN, NaN, E2
- 309:1.5, NaN, NaN, NaN, D2
- 309:1.75, NaN, NaN, NaN, E2
--309:2.0, NaN, F5, G#3, F2
-+309:2.0, NaN, NaN, NaN, F2
- 309:2.25, NaN, NaN, NaN, E2
--309:2.5, NaN, NaN, A3, D2
-+309:2.5, NaN, NaN, NaN, D2
- 309:2.75, NaN, NaN, NaN, E2
--310:0.0, NaN, Rest, F3, F2
--310:0.125, A5, NaN, NaN, NaN
--310:0.625, B-5, NaN, NaN, NaN
--310:0.875, A5, NaN, NaN, NaN
--310:1.0, NaN, E5, Rest, Rest
--310:1.125, G5, NaN, NaN, NaN
--310:1.5, NaN, F5, NaN, NaN
--310:1.625, A5, NaN, NaN, NaN
--310:2.0, NaN, C5, C3, E3
--310:2.125, E5, NaN, NaN, NaN
--310:2.5, NaN, NaN, E3, F3
--310:2.625, F5, NaN, NaN, NaN
--311:0.0, NaN, Rest, F3, C3
--311:0.125, C5, NaN, NaN, NaN
--311:0.625, D5, NaN, NaN, NaN
--311:0.875, C5, NaN, NaN, NaN
--311:1.0, NaN, G#4, F3, Rest
--311:1.125, B4, NaN, NaN, NaN
--311:1.5, NaN, A4, NaN, NaN
--311:1.625, C5, NaN, NaN, NaN
--311:2.0, NaN, F4, Rest, G#2
--311:2.125, G#4, NaN, NaN, NaN
--311:2.5, NaN, NaN, NaN, A2
--311:2.625, A4, NaN, NaN, NaN
--312:0.0, NaN, Rest, NaN, F2
--312:0.125, F4, NaN, NaN, NaN
--312:0.625, G4, NaN, NaN, NaN
--312:0.875, F4, NaN, NaN, NaN
--312:1.0, NaN, C4, NaN, Rest
--312:1.125, E4, NaN, NaN, NaN
--312:1.5, NaN, E4, NaN, NaN
--312:1.625, F4, NaN, NaN, NaN
--312:2.0, NaN, F4, NaN, C2
--312:2.125, C4, NaN, NaN, NaN
--312:2.5, NaN, NaN, NaN, E2
--312:2.625, E4, NaN, NaN, NaN
--313:0.0, NaN, A3, NaN, F2
--313:0.125, F4, NaN, NaN, NaN
--313:1.0, NaN, Rest, NaN, F2
--313:1.125, A4, NaN, NaN, NaN
--313:2.0, NaN, NaN, NaN, Rest
--313:2.125, Rest, NaN, NaN, NaN
-+310:0.0, A5, F5, C5, F2
-+310:0.5, B-5, NaN, NaN, NaN
-+310:0.75, A5, NaN, NaN, NaN
-+310:1.0, G#5, Rest, Rest, Rest
-+310:1.5, A5, NaN, NaN, NaN
-+310:2.0, E5, E5, E4, E3
-+310:2.5, F5, F5, F4, F3
-+311:0.0, C5, C5, C4, C3
-+311:0.5, D5, NaN, NaN, NaN
-+311:0.75, C5, NaN, NaN, NaN
-+311:1.0, B4, Rest, Rest, Rest
-+311:1.5, C5, NaN, NaN, NaN
-+311:2.0, G#4, G#4, G#3, G#2
-+311:2.5, A4, A4, A3, A2
-+312:0.0, F4, F4, F3, F2
-+312:0.5, G4, NaN, NaN, NaN
-+312:0.75, F4, NaN, NaN, NaN
-+312:1.0, E4, Rest, Rest, Rest
-+312:1.5, F4, NaN, NaN, NaN
-+312:2.0, C4, C4, C3, C2
-+312:2.5, E4, E4, E3, E2
-+313:0.0, F4, F4, F3, F2
-+313:1.0, A4, A3, F3, F2
-+313:2.0, Rest, Rest, Rest, Rest
+ 151:1.75, D-6, NaN, NaN, NaN
+ 151:2.0, C6, D-4, B-3, Rest
+ 151:2.5, D-6, D-4, B-3, NaN
+-152:0.0, B-5, D-4, B-3, Rest
+-152:1.5, C6, NaN, NaN, NaN
++152:0.0, B-5, D4, B-3, Rest
++152:0.5, NaN, D4, B-3, NaN
++152:1.0, NaN, D4, B-3, NaN
++152:1.5, C6, D4, B-3, NaN
+ 152:1.75, B-5, NaN, NaN, NaN
+-152:2.0, A5, D-4, NaN, NaN
+-152:2.5, B-5, NaN, NaN, NaN
+-153:0.0, F5, NaN, B-3, Rest
+-153:1.5, G-5, NaN, NaN, NaN
++152:2.0, A5, D4, B-3, NaN
++152:2.5, B-5, D4, B-3, NaN
++153:0.0, F5, D4, B-3, Rest
++153:0.5, NaN, D4, B-3, NaN
++153:1.0, NaN, D4, B-3, NaN
++153:1.5, G-5, D4, B-3, NaN
+ 153:1.75, F5, NaN, NaN, NaN
+-153:2.0, E5, D-4, NaN, NaN
+-153:2.5, F5, NaN, NaN, NaN
+-154:0.0, D-5, NaN, B-3, Rest
+-154:1.5, E-5, NaN, NaN, NaN
++153:2.0, E5, D4, B-3, NaN
++153:2.5, F5, D4, B-3, NaN
++154:0.0, D-5, D4, B-3, Rest
++154:0.5, NaN, D4, B-3, NaN
++154:1.0, NaN, D4, B-3, NaN
++154:1.5, E-5, D4, B-3, NaN
+ 154:1.75, D-5, NaN, NaN, NaN
+-154:2.0, C5, G-5, NaN, NaN
+-154:2.5, D-5, NaN, NaN, NaN
+-155:0.0, D-4, NaN, B-3, G-3
+-155:0.5, D-4, A-5, NaN, NaN
+-155:0.75, NaN, G-5, NaN, NaN
+-155:1.0, D-4, F5, NaN, NaN
+-155:1.5, D-4, G-5, NaN, NaN
+-155:2.0, D-4, D-5, NaN, NaN
+-155:2.5, D-4, NaN, NaN, NaN
+-156:0.0, D-4, NaN, B-3, D-3
+-156:0.5, D-4, E-5, NaN, NaN
+-156:0.75, NaN, D-5, NaN, NaN
+-156:1.0, D-4, C5, NaN, NaN
+-156:1.5, D-4, D-5, NaN, NaN
+-156:2.0, D-4, B-4, NaN, NaN
+-156:2.5, D-4, NaN, NaN, NaN
+-157:0.0, D-4, NaN, B-3, B-2
+-157:0.5, D-4, C-5, NaN, NaN
+-157:0.75, NaN, B-4, NaN, NaN
+-157:1.0, D-4, A4, NaN, NaN
+-157:1.5, D-4, B-4, NaN, NaN
+-157:2.0, D-4, G-4, NaN, NaN
+-157:2.5, D-4, NaN, NaN, NaN
+-158:0.0, D-4, F4, B-3, G-2
+-158:0.5, D-4, NaN, NaN, NaN
+-158:1.0, D-4, E4, NaN, F2
+-158:1.5, D-4, NaN, NaN, NaN
+-158:2.0, C4, C4, NaN, E2
+-158:2.5, C4, C4, NaN, NaN
++154:2.0, C5, D4, B-3, NaN
++154:2.5, D-5, D4, B-3, NaN
++155:0.0, D-4, G-5, B-3, G-3
++155:0.5, D-4, NaN, B-3, NaN
++155:1.0, D-4, G-5, B-3, NaN
++155:1.5, D-4, A-5, B-3, NaN
++155:1.75, NaN, G-5, NaN, NaN
++155:2.0, D-4, F5, B-3, NaN
++155:2.5, D-4, G-5, B-3, NaN
++156:0.0, D-4, D-5, B-3, D-3
++156:0.5, D-4, NaN, B-3, NaN
++156:1.0, D-4, NaN, B-3, NaN
++156:1.5, D-4, E-5, B-3, NaN
++156:1.75, NaN, D-5, NaN, NaN
++156:2.0, D-4, C5, B-3, NaN
++156:2.5, D-4, D-5, B-3, NaN
++157:0.0, D-4, B-4, B-3, B-2
++157:0.5, D-4, NaN, B-3, NaN
++157:1.0, D-4, NaN, B-3, NaN
++157:1.5, D-4, C-5, B-3, NaN
++157:1.75, NaN, B-4, NaN, NaN
++157:2.0, D-4, A4, B-3, NaN
++157:2.5, D-4, B-4, B-3, NaN
++158:0.0, D-4, G-4, B-3, G-2
++158:0.5, D-4, NaN, B-3, NaN
++158:1.0, D-4, F4, B-3, F2
++158:1.5, D-4, NaN, B-3, NaN
++158:2.0, C4, E4, B-3, E2
++158:2.5, C4, NaN, B-3, NaN
+ 159:0.0, F5, C4, A-3, F2
+-159:0.5, NaN, C4, NaN, NaN
+-159:1.0, NaN, C4, NaN, Rest
+-159:1.5, G5, C4, NaN, NaN
++159:0.5, NaN, C4, A-3, NaN
++159:1.0, NaN, C4, A-3, Rest
++159:1.5, G5, C4, A-3, NaN
+ 159:1.75, F5, NaN, NaN, NaN
+-159:2.0, E5, C4, NaN, Rest
+-159:2.5, F5, NaN, NaN, NaN
+-160:0.0, C5, NaN, A-3, Rest
+-160:1.5, D-5, NaN, NaN, NaN
++159:2.0, E5, C4, A-3, Rest
++159:2.5, F5, C4, A-3, NaN
++160:0.0, C5, C4, A-3, Rest
++160:0.5, NaN, C4, A-3, NaN
++160:1.0, NaN, C4, A-3, NaN
++160:1.5, D-5, C4, A-3, NaN
+ 160:1.75, C5, NaN, NaN, NaN
+-160:2.0, B4, C4, NaN, NaN
+-160:2.5, C5, NaN, NaN, NaN
+-161:0.0, A-4, NaN, A-3, Rest
+-161:1.5, B-4, NaN, NaN, NaN
++160:2.0, B4, C4, A-3, NaN
++160:2.5, C5, C4, A-3, NaN
++161:0.0, A-4, C4, A-3, Rest
++161:0.5, NaN, C4, A-3, NaN
++161:1.0, NaN, C4, A-3, NaN
++161:1.5, B-4, C4, A-3, NaN
+ 161:1.75, A-4, NaN, NaN, NaN
+-161:2.0, G4, C4, NaN, NaN
+-161:2.5, A-4, NaN, NaN, NaN
+-162:0.0, F4, NaN, A-3, Rest
+-162:1.5, G4, NaN, NaN, NaN
++161:2.0, G4, C4, A-3, NaN
++161:2.5, A-4, C4, A-3, NaN
++162:0.0, F4, C4, A-3, Rest
++162:0.5, NaN, C4, A-3, NaN
++162:1.0, NaN, C4, A-3, NaN
++162:1.5, G4, C4, A-3, NaN
+ 162:1.75, F4, NaN, NaN, NaN
+-162:2.0, E4, D-5, NaN, NaN
+-162:2.5, F4, NaN, NaN, NaN
+-163:0.0, F4, NaN, A-3, D-3
+-163:0.5, F4, E-5, NaN, NaN
+-163:0.75, NaN, D-5, NaN, NaN
+-163:1.0, F4, C5, NaN, NaN
+-163:1.5, F4, D-5, NaN, NaN
+-163:2.0, F4, A-4, NaN, NaN
+-163:2.5, F4, NaN, NaN, NaN
+-164:0.0, F4, NaN, A-3, A-2
+-164:0.5, F4, B-4, NaN, NaN
+-164:0.75, NaN, A-4, NaN, NaN
+-164:1.0, F4, G4, NaN, NaN
+-164:1.5, F4, A-4, NaN, NaN
+-164:2.0, F4, F4, A-3, NaN
+-164:2.5, F4, NaN, NaN, NaN
+-165:0.0, F4, NaN, NaN, F2
+-165:0.5, F4, G-4, NaN, NaN
+-165:0.75, NaN, F4, NaN, NaN
+-165:1.0, F4, E-4, NaN, NaN
+-165:1.5, F4, F4, NaN, NaN
+-165:2.0, F4, D-4, A-3, D-2
+-165:2.5, F4, NaN, NaN, NaN
+-166:0.0, F4, C4, NaN, D-3
+-166:0.5, F4, NaN, NaN, NaN
+-166:1.0, F4, B3, NaN, C3
+-166:1.5, F4, NaN, NaN, NaN
+-166:2.0, F4, C4, G3, B2
+-166:2.5, F4, NaN, NaN, NaN
+-167:0.0, E4, G3, C4, C2
++162:2.0, E4, C4, A-3, NaN
++162:2.5, F4, C4, A-3, NaN
++163:0.0, F4, D-5, A-3, D-3
++163:0.5, F4, NaN, A-3, NaN
++163:1.0, F4, NaN, A-3, NaN
++163:1.5, F4, E-5, A-3, NaN
++163:1.75, NaN, D-5, NaN, NaN
++163:2.0, F4, C5, A-3, NaN
++163:2.5, F4, D-5, A-3, NaN
++164:0.0, F4, A-4, A-3, A-2
++164:0.5, F4, NaN, A-3, NaN
++164:1.0, F4, NaN, A-3, NaN
++164:1.5, F4, B-4, A-3, NaN
++164:1.75, NaN, A-4, NaN, NaN
++164:2.0, F4, G4, A-3, NaN
++164:2.5, F4, A-4, A-3, NaN
++165:0.0, F4, F4, A-3, F2
++165:0.5, F4, NaN, A-3, NaN
++165:1.0, F4, NaN, A-3, NaN
++165:1.5, F4, G4, A-3, NaN
++165:1.75, NaN, F4, NaN, NaN
++165:2.0, F4, E4, A-3, D-2
++165:2.5, F4, F4, A-3, NaN
++166:0.0, F4, D-4, A-3, D-3
++166:0.5, F4, NaN, A-3, NaN
++166:1.0, F4, C4, A-3, C3
++166:1.5, F4, NaN, A-3, NaN
++166:2.0, F4, B3, A-3, B2
++166:2.5, F4, NaN, A-3, NaN
++167:0.0, E4, C4, G3, C2
+ 167:0.25, C6, NaN, NaN, NaN
+ 167:0.5, B5, NaN, NaN, NaN
+ 167:0.75, A5, NaN, NaN, NaN
+-167:1.0, G5, NaN, NaN, Rest
++167:1.0, G5, G3, C4, Rest
+ 167:1.25, F5, NaN, NaN, NaN
+ 167:1.5, E5, NaN, NaN, C3
+ 167:1.75, D5, NaN, NaN, NaN
+ 167:2.0, C5, NaN, NaN, C3
+ 167:2.5, NaN, NaN, NaN, C3
+-168:0.0, NaN, G3, C4, E2
++168:0.0, NaN, G3, NaN, E2
+ 168:0.25, C6, NaN, NaN, NaN
+ 168:0.5, B5, NaN, NaN, NaN
+ 168:0.75, A5, NaN, NaN, NaN
+-168:1.0, G5, NaN, NaN, Rest
++168:1.0, G5, G3, C4, Rest
+ 168:1.25, F5, NaN, NaN, NaN
+ 168:1.5, E5, NaN, NaN, E3
+ 168:1.75, D5, NaN, NaN, NaN
+ 168:2.0, C5, NaN, NaN, E3
+ 168:2.5, NaN, NaN, NaN, E3
+-169:0.0, NaN, G3, C4, G2
++169:0.0, NaN, NaN, NaN, G2
+ 169:0.25, C6, NaN, NaN, NaN
+ 169:0.5, B5, NaN, NaN, NaN
+ 169:0.75, A5, NaN, NaN, NaN
+-169:1.0, G5, NaN, NaN, Rest
++169:1.0, G5, G3, C4, Rest
+ 169:1.25, F5, NaN, NaN, NaN
+ 169:1.5, E5, NaN, NaN, G3
+ 169:1.75, D5, NaN, NaN, NaN
+ 169:2.0, C5, NaN, NaN, G3
+ 169:2.25, C6, NaN, NaN, NaN
+-169:2.5, NaN, NaN, NaN, G3
+-169:2.625, B5, NaN, NaN, NaN
+-169:2.875, A5, NaN, NaN, NaN
+-170:0.0, NaN, G3, C4, C3
+-170:0.125, G5, NaN, NaN, NaN
+-170:0.375, F5, NaN, NaN, NaN
+-170:0.625, E5, NaN, NaN, NaN
+-170:0.875, D5, NaN, NaN, NaN
+-170:1.0, NaN, G3, C4, Rest
+-170:1.125, C5, NaN, NaN, NaN
+-170:1.375, B4, NaN, NaN, NaN
+-170:1.5, NaN, NaN, NaN, C4
+-170:1.625, D5, NaN, NaN, NaN
+-170:1.875, C5, NaN, NaN, NaN
+-170:2.0, NaN, G3, C4, C4
+-170:2.125, B4, NaN, NaN, NaN
+-170:2.375, C5, NaN, NaN, NaN
+-170:2.5, NaN, NaN, NaN, C4
+-170:2.625, D5, NaN, NaN, NaN
+-170:2.875, C5, NaN, NaN, NaN
+-171:0.0, NaN, Rest, C3, C2
+-171:0.125, B-4, NaN, NaN, NaN
++169:2.5, B5, NaN, NaN, G3
++169:2.75, A5, NaN, NaN, NaN
++170:0.0, G5, NaN, NaN, C3
++170:0.25, F5, NaN, NaN, NaN
++170:0.5, E5, NaN, NaN, NaN
++170:0.75, D5, NaN, NaN, NaN
++170:1.0, C5, G3, C4, Rest
++170:1.25, B4, NaN, NaN, NaN
++170:1.5, D5, NaN, NaN, C4
++170:1.75, C5, NaN, NaN, NaN
++170:2.0, B4, G3, C4, C4
++170:2.25, C5, NaN, NaN, NaN
++170:2.5, D5, NaN, NaN, C4
++170:2.75, C5, NaN, NaN, NaN
++171:0.0, B-4, G3, C4, C2
+ 171:0.25, NaN, NaN, NaN, C3
+ 171:0.5, NaN, NaN, NaN, B2
+ 171:0.75, NaN, NaN, NaN, A2
+-171:1.0, NaN, Rest, NaN, G2
+-171:1.125, E5, NaN, NaN, NaN
+-171:1.25, NaN, C4, NaN, F2
+-171:1.5, NaN, D4, NaN, E2
+-171:1.75, NaN, E4, NaN, D2
+-171:2.0, NaN, F4, NaN, C2
+-171:2.25, NaN, G4, NaN, NaN
+-171:2.5, NaN, A4, NaN, NaN
+-171:2.75, NaN, B4, NaN, NaN
+-172:0.0, NaN, C5, C4, NaN
+-172:0.25, NaN, NaN, NaN, C3
+-172:0.5, NaN, NaN, NaN, B2
+-172:0.75, NaN, NaN, NaN, A2
+-172:1.0, NaN, NaN, NaN, G2
+-172:1.125, G5, NaN, NaN, NaN
+-172:1.25, NaN, C4, NaN, F2
+-172:1.5, NaN, D4, NaN, E2
+-172:1.75, NaN, E4, NaN, D2
+-172:2.0, NaN, F4, NaN, C2
+-172:2.25, NaN, G4, NaN, NaN
+-172:2.5, NaN, A4, NaN, NaN
+-172:2.75, NaN, B4, NaN, NaN
+-173:0.0, NaN, C5, C4, NaN
+-173:0.25, NaN, NaN, NaN, C3
+-173:0.5, NaN, NaN, NaN, B2
+-173:0.75, NaN, NaN, NaN, A2
+-173:1.0, NaN, NaN, NaN, G2
+-173:1.125, B-5, NaN, NaN, NaN
+-173:1.25, NaN, C4, NaN, F2
+-173:1.5, NaN, D4, NaN, E2
+-173:1.75, NaN, E4, NaN, D2
+-173:2.0, NaN, F4, NaN, C2
+-173:2.25, NaN, G4, NaN, C3
+-173:2.5, NaN, A4, NaN, B2
+-173:2.75, NaN, B4, NaN, A2
+-174:0.0, NaN, C5, C4, G2
+-174:0.25, NaN, C4, NaN, F2
+-174:0.5, NaN, D4, NaN, E2
+-174:0.75, NaN, E4, NaN, D2
+-174:1.0, NaN, F4, C4, C2
+-174:1.125, E6, NaN, NaN, NaN
+-174:1.25, NaN, G4, NaN, C3
+-174:1.5, NaN, A4, NaN, B2
+-174:1.75, NaN, B4, NaN, A2
+-174:2.0, NaN, C5, C4, G2
+-174:2.125, G6, NaN, NaN, NaN
+-174:2.25, NaN, NaN, NaN, F2
+-174:2.5, NaN, NaN, NaN, E2
+-174:2.75, NaN, NaN, NaN, D2
+-175:0.0, NaN, NaN, NaN, C2
+-175:0.125, B-6, NaN, NaN, NaN
++171:1.0, E5, Rest, C3, G2
++171:1.25, NaN, NaN, NaN, F2
++171:1.5, NaN, NaN, NaN, E2
++171:1.75, NaN, NaN, NaN, D2
++171:2.0, NaN, Rest, NaN, C2
++171:2.25, NaN, C4, NaN, NaN
++171:2.5, NaN, D4, NaN, NaN
++171:2.75, NaN, E4, NaN, NaN
++172:0.0, NaN, F4, NaN, NaN
++172:0.25, NaN, G4, NaN, C3
++172:0.5, NaN, A4, NaN, B2
++172:0.75, NaN, B4, NaN, A2
++172:1.0, G5, C5, C4, G2
++172:1.25, NaN, NaN, NaN, F2
++172:1.5, NaN, NaN, NaN, E2
++172:1.75, NaN, NaN, NaN, D2
++172:2.0, NaN, NaN, NaN, C2
++172:2.25, NaN, C4, NaN, NaN
++172:2.5, NaN, D4, NaN, NaN
++172:2.75, NaN, E4, NaN, NaN
++173:0.0, NaN, F4, NaN, NaN
++173:0.25, NaN, G4, NaN, C3
++173:0.5, NaN, A4, NaN, B2
++173:0.75, NaN, B4, NaN, A2
++173:1.0, B-5, C5, C4, G2
++173:1.25, NaN, NaN, NaN, F2
++173:1.5, NaN, NaN, NaN, E2
++173:1.75, NaN, NaN, NaN, D2
++173:2.0, NaN, NaN, NaN, C2
++173:2.25, NaN, C4, NaN, C3
++173:2.5, NaN, D4, NaN, B2
++173:2.75, NaN, E4, NaN, A2
++174:0.0, NaN, F4, NaN, G2
++174:0.25, NaN, G4, NaN, F2
++174:0.5, NaN, A4, NaN, E2
++174:0.75, NaN, B4, NaN, D2
++174:1.0, E6, C5, C4, C2
++174:1.25, NaN, C4, NaN, C3
++174:1.5, NaN, D4, NaN, B2
++174:1.75, NaN, E4, NaN, A2
++174:2.0, G6, F4, C4, G2
++174:2.25, NaN, G4, NaN, F2
++174:2.5, NaN, A4, NaN, E2
++174:2.75, NaN, B4, NaN, D2
++175:0.0, B-6, C5, C4, C2
+ 175:0.5, NaN, NaN, NaN, D2
+ 175:0.75, NaN, NaN, NaN, E2
+ 175:1.0, NaN, NaN, NaN, F2
+ 175:1.25, NaN, NaN, NaN, G2
+-175:1.5, NaN, B4, NaN, A2
+-175:1.75, NaN, A4, NaN, B2
+-175:2.0, NaN, G4, C3, C3
+-175:2.25, NaN, F4, NaN, NaN
+-175:2.5, NaN, E4, NaN, NaN
+-175:2.75, NaN, D4, NaN, NaN
+-176:0.0, NaN, C4, NaN, NaN
+-176:0.125, E5, NaN, NaN, NaN
+-176:0.5, NaN, NaN, NaN, C3
+-176:0.75, NaN, NaN, NaN, D3
+-176:1.0, NaN, NaN, NaN, E3
++175:1.5, NaN, NaN, NaN, A2
++175:1.75, NaN, NaN, NaN, B2
++175:2.0, NaN, NaN, NaN, C3
++175:2.5, NaN, B4, NaN, NaN
++175:2.75, NaN, A4, NaN, NaN
++176:0.0, E5, G4, C3, NaN
++176:0.25, NaN, F4, NaN, NaN
++176:0.5, NaN, E4, NaN, C3
++176:0.75, NaN, D4, NaN, D3
++176:1.0, NaN, C4, NaN, E3
+ 176:1.25, NaN, NaN, NaN, F3
+-176:1.5, NaN, C4, NaN, G3
+-176:1.75, NaN, D4, NaN, A3
+-176:2.0, NaN, E4, C3, B-3
+-176:2.25, NaN, F4, NaN, NaN
+-176:2.5, NaN, G4, C3, NaN
+-176:2.75, NaN, A4, NaN, NaN
+-177:0.0, NaN, B-4, C3, NaN
+-177:0.125, G5, NaN, NaN, NaN
+-177:0.5, NaN, A4, C3, A3
+-177:1.0, NaN, G4, C3, G3
+-177:1.5, NaN, F4, C3, F3
+-177:2.0, NaN, E4, C3, E3
++176:1.5, NaN, NaN, NaN, G3
++176:1.75, NaN, NaN, NaN, A3
++176:2.0, NaN, NaN, NaN, B-3
++176:2.5, NaN, C4, NaN, NaN
++176:2.75, NaN, D4, NaN, NaN
++177:0.0, G5, E4, C3, NaN
++177:0.25, NaN, F4, NaN, NaN
++177:0.5, NaN, G4, C3, A3
++177:0.75, NaN, A4, NaN, NaN
++177:1.0, NaN, B-4, C3, G3
++177:1.5, NaN, A4, C3, F3
++177:2.0, NaN, G4, C3, E3
+ 177:2.5, NaN, F4, C3, D3
+-178:0.0, NaN, E4, C3, C3
+-178:0.125, C4, NaN, NaN, NaN
+-178:0.375, B3, NaN, NaN, NaN
+-178:0.5, NaN, D4, C3, D3
+-178:0.625, C4, NaN, NaN, NaN
+-178:0.875, D4, NaN, NaN, NaN
+-178:1.0, NaN, C4, C3, C3
+-178:1.125, E4, NaN, NaN, NaN
+-178:1.375, F4, NaN, NaN, NaN
+-178:1.5, NaN, B-3, C3, B-2
+-178:1.625, G4, NaN, NaN, NaN
+-178:1.875, A4, NaN, NaN, NaN
+-178:2.0, NaN, A3, F3, A2
+-178:2.125, B-4, NaN, NaN, NaN
+-178:2.375, C5, NaN, NaN, NaN
+-178:2.5, NaN, NaN, NaN, G2
+-178:2.625, D5, NaN, NaN, NaN
+-178:2.875, E5, NaN, NaN, NaN
+-179:0.0, NaN, NaN, NaN, F2
+-179:0.125, F5, NaN, NaN, NaN
+-179:0.5, NaN, G4, G3, NaN
+-179:0.75, NaN, F4, F3, NaN
+-179:1.0, NaN, E4, E3, NaN
+-179:1.5, NaN, F4, F3, G2
+-179:1.625, G5, NaN, NaN, NaN
+-179:1.75, NaN, NaN, NaN, F2
+-179:1.875, F5, NaN, NaN, NaN
+-179:2.0, NaN, C4, C3, E2
+-179:2.125, E5, NaN, NaN, NaN
+-179:2.5, NaN, NaN, NaN, F2
+-179:2.625, F5, NaN, NaN, NaN
+-180:0.0, NaN, Rest, Rest, C2
+-180:0.125, C5, NaN, NaN, NaN
+-180:1.0, NaN, Rest, Rest, Rest
+-180:1.125, Rest, NaN, NaN, NaN
+-180:2.0, NaN, F4, F3, Rest
+-180:2.125, Rest, NaN, NaN, NaN
+-181:0.0, NaN, NaN, NaN, F2
+-181:0.125, F5, NaN, NaN, NaN
+-181:0.5, NaN, G4, G3, NaN
+-181:0.75, NaN, F4, F3, NaN
+-181:1.0, NaN, E4, E3, NaN
+-181:1.5, NaN, F4, F3, G2
+-181:1.625, G5, NaN, NaN, NaN
+-181:1.75, NaN, NaN, NaN, F2
+-181:1.875, F5, NaN, NaN, NaN
+-181:2.0, NaN, D4, D3, E2
+-181:2.125, E5, NaN, NaN, NaN
+-181:2.5, NaN, NaN, NaN, F2
+-181:2.625, F5, NaN, NaN, NaN
+-182:0.0, NaN, Rest, Rest, D2
+-182:0.125, D5, NaN, NaN, NaN
+-182:1.0, NaN, Rest, Rest, Rest
+-182:1.125, Rest, NaN, NaN, NaN
+-182:2.0, NaN, B-4, D4, Rest
+-182:2.125, Rest, NaN, NaN, NaN
+-183:0.0, NaN, NaN, NaN, D3
+-183:0.125, F5, NaN, NaN, NaN
+-183:1.625, G5, NaN, NaN, NaN
+-183:1.875, F5, NaN, NaN, NaN
+-183:2.0, NaN, NaN, C4, NaN
+-183:2.125, E5, NaN, NaN, NaN
+-183:2.625, F5, NaN, NaN, NaN
+-184:0.0, NaN, NaN, NaN, E3
+-184:0.125, G5, NaN, NaN, NaN
+-184:1.0, NaN, G4, NaN, NaN
+-184:2.0, NaN, F4, NaN, NaN
+-184:2.125, B-4, NaN, NaN, NaN
+-185:0.0, NaN, NaN, D4, F3
+-185:0.125, A4, NaN, NaN, NaN
+-185:1.0, NaN, B-4, G3, D3
+-185:1.75, NaN, G4, NaN, NaN
+-185:2.0, NaN, F4, C4, B-2
+-185:2.125, D5, NaN, NaN, NaN
+-185:2.5, NaN, NaN, B3, NaN
+-185:2.875, B-4, NaN, NaN, NaN
+-186:0.0, NaN, NaN, C4, C3
+-186:0.125, A4, NaN, NaN, NaN
++178:0.0, C4, E4, C3, C3
++178:0.25, B3, NaN, NaN, NaN
++178:0.5, C4, F4, C3, D3
++178:0.75, D4, NaN, NaN, NaN
++178:1.0, E4, E4, C3, C3
++178:1.25, F4, NaN, NaN, NaN
++178:1.5, G4, D4, C3, B-2
++178:1.75, A4, NaN, NaN, NaN
++178:2.0, B-4, C4, C3, A2
++178:2.25, C5, NaN, NaN, NaN
++178:2.5, D5, B-3, C3, G2
++178:2.75, E5, NaN, NaN, NaN
++179:0.0, F5, A3, F3, F2
++179:1.5, G5, G4, G3, G2
++179:1.75, F5, F4, F3, F2
++179:2.0, E5, E4, E3, E2
++179:2.5, F5, F4, F3, F2
++180:0.0, C5, C4, C3, C2
++180:1.0, Rest, Rest, Rest, Rest
++180:2.0, Rest, Rest, Rest, Rest
++181:0.0, F5, F4, F3, F2
++181:1.5, G5, G4, G3, G2
++181:1.75, F5, F4, F3, F2
++181:2.0, E5, E4, E3, E2
++181:2.5, F5, F4, F3, F2
++182:0.0, D5, D4, D3, D2
++182:1.0, Rest, Rest, Rest, Rest
++182:2.0, Rest, Rest, Rest, Rest
++183:0.0, F5, B-4, D4, D3
++183:1.5, G5, NaN, NaN, NaN
++183:1.75, F5, NaN, NaN, NaN
++183:2.0, E5, NaN, NaN, NaN
++183:2.5, F5, NaN, NaN, NaN
++184:0.0, G5, NaN, C4, E3
++184:2.0, B-4, G4, NaN, NaN
++185:0.0, A4, F4, C4, F3
++185:1.0, NaN, NaN, D4, D3
++185:2.0, D5, B-4, G3, B-2
++185:2.75, B-4, G4, NaN, NaN
++186:0.0, A4, F4, C4, C3
+ 186:0.5, NaN, NaN, B3, NaN
+-186:1.0, NaN, E4, C4, NaN
+-186:2.0, NaN, B-4, Rest, NaN
+-186:2.125, G4, NaN, NaN, NaN
+-187:0.0, NaN, NaN, NaN, Rest
+-187:0.125, Rest, NaN, NaN, NaN
+-187:0.5, NaN, C5, NaN, NaN
+-187:0.75, NaN, B-4, NaN, NaN
+-187:1.0, NaN, A4, NaN, NaN
+-187:1.5, NaN, B-4, NaN, NaN
+-187:2.0, NaN, C5, A4, NaN
+-188:0.0, NaN, NaN, NaN, Rest
+-188:0.125, F5, NaN, NaN, NaN
+-188:0.5, NaN, D-5, B-4, NaN
+-188:0.75, NaN, C5, A4, NaN
+-188:1.0, NaN, B-4, G4, NaN
+-188:1.5, NaN, C5, A4, NaN
+-188:2.0, NaN, D-5, B-4, NaN
+-189:0.0, NaN, NaN, G-4, Rest
+-189:1.0, NaN, G-5, E-4, NaN
+-189:1.125, B-5, NaN, NaN, NaN
+-189:1.75, NaN, E-5, NaN, NaN
+-189:2.0, NaN, D-5, A-4, NaN
+-189:2.875, G-5, NaN, NaN, NaN
+-190:0.0, NaN, NaN, A-3, Rest
+-190:0.125, F5, NaN, NaN, NaN
+-190:1.0, NaN, C5, Rest, NaN
+-190:2.0, NaN, F4, D-4, NaN
+-190:2.125, E-5, NaN, NaN, NaN
+-191:0.0, NaN, NaN, NaN, D-3
+-191:0.125, Rest, NaN, NaN, NaN
+-191:1.0, NaN, B-4, G-4, B-2
+-191:1.75, NaN, G-4, E-4, NaN
+-191:2.0, NaN, F4, D-4, G-2
+-192:0.0, NaN, NaN, NaN, A-2
+-192:0.125, Rest, NaN, NaN, NaN
+-192:1.0, NaN, E-4, C4, A-3
+-192:2.0, NaN, B-4, B-4, Rest
+-193:0.0, NaN, NaN, G-4, Rest
+-193:0.125, D-5, NaN, NaN, NaN
+-193:1.0, NaN, B-4, E-4, NaN
+-193:2.0, NaN, B-4, F4, NaN
+-193:2.125, G-5, NaN, NaN, NaN
+-193:2.875, E-5, NaN, NaN, NaN
+-194:0.0, NaN, NaN, F3, Rest
+-194:0.125, D-5, NaN, NaN, NaN
+-194:1.0, NaN, A4, Rest, NaN
+-194:2.0, NaN, D-4, B-3, NaN
+-194:2.125, C5, NaN, NaN, NaN
+-195:0.0, NaN, NaN, NaN, B-3
+-195:0.125, Rest, NaN, NaN, NaN
+-195:1.0, NaN, G-4, NaN, G-3
+-195:1.75, NaN, E-4, NaN, NaN
+-195:2.0, NaN, D-4, A-3, E-3
+-196:0.0, NaN, NaN, NaN, F3
+-196:0.125, Rest, NaN, NaN, NaN
+-196:1.125, D-5, NaN, NaN, NaN
+-196:2.0, NaN, A-4, F3, NaN
+-196:2.125, D-5, NaN, NaN, NaN
+-197:0.0, NaN, NaN, NaN, D-3
+-197:0.125, D-5, NaN, NaN, NaN
+-197:0.625, C-5, NaN, NaN, NaN
+-197:1.0, NaN, NaN, NaN, D-2
+-197:1.125, B-4, NaN, NaN, NaN
+-197:1.625, C-5, NaN, NaN, NaN
+-197:2.0, NaN, G-4, D-3, D-2
+-197:2.125, D-5, NaN, NaN, NaN
+-197:2.625, C-5, NaN, NaN, NaN
+-198:0.0, NaN, Rest, NaN, G-2
+-198:0.125, B-4, NaN, NaN, NaN
+-198:0.5, NaN, NaN, E-3, NaN
+-198:0.75, NaN, NaN, D-3, NaN
+-198:1.0, NaN, Rest, C3, NaN
+-198:1.125, Rest, NaN, NaN, NaN
+-198:1.5, NaN, NaN, D-3, NaN
+-198:2.0, NaN, Rest, D-3, NaN
+-198:2.125, Rest, NaN, NaN, NaN
+-199:0.0, NaN, B-3, NaN, NaN
+-199:0.125, Rest, NaN, NaN, NaN
+-199:1.0, NaN, B-3, NaN, NaN
+-199:1.125, Rest, NaN, NaN, NaN
+-199:1.625, B-4, NaN, NaN, NaN
+-199:2.0, NaN, C-4, NaN, NaN
+-199:2.125, B-4, NaN, NaN, NaN
+-200:0.0, NaN, NaN, NaN, A-2
+-200:0.125, D-5, NaN, NaN, NaN
+-200:0.5, NaN, NaN, E-3, NaN
+-200:0.75, NaN, NaN, D-3, NaN
+-200:1.0, NaN, NaN, C3, NaN
+-200:1.5, NaN, NaN, D-3, NaN
+-200:1.625, C-5, NaN, NaN, NaN
+-200:2.0, NaN, NaN, D-3, NaN
+-200:2.125, A-4, NaN, NaN, NaN
+-200:2.625, G-4, NaN, NaN, NaN
+-201:0.0, NaN, C-4, NaN, NaN
+-201:0.125, F4, NaN, NaN, NaN
+-201:1.0, NaN, C-4, NaN, NaN
+-201:1.125, Rest, NaN, NaN, NaN
+-201:1.625, C-5, NaN, NaN, NaN
+-201:2.0, NaN, D-4, NaN, NaN
+-201:2.125, C-5, NaN, NaN, NaN
+-202:0.0, NaN, NaN, NaN, B-2
+-202:0.125, E-5, NaN, NaN, NaN
+-202:0.5, NaN, NaN, E-3, NaN
+-202:0.75, NaN, NaN, D-3, NaN
+-202:1.0, NaN, NaN, C3, NaN
+-202:1.5, NaN, NaN, D-3, NaN
+-202:1.625, D-5, NaN, NaN, NaN
+-202:2.0, NaN, NaN, D-3, NaN
+-202:2.125, B-4, NaN, NaN, NaN
+-202:2.625, A-4, NaN, NaN, NaN
+-203:0.0, NaN, D-4, NaN, NaN
+-203:0.125, G-4, NaN, NaN, NaN
+-203:1.0, NaN, D-4, NaN, NaN
+-203:1.125, Rest, NaN, NaN, NaN
+-203:1.625, G-5, NaN, NaN, NaN
+-203:2.0, NaN, A-4, D-3, NaN
+-203:2.125, G-5, NaN, NaN, NaN
+-204:0.0, NaN, NaN, NaN, F2
+-204:0.125, B-5, NaN, NaN, NaN
+-204:0.5, NaN, NaN, E-3, NaN
+-204:0.75, NaN, NaN, D-3, NaN
+-204:1.0, NaN, A-4, C3, NaN
+-204:1.5, NaN, G-4, D-3, NaN
+-204:1.625, A-5, NaN, NaN, NaN
+-204:2.0, NaN, G-4, D-3, NaN
+-204:2.125, A-5, NaN, NaN, NaN
+-204:2.5, NaN, F4, NaN, NaN
+-204:2.625, G-5, NaN, NaN, NaN
+-205:0.0, NaN, F4, NaN, NaN
+-205:0.125, G-5, NaN, NaN, NaN
+-205:0.5, NaN, E-4, NaN, NaN
+-205:0.625, F5, NaN, NaN, NaN
+-205:1.0, NaN, D-4, NaN, A-2
+-205:1.125, F5, NaN, NaN, NaN
+-205:1.5, NaN, C-4, NaN, NaN
+-205:1.625, E-5, NaN, NaN, NaN
+-205:2.0, NaN, A3, D-3, D-2
+-205:2.125, D-5, NaN, NaN, NaN
+-205:2.625, C-5, NaN, NaN, NaN
+-206:0.0, NaN, B-3, NaN, G-2
+-206:0.125, A4, NaN, NaN, NaN
+-206:0.5, NaN, NaN, E-3, NaN
+-206:0.75, NaN, NaN, D-3, NaN
+-206:1.0, NaN, B-3, C3, NaN
+-206:1.125, B-4, NaN, NaN, NaN
+-206:1.5, NaN, NaN, D-3, NaN
+-206:2.0, NaN, B-3, D-3, NaN
+-206:2.125, B-4, NaN, NaN, NaN
+-207:0.0, NaN, NaN, NaN, F2
+-207:0.125, B-4, NaN, NaN, NaN
+-207:0.5, NaN, C4, NaN, NaN
+-207:0.75, NaN, B-3, NaN, NaN
+-207:1.0, NaN, A3, NaN, NaN
+-207:1.5, NaN, B-3, NaN, NaN
+-207:1.625, C5, NaN, NaN, NaN
+-207:1.875, B-4, NaN, NaN, NaN
+-207:2.0, NaN, G4, C3, NaN
+-207:2.125, A4, NaN, NaN, NaN
+-207:2.625, B-4, NaN, NaN, NaN
+-208:0.0, NaN, NaN, NaN, E2
+-208:0.125, G5, NaN, NaN, NaN
+-208:0.5, NaN, NaN, D-4, NaN
+-208:0.75, NaN, NaN, C4, NaN
+-208:1.0, NaN, G4, B3, NaN
+-208:1.5, NaN, NaN, C4, NaN
+-208:2.0, NaN, C4, C4, E3
+-208:2.125, B-4, NaN, NaN, NaN
+-209:0.0, NaN, C4, G3, F3
+-209:0.125, A-4, NaN, NaN, NaN
+-209:1.0, NaN, B3, A-3, E-3
+-209:1.125, G4, NaN, NaN, NaN
+-209:1.5, NaN, NaN, F3, NaN
+-209:2.0, NaN, G3, E3, D-3
+-209:2.125, F4, NaN, NaN, NaN
+-210:0.0, NaN, Rest, Rest, C3
+-210:0.125, C5, NaN, NaN, NaN
+-210:0.375, C4, NaN, NaN, NaN
+-210:0.5, NaN, G4, E4, NaN
+-210:0.625, D4, NaN, NaN, NaN
+-210:0.875, E4, NaN, NaN, NaN
+-210:1.0, NaN, G4, E4, Rest
+-210:1.125, F4, NaN, NaN, NaN
+-210:1.375, G4, NaN, NaN, NaN
+-210:1.5, NaN, A-4, F4, NaN
+-210:1.625, A4, NaN, NaN, NaN
+-210:1.875, B4, NaN, NaN, NaN
+-210:2.0, NaN, G4, E4, Rest
+-210:2.125, C5, NaN, NaN, NaN
+-210:2.375, B4, NaN, NaN, NaN
+-210:2.625, C5, NaN, NaN, NaN
+-210:2.875, B4, NaN, NaN, NaN
+-211:0.0, NaN, Rest, Rest, Rest
+-211:0.125, C5, NaN, NaN, NaN
++186:1.0, NaN, NaN, C4, NaN
++186:1.5, NaN, NaN, B3, NaN
++186:2.0, G4, E4, C4, NaN
++187:0.0, Rest, B-4, Rest, Rest
++187:1.5, NaN, C5, NaN, NaN
++187:1.75, NaN, B-4, NaN, NaN
++187:2.0, NaN, A4, NaN, NaN
++187:2.5, NaN, B-4, NaN, NaN
++188:0.0, F5, C5, A4, Rest
++188:1.5, NaN, D-5, B-4, NaN
++188:1.75, NaN, C5, A4, NaN
++188:2.0, NaN, B-4, G4, NaN
++188:2.5, NaN, C5, A4, NaN
++189:0.0, NaN, D-5, B-4, Rest
++189:1.0, B-5, NaN, G-4, NaN
++189:2.0, B-5, G-5, E-4, NaN
++189:2.75, G-5, E-5, NaN, NaN
++190:0.0, F5, D-5, A-4, Rest
++190:1.0, NaN, NaN, A-3, NaN
++190:2.0, E-5, C5, Rest, NaN
++191:0.0, Rest, F4, D-4, D-3
++191:1.0, NaN, NaN, NaN, B-2
++191:2.0, NaN, B-4, G-4, G-2
++191:2.75, NaN, G-4, E-4, NaN
++192:0.0, Rest, F4, D-4, A-2
++192:1.0, NaN, NaN, NaN, A-3
++192:2.0, NaN, E-4, C4, Rest
++193:0.0, D-5, B-4, B-4, Rest
++193:1.0, NaN, NaN, G-4, NaN
++193:2.0, G-5, C5, E-4, NaN
++193:2.75, E5, NaN, NaN, NaN
++194:0.0, D-5, B-4, F4, Rest
++194:1.0, NaN, NaN, F3, NaN
++194:2.0, C5, A4, Rest, NaN
++195:0.0, Rest, D-4, B-3, B-3
++195:1.0, NaN, NaN, NaN, G-3
++195:2.0, NaN, G-4, B-3, E-3
++195:2.75, NaN, E-4, NaN, NaN
++196:0.0, Rest, D-4, A-3, F3
++196:1.0, D-5, NaN, NaN, NaN
++196:2.0, D-5, NaN, NaN, NaN
++197:0.0, D-5, A-4, F3, D-3
++197:0.5, C-5, NaN, NaN, NaN
++197:1.0, B-4, NaN, NaN, D-2
++197:1.5, C-5, NaN, NaN, NaN
++197:2.0, D-5, NaN, NaN, D-2
++197:2.5, C-5, NaN, NaN, NaN
++198:0.0, B-4, G-4, D-3, G-2
++198:1.0, Rest, Rest, NaN, NaN
++198:1.5, NaN, NaN, E-3, NaN
++198:1.75, NaN, NaN, D-3, NaN
++198:2.0, Rest, Rest, C3, NaN
++198:2.5, NaN, NaN, D-3, NaN
++199:0.0, Rest, Rest, D-3, NaN
++199:1.0, Rest, B-3, NaN, NaN
++199:1.5, B-4, NaN, NaN, NaN
++199:2.0, B-4, B-3, NaN, NaN
++200:0.0, D-5, C-4, D-3, A-2
++200:1.5, C-5, NaN, E-3, NaN
++200:1.75, NaN, NaN, D-3, NaN
++200:2.0, A-4, NaN, C3, NaN
++200:2.5, G-4, NaN, D-3, NaN
++201:0.0, F4, NaN, D-3, NaN
++201:1.0, Rest, C-4, NaN, NaN
++201:1.5, C-5, NaN, NaN, NaN
++201:2.0, C-5, C-4, NaN, NaN
++202:0.0, E-5, D-4, D-3, B-2
++202:1.5, D-5, NaN, E-3, NaN
++202:1.75, NaN, NaN, D-3, NaN
++202:2.0, B-4, NaN, C3, NaN
++202:2.5, A-4, NaN, D-3, NaN
++203:0.0, G-4, NaN, D-3, NaN
++203:1.0, Rest, D-4, NaN, NaN
++203:1.5, G-5, NaN, NaN, NaN
++203:2.0, G-5, D-4, NaN, NaN
++204:0.0, B-5, A-4, D-3, F2
++204:1.5, A-5, NaN, E-3, NaN
++204:1.75, NaN, NaN, D-3, NaN
++204:2.0, A-5, A-4, C3, NaN
++204:2.5, G-5, G-4, D-3, NaN
++205:0.0, G-5, G-4, D-3, NaN
++205:0.5, F5, F4, NaN, NaN
++205:1.0, F5, F4, NaN, A-2
++205:1.5, E-5, E-4, NaN, NaN
++205:2.0, D-5, D-4, NaN, D-2
++205:2.5, C-5, C-4, NaN, NaN
++206:0.0, A4, A3, D-3, G-2
++206:1.0, B-4, B-3, NaN, NaN
++206:1.5, NaN, NaN, E-3, NaN
++206:1.75, NaN, NaN, D-3, NaN
++206:2.0, B-4, B-3, C3, NaN
++206:2.5, NaN, NaN, D-3, NaN
++207:0.0, B-4, B-3, D-3, F2
++207:1.5, C5, C4, NaN, NaN
++207:1.75, B-4, B-3, NaN, NaN
++207:2.0, A4, A3, NaN, NaN
++207:2.5, B-4, B-3, NaN, NaN
++208:0.0, G5, G4, C3, E2
++208:1.5, NaN, NaN, D-4, NaN
++208:1.75, NaN, NaN, C4, NaN
++208:2.0, B-4, G4, B3, E3
++208:2.5, NaN, NaN, C4, NaN
++209:0.0, A-4, C4, C4, F3
++209:1.0, G4, C4, G3, E-3
++209:2.0, F4, B3, A-3, D-3
++209:2.5, NaN, NaN, F3, NaN
++210:0.0, C5, G3, E3, C3
++210:0.25, C4, NaN, NaN, NaN
++210:0.5, D4, NaN, NaN, NaN
++210:0.75, E4, NaN, NaN, NaN
++210:1.0, F4, Rest, Rest, Rest
++210:1.25, G4, NaN, NaN, NaN
++210:1.5, A4, G4, E4, NaN
++210:1.75, B4, NaN, NaN, NaN
++210:2.0, C5, G4, E4, Rest
++210:2.25, B4, NaN, NaN, NaN
++210:2.5, C5, A-4, F4, NaN
++210:2.75, B4, NaN, NaN, NaN
++211:0.0, C5, G4, E4, Rest
+ 211:0.25, NaN, NaN, NaN, C3
+-211:0.5, NaN, G4, C4, D3
++211:0.5, NaN, NaN, NaN, D3
+ 211:0.75, NaN, NaN, NaN, E3
+-211:1.0, NaN, G4, C4, F3
+-211:1.125, Rest, NaN, NaN, NaN
++211:1.0, Rest, Rest, Rest, F3
+ 211:1.25, NaN, NaN, NaN, G3
+-211:1.5, NaN, A-4, C4, A3
+-211:1.625, E5, NaN, NaN, NaN
++211:1.5, E5, G4, C4, A3
+ 211:1.75, NaN, NaN, NaN, B3
+-211:2.0, NaN, G4, C4, C4
+-211:2.125, E5, NaN, NaN, NaN
++211:2.0, E5, G4, C4, C4
+ 211:2.25, NaN, NaN, NaN, B3
+-211:2.5, NaN, NaN, NaN, C4
+-211:2.625, F5, NaN, NaN, NaN
++211:2.5, F5, A-4, C4, C4
+ 211:2.75, NaN, NaN, NaN, B3
+-212:0.0, NaN, Rest, Rest, C4
+-212:0.125, E5, NaN, NaN, NaN
+-212:0.375, C4, NaN, NaN, NaN
+-212:0.5, NaN, G3, E3, NaN
+-212:0.625, D4, NaN, NaN, NaN
+-212:0.875, E4, NaN, NaN, NaN
+-212:1.0, NaN, G3, E3, Rest
+-212:1.125, F4, NaN, NaN, NaN
+-212:1.375, G4, NaN, NaN, NaN
+-212:1.5, NaN, A-3, F3, NaN
+-212:1.625, A4, NaN, NaN, NaN
+-212:1.875, B4, NaN, NaN, NaN
+-212:2.0, NaN, G3, E3, Rest
+-212:2.125, C5, NaN, NaN, NaN
+-212:2.375, B4, NaN, NaN, NaN
+-212:2.625, C5, NaN, NaN, NaN
+-212:2.875, B4, NaN, NaN, NaN
+-213:0.0, NaN, Rest, Rest, Rest
+-213:0.125, C5, NaN, NaN, NaN
++212:0.0, E5, G4, C4, C4
++212:0.25, C4, NaN, NaN, NaN
++212:0.5, D4, NaN, NaN, NaN
++212:0.75, E4, NaN, NaN, NaN
++212:1.0, F4, Rest, Rest, Rest
++212:1.25, G4, NaN, NaN, NaN
++212:1.5, A4, G3, E3, NaN
++212:1.75, B4, NaN, NaN, NaN
++212:2.0, C5, G3, E3, Rest
++212:2.25, B4, NaN, NaN, NaN
++212:2.5, C5, A-3, F3, NaN
++212:2.75, B4, NaN, NaN, NaN
++213:0.0, C5, G3, E3, Rest
+ 213:0.25, NaN, NaN, NaN, C3
+-213:0.5, NaN, G4, C4, D3
++213:0.5, NaN, NaN, NaN, D3
+ 213:0.75, NaN, NaN, NaN, E3
+-213:1.0, NaN, G4, C4, F3
+-213:1.125, Rest, NaN, NaN, NaN
++213:1.0, Rest, Rest, Rest, F3
+ 213:1.25, NaN, NaN, NaN, G3
+-213:1.5, NaN, A-4, C4, A3
+-213:1.625, E5, NaN, NaN, NaN
++213:1.5, E5, G4, C4, A3
+ 213:1.75, NaN, NaN, NaN, B3
+-213:2.0, NaN, G4, C4, C4
+-213:2.125, E5, NaN, NaN, NaN
++213:2.0, E5, G4, C4, C4
+ 213:2.25, NaN, NaN, NaN, B3
+-213:2.5, NaN, NaN, NaN, C4
+-213:2.625, F5, NaN, NaN, NaN
++213:2.5, F5, A-4, C4, C4
+ 213:2.75, NaN, NaN, NaN, B3
+-214:0.0, NaN, Rest, Rest, C4
+-214:0.125, E5, NaN, NaN, NaN
+-214:0.375, C4, NaN, NaN, NaN
+-214:0.5, NaN, E5, G4, NaN
+-214:0.625, D4, NaN, NaN, NaN
+-214:0.875, E4, NaN, NaN, NaN
+-214:1.0, NaN, E5, G4, Rest
+-214:1.125, F4, NaN, NaN, NaN
+-214:1.375, G4, NaN, NaN, NaN
+-214:1.5, NaN, F5, A-4, C4
+-214:1.625, A4, NaN, NaN, NaN
+-214:1.875, B4, NaN, NaN, NaN
+-214:2.0, NaN, E5, G4, C4
+-214:2.125, C5, NaN, NaN, NaN
+-214:2.25, NaN, C4, C3, NaN
+-214:2.375, B4, NaN, NaN, NaN
+-214:2.5, NaN, D4, D3, F3
+-214:2.625, C5, NaN, NaN, NaN
+-214:2.75, NaN, E4, E3, NaN
+-214:2.875, B4, NaN, NaN, NaN
+-215:0.0, NaN, F4, F3, C4
+-215:0.125, C5, NaN, NaN, NaN
+-215:0.25, NaN, G4, G3, C2
+-215:0.375, C5, NaN, NaN, NaN
+-215:0.5, NaN, A4, A3, D2
+-215:0.625, D5, NaN, NaN, NaN
+-215:0.75, NaN, B4, B3, E2
+-215:0.875, E5, NaN, NaN, NaN
+-215:1.0, NaN, C5, C4, F2
+-215:1.125, F5, NaN, NaN, NaN
+-215:1.25, NaN, B4, B3, G2
+-215:1.375, G5, NaN, NaN, NaN
+-215:1.5, NaN, C5, C4, A2
+-215:1.625, A5, NaN, NaN, NaN
+-215:1.75, NaN, B4, B3, B2
+-215:1.875, B5, NaN, NaN, NaN
+-215:2.0, NaN, C5, C4, C3
+-215:2.125, C6, NaN, NaN, NaN
+-215:2.25, NaN, NaN, NaN, B2
+-215:2.375, B5, NaN, NaN, NaN
+-215:2.5, NaN, NaN, NaN, C3
+-215:2.625, C6, NaN, NaN, NaN
+-215:2.75, NaN, NaN, NaN, B2
+-215:2.875, B5, NaN, NaN, NaN
+-216:0.0, NaN, Rest, Rest, C3
+-216:0.125, C6, NaN, NaN, NaN
+-216:0.625, C6, NaN, NaN, NaN
++214:0.0, E5, G4, C4, C4
++214:0.25, C4, NaN, NaN, NaN
++214:0.5, D4, NaN, NaN, NaN
++214:0.75, E4, NaN, NaN, NaN
++214:1.0, F4, Rest, Rest, Rest
++214:1.25, G4, NaN, NaN, NaN
++214:1.5, A4, E5, G4, C4
++214:1.75, B4, NaN, NaN, NaN
++214:2.0, C5, E5, G4, C4
++214:2.25, B4, NaN, NaN, NaN
++214:2.5, C5, F5, A-4, F3
++214:2.75, B4, NaN, NaN, NaN
++215:0.0, C5, E5, G4, C4
++215:0.25, C5, C4, C3, C2
++215:0.5, D5, D4, D3, D2
++215:0.75, E5, E4, E3, E2
++215:1.0, F5, F4, F3, F2
++215:1.25, G5, G4, G3, G2
++215:1.5, A5, A4, A3, A2
++215:1.75, B5, B4, B3, B2
++215:2.0, C6, C5, C4, C3
++215:2.25, B5, B4, B3, B2
++215:2.5, C6, C5, C4, C3
++215:2.75, B5, B4, B3, B2
++216:0.0, C6, C5, C4, C3
++216:0.5, C6, NaN, NaN, NaN
+ 216:1.0, NaN, Rest, Rest, Rest
+-216:1.625, C6, NaN, NaN, NaN
+-216:2.0, NaN, Rest, Rest, Rest
+-216:2.625, C6, NaN, NaN, NaN
+-217:0.0, NaN, NaN, NaN, Rest
+-217:0.125, C#6, NaN, NaN, NaN
+-217:0.625, C#6, NaN, NaN, NaN
+-217:1.625, C#6, NaN, NaN, NaN
+-217:2.0, NaN, Rest, Rest, NaN
+-217:2.625, C#6, NaN, NaN, NaN
+-218:0.0, NaN, NaN, NaN, Rest
+-218:0.125, D6, NaN, NaN, NaN
+-218:0.625, D6, NaN, NaN, NaN
+-218:1.125, B-5, NaN, NaN, NaN
+-218:1.625, B-5, NaN, NaN, NaN
+-218:2.0, NaN, Rest, Rest, NaN
+-218:2.125, G5, NaN, NaN, NaN
+-218:2.625, G5, NaN, NaN, NaN
+-219:0.0, NaN, Rest, Rest, Rest
+-219:0.125, E5, NaN, NaN, NaN
+-219:0.625, E5, NaN, NaN, NaN
+-219:1.0, NaN, C5, B-4, NaN
+-219:1.125, C5, NaN, NaN, NaN
+-219:1.5, NaN, C5, B-4, NaN
+-219:1.625, C5, NaN, NaN, NaN
+-219:2.0, NaN, NaN, A4, NaN
+-219:2.125, E5, NaN, NaN, NaN
+-219:2.5, NaN, C5, A4, NaN
+-219:2.625, E5, NaN, NaN, NaN
+-220:0.0, NaN, E5, G4, Rest
+-220:0.125, F5, NaN, NaN, NaN
+-220:0.5, NaN, E5, G4, NaN
+-220:0.625, F5, NaN, NaN, NaN
+-220:1.0, NaN, F5, F4, NaN
+-220:1.125, G5, NaN, NaN, NaN
+-220:1.5, NaN, F5, F4, NaN
+-220:1.625, G5, NaN, NaN, NaN
+-220:2.0, NaN, A5, E4, NaN
+-220:2.125, A5, NaN, NaN, NaN
+-220:2.625, A5, NaN, NaN, NaN
+-221:0.0, NaN, G5, NaN, Rest
+-221:0.125, C6, NaN, NaN, NaN
+-221:0.5, NaN, Rest, Rest, NaN
+-221:1.0, NaN, Rest, A4, NaN
+-221:1.125, B-5, NaN, NaN, NaN
+-221:1.5, NaN, NaN, A4, NaN
+-221:1.625, Rest, NaN, NaN, NaN
+-221:2.0, NaN, Rest, B-4, NaN
+-221:2.125, Rest, NaN, NaN, NaN
+-221:2.5, NaN, NaN, B-4, NaN
+-222:0.0, NaN, NaN, G4, Rest
+-222:0.125, Rest, NaN, NaN, NaN
+-222:0.5, NaN, NaN, G4, NaN
+-222:1.0, NaN, NaN, E4, NaN
+-222:1.5, NaN, NaN, E4, NaN
+-222:2.0, NaN, Rest, C#4, NaN
+-222:2.5, NaN, NaN, C#4, NaN
+-223:0.0, NaN, Rest, A4, Rest
+-223:0.125, Rest, NaN, NaN, NaN
+-223:0.5, NaN, NaN, A4, NaN
+-223:1.0, NaN, E5, G4, NaN
+-223:1.125, Rest, NaN, NaN, NaN
+-223:1.5, NaN, NaN, G4, NaN
+-223:2.0, NaN, F5, F4, NaN
+-223:2.125, C#6, NaN, NaN, NaN
+-223:2.5, NaN, NaN, F4, NaN
+-224:0.0, NaN, A5, D4, Rest
+-224:0.125, D6, NaN, NaN, NaN
+-224:0.5, NaN, NaN, D4, NaN
+-224:1.0, NaN, D5, G4, NaN
+-224:1.125, F6, NaN, NaN, NaN
+-224:1.5, NaN, NaN, G4, NaN
+-224:2.0, NaN, F5, C4, NaN
+-224:2.125, B5, NaN, NaN, NaN
+-225:0.0, NaN, E5, NaN, Rest
+-225:0.125, D6, NaN, NaN, NaN
+-225:0.5, NaN, Rest, Rest, NaN
+-225:1.0, NaN, Rest, Rest, Rest
+-225:1.125, C6, NaN, NaN, NaN
+-225:1.5, NaN, NaN, NaN, B3
+-225:1.625, Rest, NaN, NaN, NaN
+-225:2.0, NaN, Rest, Rest, C4
+-225:2.125, Rest, NaN, NaN, NaN
++216:1.5, C6, NaN, NaN, NaN
++216:2.0, NaN, Rest, NaN, Rest
++216:2.5, C6, NaN, NaN, NaN
++217:0.0, C#6, Rest, Rest, Rest
++217:0.5, C#6, NaN, NaN, NaN
++217:1.5, C#6, NaN, NaN, NaN
++217:2.5, C#6, NaN, NaN, NaN
++218:0.0, D6, Rest, Rest, Rest
++218:0.5, D6, NaN, NaN, NaN
++218:1.0, B-5, NaN, NaN, NaN
++218:1.5, B-5, NaN, NaN, NaN
++218:2.0, G5, NaN, NaN, NaN
++218:2.5, G5, NaN, NaN, NaN
++219:0.0, E5, Rest, Rest, Rest
++219:0.5, E5, NaN, NaN, NaN
++219:1.0, C5, Rest, Rest, NaN
++219:1.5, C5, NaN, NaN, NaN
++219:2.0, E5, C5, B-4, NaN
++219:2.5, E5, C5, B-4, NaN
++220:0.0, F5, NaN, A4, Rest
++220:0.5, F5, C5, A4, NaN
++220:1.0, G5, E5, G4, NaN
++220:1.5, G5, E5, G4, NaN
++220:2.0, A5, F5, F4, NaN
++220:2.5, A5, F5, F4, NaN
++221:0.0, C6, A5, E4, Rest
++221:1.0, B-5, G5, NaN, NaN
++221:1.5, Rest, Rest, Rest, NaN
++221:2.0, Rest, Rest, A4, NaN
++221:2.5, NaN, NaN, A4, NaN
++222:0.0, Rest, Rest, B-4, Rest
++222:0.5, NaN, NaN, B-4, NaN
++222:1.0, NaN, NaN, G4, NaN
++222:1.5, NaN, NaN, G4, NaN
++222:2.0, NaN, NaN, E4, NaN
++222:2.5, NaN, NaN, E4, NaN
++223:0.0, Rest, Rest, C#4, Rest
++223:0.5, NaN, NaN, C#4, NaN
++223:1.0, Rest, Rest, A4, NaN
++223:1.5, NaN, NaN, A4, NaN
++223:2.0, C#6, E5, G4, NaN
++223:2.5, NaN, NaN, G4, NaN
++224:0.0, D6, F5, F4, Rest
++224:0.5, NaN, NaN, F4, NaN
++224:1.0, F6, A5, D4, NaN
++224:1.5, NaN, NaN, D4, NaN
++224:2.0, B5, D5, G4, NaN
++224:2.5, NaN, NaN, G4, NaN
++225:0.0, D6, F5, C4, Rest
++225:1.0, C6, E5, NaN, Rest
++225:1.5, Rest, Rest, Rest, B3
++225:2.0, Rest, Rest, Rest, C4
+ 225:2.5, NaN, NaN, NaN, C#4
+-226:0.0, NaN, NaN, NaN, D4
+-226:0.125, Rest, NaN, NaN, NaN
++226:0.0, Rest, Rest, Rest, D4
+ 226:0.5, NaN, NaN, NaN, D4
+ 226:1.0, NaN, NaN, NaN, B-3
+ 226:1.5, NaN, NaN, NaN, B-3
+-226:2.0, NaN, Rest, Rest, G3
++226:2.0, NaN, NaN, NaN, G3
+ 226:2.5, NaN, NaN, NaN, G3
+-227:0.0, NaN, Rest, Rest, E3
+-227:0.125, Rest, NaN, NaN, NaN
++227:0.0, Rest, Rest, Rest, E3
+ 227:0.5, NaN, NaN, NaN, E3
+-227:1.0, NaN, C5, G4, C3
+-227:1.125, Rest, NaN, NaN, NaN
+-227:1.5, NaN, C5, G4, C3
+-227:2.0, NaN, NaN, F4, E3
+-227:2.125, B-5, NaN, NaN, NaN
+-227:2.5, NaN, C5, F4, E3
+-227:2.625, B-5, NaN, NaN, NaN
+-228:0.0, NaN, B-4, E4, F3
+-228:0.125, A5, NaN, NaN, NaN
+-228:0.5, NaN, B-4, E4, F3
+-228:0.625, A5, NaN, NaN, NaN
+-228:1.0, NaN, A4, C4, G3
+-228:1.125, G5, NaN, NaN, NaN
+-228:1.5, NaN, A4, C4, G3
+-228:1.625, G5, NaN, NaN, NaN
+-228:2.0, NaN, G4, D-4, A3
+-228:2.125, F5, NaN, NaN, NaN
+-228:2.5, NaN, NaN, NaN, A3
+-228:2.625, F5, NaN, NaN, NaN
+-229:0.0, NaN, NaN, NaN, B-3
+-229:0.125, F5, NaN, NaN, NaN
+-229:0.5, NaN, Rest, Rest, NaN
+-229:1.0, NaN, C5, Rest, NaN
+-229:1.125, E5, NaN, NaN, NaN
+-229:1.5, NaN, C5, NaN, Rest
+-229:2.0, NaN, D-5, Rest, Rest
+-229:2.125, Rest, NaN, NaN, NaN
+-229:2.5, NaN, D-5, NaN, NaN
+-230:0.0, NaN, B-4, D-5, Rest
+-230:0.125, Rest, NaN, NaN, NaN
+-230:0.5, NaN, B-4, D-5, NaN
+-230:1.0, NaN, G4, B-4, NaN
+-230:1.125, Rest, NaN, NaN, NaN
+-230:1.5, NaN, G4, B-4, NaN
+-230:2.0, NaN, E4, G4, NaN
+-230:2.125, D-6, NaN, NaN, NaN
+-230:2.5, NaN, E4, G4, NaN
+-231:0.0, NaN, F4, A-4, Rest
+-231:0.125, D6, NaN, NaN, NaN
+-231:0.5, NaN, A-5, F4, NaN
+-231:1.0, NaN, NaN, B-3, NaN
+-231:1.125, C6, NaN, NaN, NaN
+-231:1.5, NaN, A-5, B-3, NaN
+-231:2.0, NaN, A-5, C4, NaN
+-231:2.125, F6, NaN, NaN, NaN
+-231:2.5, NaN, NaN, C4, NaN
+-232:0.0, NaN, NaN, C5, Rest
+-232:0.125, F6, NaN, NaN, NaN
+-232:0.5, NaN, NaN, C5, NaN
+-232:1.0, NaN, B-5, C4, NaN
+-232:1.5, NaN, NaN, C4, NaN
+-232:1.75, NaN, G5, NaN, NaN
+-232:2.0, NaN, F5, F4, NaN
+-232:2.125, G6, NaN, NaN, NaN
+-232:2.5, NaN, A3, F3, NaN
+-232:2.875, E6, NaN, NaN, NaN
+-233:0.0, NaN, A3, F3, C5
+-233:0.125, F6, NaN, NaN, NaN
++227:1.0, Rest, Rest, Rest, C3
++227:1.5, NaN, NaN, NaN, C3
++227:2.0, B-5, C5, G4, E3
++227:2.5, B-5, C5, G4, E3
++228:0.0, A5, NaN, F4, F3
++228:0.5, A5, C5, F4, F3
++228:1.0, G5, B-4, E4, G3
++228:1.5, G5, B-4, E4, G3
++228:2.0, F5, A4, C4, A3
++228:2.5, F5, A4, C4, A3
++229:0.0, F5, G4, D-4, B-3
++229:1.0, E5, NaN, NaN, NaN
++229:1.5, NaN, Rest, Rest, Rest
++229:2.0, Rest, C5, Rest, Rest
++229:2.5, NaN, C5, NaN, NaN
++230:0.0, Rest, D-5, Rest, Rest
++230:0.5, NaN, D-5, NaN, NaN
++230:1.0, Rest, B-4, D-5, NaN
++230:1.5, NaN, B-4, D-5, NaN
++230:2.0, D-6, G4, B-4, NaN
++230:2.5, NaN, G4, B-4, NaN
++231:0.0, NaN, E4, G4, Rest
++231:0.5, NaN, E4, G4, NaN
++231:1.0, C6, F4, A-4, NaN
++231:1.5, NaN, A-5, F4, NaN
++231:2.0, F6, NaN, B3, NaN
++231:2.5, NaN, A-5, B3, NaN
++232:0.0, F6, A-5, C4, Rest
++232:0.5, NaN, NaN, C4, NaN
++232:1.0, NaN, NaN, C5, NaN
++232:1.5, NaN, NaN, C5, NaN
++232:2.0, G6, B-5, C4, NaN
++232:2.5, NaN, NaN, C4, NaN
++232:2.75, E6, G5, NaN, NaN
++233:0.0, F6, F5, F4, C4
+ 233:0.5, NaN, A3, F3, NaN
+-233:1.0, NaN, A3, F3, NaN
+-233:1.125, Rest, NaN, NaN, NaN
+-233:1.5, NaN, A3, F3, D5
+-233:1.75, NaN, NaN, NaN, C5
+-233:2.0, NaN, A3, F3, B4
+-233:2.125, Rest, NaN, NaN, NaN
+-233:2.5, NaN, NaN, NaN, C5
+-234:0.0, NaN, NaN, NaN, C5
+-234:0.125, A5, NaN, NaN, NaN
+-234:1.0, NaN, NaN, G3, NaN
+-234:1.625, B-5, NaN, NaN, NaN
+-234:1.875, A5, NaN, NaN, NaN
+-234:2.0, NaN, B-3, NaN, NaN
+-234:2.125, G5, NaN, NaN, NaN
+-234:2.625, F5, NaN, NaN, NaN
+-235:0.0, NaN, NaN, NaN, C5
+-235:0.125, E5, NaN, NaN, NaN
+-235:1.0, NaN, NaN, G3, NaN
+-235:1.125, Rest, NaN, NaN, NaN
+-235:1.5, NaN, NaN, NaN, D5
+-235:1.75, NaN, NaN, NaN, C5
+-235:2.0, NaN, B-3, NaN, B4
+-235:2.125, Rest, NaN, NaN, NaN
+-235:2.5, NaN, B-3, NaN, C5
+-236:0.0, NaN, B-3, NaN, C5
+-236:0.125, B-5, NaN, NaN, NaN
+-236:0.5, NaN, B-3, NaN, NaN
+-236:1.0, NaN, B-3, A3, NaN
+-236:1.5, NaN, B-3, NaN, NaN
+-236:1.625, C6, NaN, NaN, NaN
+-236:1.875, B-5, NaN, NaN, NaN
+-236:2.0, NaN, C4, NaN, NaN
+-236:2.125, A5, NaN, NaN, NaN
+-236:2.5, NaN, C4, NaN, NaN
+-236:2.625, G5, NaN, NaN, NaN
+-237:0.0, NaN, C4, NaN, C5
+-237:0.125, F#5, NaN, NaN, NaN
+-237:0.5, NaN, C4, NaN, NaN
+-237:1.0, NaN, C4, A3, NaN
+-237:1.125, Rest, NaN, NaN, NaN
+-237:1.5, NaN, C4, NaN, D5
+-237:1.75, NaN, NaN, NaN, C5
+-237:2.0, NaN, C4, NaN, B4
+-237:2.125, Rest, NaN, NaN, NaN
+-237:2.5, NaN, NaN, NaN, C5
+-238:0.0, NaN, NaN, NaN, E-5
+-238:0.125, E-6, NaN, NaN, NaN
+-238:1.0, NaN, NaN, B-3, NaN
+-238:1.625, D6, NaN, NaN, NaN
+-238:1.875, C6, NaN, NaN, NaN
+-238:2.0, NaN, G4, D4, C5
+-238:2.125, B-5, NaN, NaN, NaN
+-238:2.375, A5, NaN, NaN, NaN
+-238:2.625, G5, NaN, NaN, NaN
+-238:2.875, F#5, NaN, NaN, NaN
+-239:0.0, NaN, B-3, Rest, D5
+-239:0.125, G5, NaN, NaN, NaN
+-239:0.375, D5, NaN, NaN, NaN
+-239:0.625, E5, NaN, NaN, NaN
+-239:0.875, F#5, NaN, NaN, NaN
+-239:1.0, NaN, Rest, Rest, B-2
+-239:1.125, G5, NaN, NaN, NaN
+-239:1.375, A5, NaN, NaN, NaN
+-239:1.625, B-5, NaN, NaN, NaN
+-239:1.875, A5, NaN, NaN, NaN
+-239:2.0, NaN, Rest, NaN, Rest
+-239:2.125, G5, NaN, NaN, NaN
+-239:2.375, D5, NaN, NaN, NaN
+-239:2.625, E5, NaN, NaN, NaN
+-239:2.875, F#5, NaN, NaN, NaN
+-240:0.0, NaN, NaN, NaN, Rest
+-240:0.125, G5, NaN, NaN, NaN
+-240:0.375, A5, NaN, NaN, NaN
+-240:0.625, B-5, NaN, NaN, NaN
+-240:0.875, A5, NaN, NaN, NaN
+-240:1.0, NaN, NaN, Rest, NaN
+-240:1.125, G5, NaN, NaN, NaN
+-240:1.375, D5, NaN, NaN, NaN
+-240:1.625, E5, NaN, NaN, NaN
+-240:1.875, F#5, NaN, NaN, NaN
+-240:2.0, NaN, Rest, Rest, NaN
+-240:2.125, G5, NaN, NaN, NaN
+-240:2.375, A5, NaN, NaN, NaN
+-240:2.625, B-5, NaN, NaN, NaN
+-240:2.875, A5, NaN, NaN, NaN
+-241:0.0, NaN, Rest, Rest, Rest
+-241:0.125, G5, NaN, NaN, NaN
+-241:0.25, NaN, NaN, D3, NaN
+-241:0.375, D5, NaN, NaN, NaN
+-241:0.5, NaN, NaN, E3, NaN
+-241:0.625, E5, NaN, NaN, NaN
+-241:0.75, NaN, NaN, F#3, NaN
+-241:0.875, F#5, NaN, NaN, NaN
+-241:1.0, NaN, Rest, G3, Rest
+-241:1.125, G5, NaN, NaN, NaN
+-241:1.25, NaN, D4, A3, NaN
+-241:1.375, A5, NaN, NaN, NaN
+-241:1.5, NaN, E4, B-3, NaN
+-241:1.625, B-5, NaN, NaN, NaN
+-241:1.75, NaN, F#4, C4, NaN
+-241:1.875, A5, NaN, NaN, NaN
+-241:2.0, NaN, G4, D4, Rest
+-241:2.125, G5, NaN, NaN, NaN
+-241:2.25, NaN, A4, C4, D3
+-241:2.375, D5, NaN, NaN, NaN
+-241:2.5, NaN, B-4, B-3, E3
+-241:2.625, E5, NaN, NaN, NaN
+-241:2.75, NaN, C5, A3, F#3
+-241:2.875, F#5, NaN, NaN, NaN
+-242:0.0, NaN, D5, G3, G3
+-242:0.125, G5, NaN, NaN, NaN
+-242:0.25, NaN, C5, F3, A3
+-242:0.375, A5, NaN, NaN, NaN
+-242:0.5, NaN, B-4, E3, B-3
+-242:0.625, B-5, NaN, NaN, NaN
+-242:0.75, NaN, A4, D3, C4
+-242:0.875, C6, NaN, NaN, NaN
+-242:1.0, NaN, G4, C3, D4
+-242:1.125, D6, NaN, NaN, NaN
+-242:1.25, NaN, F4, NaN, C4
+-242:1.375, C6, NaN, NaN, NaN
+-242:1.5, NaN, E4, NaN, B-3
+-242:1.625, B-5, NaN, NaN, NaN
+-242:1.75, NaN, D4, NaN, A3
+-242:1.875, A5, NaN, NaN, NaN
+-242:2.0, NaN, C4, NaN, G3
+-242:2.125, G5, NaN, NaN, NaN
+-242:2.25, NaN, NaN, NaN, F3
+-242:2.375, F5, NaN, NaN, NaN
+-242:2.5, NaN, NaN, D3, E3
+-242:2.625, E5, NaN, NaN, NaN
+-242:2.75, NaN, NaN, E3, D3
+-242:2.875, D5, NaN, NaN, NaN
+-243:0.0, NaN, NaN, F3, C3
+-243:0.125, C5, NaN, NaN, NaN
+-243:0.25, NaN, NaN, G3, NaN
+-243:0.5, NaN, D4, A3, NaN
+-243:0.75, NaN, E4, B3, NaN
+-243:1.0, NaN, F4, C4, NaN
+-243:1.25, NaN, G4, NaN, NaN
+-243:1.5, NaN, A4, B-3, D3
+-243:1.75, NaN, B4, NaN, E3
+-243:2.0, NaN, C5, B-3, F3
+-243:2.25, NaN, NaN, NaN, G3
+-243:2.5, NaN, E4, B-3, A3
+-243:2.75, NaN, NaN, NaN, B3
+-244:0.0, NaN, E4, B-3, C4
+-244:0.125, G5, NaN, NaN, NaN
++233:1.0, Rest, A3, F3, NaN
++233:1.5, NaN, A3, F3, D4
++233:1.75, NaN, NaN, NaN, C4
++233:2.0, Rest, A3, F3, B3
++233:2.5, NaN, A3, F3, C4
++234:0.0, A5, A3, F3, C4
++234:0.5, NaN, A3, F3, NaN
++234:1.0, NaN, A3, F3, NaN
++234:1.5, B-5, A3, F3, NaN
++234:1.75, A5, NaN, NaN, NaN
++234:2.0, G5, A3, F3, NaN
++234:2.5, F5, A3, F3, NaN
++235:0.0, E5, B-3, G3, C4
++235:0.5, NaN, B-3, G3, NaN
++235:1.0, Rest, B-3, G3, NaN
++235:1.5, NaN, B-3, G3, D4
++235:1.75, NaN, NaN, NaN, C4
++235:2.0, Rest, B-3, G3, B3
++235:2.5, NaN, B-3, G3, C4
++236:0.0, B-5, B-3, G3, C4
++236:0.5, NaN, B-3, G3, NaN
++236:1.0, NaN, B-3, G3, NaN
++236:1.5, C6, B-3, G3, NaN
++236:1.75, B-5, NaN, NaN, NaN
++236:2.0, A5, B-3, G3, NaN
++236:2.5, G5, B-3, G3, NaN
++237:0.0, F#5, C4, A3, C4
++237:0.5, NaN, C4, A3, NaN
++237:1.0, Rest, C4, A3, NaN
++237:1.5, NaN, C4, A3, D4
++237:1.75, NaN, NaN, NaN, C4
++237:2.0, Rest, C4, A3, B3
++237:2.5, NaN, C4, A3, C4
++238:0.0, E-6, C4, A3, E-4
++238:0.5, NaN, C4, A3, NaN
++238:1.0, NaN, C4, A3, NaN
++238:1.5, D6, C4, A3, NaN
++238:1.75, C6, NaN, NaN, NaN
++238:2.0, B-5, C4, A3, C4
++238:2.25, A5, NaN, NaN, NaN
++238:2.5, G5, C4, A3, NaN
++238:2.75, F#5, NaN, NaN, NaN
++239:0.0, G5, G4, B-3, D4
++239:0.25, D5, NaN, NaN, NaN
++239:0.5, E5, NaN, NaN, NaN
++239:0.75, F#5, NaN, NaN, NaN
++239:1.0, G5, B-3, D4, B-2
++239:1.25, A5, NaN, NaN, NaN
++239:1.5, B-5, NaN, NaN, NaN
++239:1.75, A5, NaN, NaN, NaN
++239:2.0, G5, Rest, Rest, Rest
++239:2.25, D5, NaN, NaN, NaN
++239:2.5, E5, NaN, NaN, NaN
++239:2.75, F#5, NaN, NaN, NaN
++240:0.0, G5, Rest, Rest, Rest
++240:0.25, A5, NaN, NaN, NaN
++240:0.5, B-5, NaN, NaN, NaN
++240:0.75, A5, NaN, NaN, NaN
++240:1.0, G5, NaN, NaN, NaN
++240:1.25, D5, NaN, NaN, NaN
++240:1.5, E5, NaN, NaN, NaN
++240:1.75, F#5, NaN, NaN, NaN
++240:2.0, G5, NaN, NaN, NaN
++240:2.25, A5, NaN, NaN, NaN
++240:2.5, B-5, NaN, NaN, NaN
++240:2.75, A5, NaN, NaN, NaN
++241:0.0, G5, Rest, Rest, Rest
++241:0.25, D5, NaN, NaN, NaN
++241:0.5, E5, NaN, NaN, NaN
++241:0.75, F#5, NaN, NaN, NaN
++241:1.0, G5, Rest, Rest, Rest
++241:1.25, A5, NaN, NaN, NaN
++241:1.5, B-5, NaN, NaN, NaN
++241:1.75, A5, NaN, NaN, NaN
++241:2.0, G5, Rest, Rest, Rest
++241:2.25, D5, D4, D3, D3
++241:2.5, E5, E4, E3, E3
++241:2.75, F#5, F#4, F#3, F#3
++242:0.0, G5, G4, G3, G3
++242:0.25, A5, A4, A3, A3
++242:0.5, B-5, B-4, B-3, B-3
++242:0.75, C6, C5, C4, C4
++242:1.0, D6, D5, D4, D4
++242:1.25, C6, C5, C4, C4
++242:1.5, B-5, B-4, B-3, B-3
++242:1.75, A5, A4, A3, A3
++242:2.0, G5, G4, G3, G3
++242:2.25, F5, F4, F3, F3
++242:2.5, E5, E4, E3, E3
++242:2.75, D5, D4, D3, D3
++243:0.0, C5, C4, C3, C3
++243:1.5, NaN, D4, D3, D3
++243:1.75, NaN, E4, E3, E3
++243:2.0, NaN, F4, F3, F3
++243:2.25, NaN, G4, G3, G3
++243:2.5, NaN, A4, A3, A3
++243:2.75, NaN, B-4, B-3, B-3
++244:0.0, G5, C5, C4, C4
+ 244:0.5, NaN, E4, B-3, C3
+-244:1.0, NaN, E4, A3, C3
+-244:1.5, NaN, E4, NaN, C3
+-244:2.0, NaN, F4, A3, C3
+-244:2.5, NaN, NaN, NaN, C3
+-245:0.0, NaN, C4, NaN, F3
+-245:0.125, F5, NaN, NaN, NaN
+-245:0.5, NaN, NaN, G3, NaN
+-245:1.0, NaN, NaN, G3, Rest
+-245:1.125, F4, NaN, NaN, NaN
+-245:1.5, NaN, C4, E3, NaN
+-245:2.0, NaN, C4, E3, Rest
+-245:2.5, NaN, G4, F3, NaN
+-245:2.625, E4, NaN, NaN, NaN
+-246:0.0, NaN, G4, F3, Rest
+-246:0.125, E4, NaN, NaN, NaN
+-246:0.5, NaN, F4, B-3, NaN
+-246:0.625, B-4, NaN, NaN, NaN
+-246:1.0, NaN, F4, B-3, NaN
+-246:1.125, B-4, NaN, NaN, NaN
+-246:1.5, NaN, F4, A3, NaN
+-246:1.625, A4, NaN, NaN, NaN
+-246:2.0, NaN, F4, A3, NaN
+-246:2.125, A4, NaN, NaN, NaN
+-246:2.5, NaN, F4, B-4, NaN
+-246:2.625, D5, NaN, NaN, NaN
+-247:0.0, NaN, F4, B-4, Rest
+-247:0.125, D5, NaN, NaN, NaN
+-247:0.5, NaN, C5, G4, NaN
+-247:0.625, C5, NaN, NaN, NaN
+-247:1.0, NaN, C5, G4, NaN
+-247:1.125, C5, NaN, NaN, NaN
+-247:1.5, NaN, B-4, E4, NaN
+-247:1.625, F5, NaN, NaN, NaN
+-247:2.0, NaN, B-4, E4, NaN
+-247:2.125, F5, NaN, NaN, NaN
+-247:2.5, NaN, G4, NaN, NaN
+-247:2.625, E5, NaN, NaN, NaN
+-248:0.0, NaN, G4, Rest, Rest
+-248:0.125, E5, NaN, NaN, NaN
+-248:0.625, B-5, NaN, NaN, NaN
+-248:1.0, NaN, Rest, Rest, NaN
+-248:1.125, B-5, NaN, NaN, NaN
+-248:2.0, NaN, Rest, NaN, NaN
+-248:2.125, Rest, NaN, NaN, NaN
+-249:0.0, NaN, NaN, NaN, Rest
+-249:0.125, Rest, NaN, NaN, NaN
+-249:1.0, NaN, NaN, C4, NaN
+-249:2.0, NaN, F4, NaN, NaN
+-250:0.0, NaN, NaN, NaN, F3
+-250:0.125, A4, NaN, NaN, NaN
+-250:1.0, NaN, NaN, G3, NaN
+-250:1.625, B-4, NaN, NaN, NaN
+-250:1.875, A4, NaN, NaN, NaN
+-250:2.0, NaN, F4, NaN, NaN
+-250:2.125, G4, NaN, NaN, NaN
+-250:2.625, A4, NaN, NaN, NaN
+-251:0.0, NaN, NaN, NaN, B-2
+-251:0.125, D5, NaN, NaN, NaN
+-251:2.0, NaN, NaN, A3, NaN
+-252:0.0, NaN, F4, G3, NaN
+-252:1.0, NaN, B-3, F3, C3
+-252:1.125, C5, NaN, NaN, NaN
+-252:2.0, NaN, A3, A4, C2
+-252:2.125, E4, NaN, NaN, NaN
+-253:0.0, NaN, C5, NaN, F2
+-253:0.125, F4, NaN, NaN, NaN
+-253:0.5, NaN, NaN, G4, NaN
+-253:1.0, NaN, NaN, G4, Rest
+-253:1.125, F5, NaN, NaN, NaN
+-253:1.5, NaN, B-4, E4, NaN
+-253:2.0, NaN, B-4, E4, Rest
+-253:2.5, NaN, G4, F4, NaN
+-253:2.625, E5, NaN, NaN, NaN
+-254:0.0, NaN, G4, F4, Rest
+-254:0.125, E5, NaN, NaN, NaN
+-254:0.5, NaN, A4, B-4, NaN
+-254:0.625, B-5, NaN, NaN, NaN
+-254:1.0, NaN, A4, B-4, NaN
+-254:1.125, B-5, NaN, NaN, NaN
+-254:1.5, NaN, F5, A4, NaN
+-254:1.625, A5, NaN, NaN, NaN
+-254:2.0, NaN, F5, A3, NaN
+-254:2.125, A5, NaN, NaN, NaN
+-254:2.5, NaN, F5, A4, NaN
+-254:2.625, D6, NaN, NaN, NaN
+-255:0.0, NaN, F5, A4, Rest
+-255:0.125, D5, NaN, NaN, NaN
+-255:0.5, NaN, C5, G4, NaN
+-255:0.625, C5, NaN, NaN, NaN
+-255:1.0, NaN, C5, G4, NaN
+-255:1.125, C5, NaN, NaN, NaN
+-255:1.5, NaN, B-4, E4, NaN
+-255:1.625, F5, NaN, NaN, NaN
+-255:2.0, NaN, B-4, E4, NaN
+-255:2.125, F5, NaN, NaN, NaN
+-255:2.5, NaN, A5, NaN, NaN
+-255:2.625, E5, NaN, NaN, NaN
+-256:0.0, NaN, G5, Rest, Rest
+-256:0.125, E6, NaN, NaN, NaN
+-256:0.625, B-6, NaN, NaN, NaN
+-256:1.0, NaN, Rest, Rest, NaN
+-256:1.125, B-6, NaN, NaN, NaN
+-256:2.0, NaN, Rest, NaN, NaN
+-256:2.125, Rest, NaN, NaN, NaN
+-257:0.0, NaN, NaN, NaN, Rest
+-257:0.125, Rest, NaN, NaN, NaN
+-257:1.0, NaN, NaN, F4, NaN
+-257:2.0, NaN, C4, NaN, NaN
+-258:0.0, NaN, NaN, NaN, F3
+-258:0.125, A-3, NaN, NaN, NaN
+-258:1.0, NaN, NaN, D-4, NaN
+-258:2.0, NaN, F4, NaN, NaN
+-259:0.0, NaN, NaN, NaN, D-3
+-259:0.125, A-3, NaN, NaN, NaN
+-259:1.0, NaN, NaN, B3, NaN
+-259:2.0, NaN, D4, NaN, NaN
+-260:0.0, NaN, NaN, B-3, B2
+-260:0.125, A-3, NaN, NaN, NaN
+-260:1.0, NaN, D4, A3, NaN
+-260:2.0, NaN, D4, D4, B-2
+-260:2.125, A-3, NaN, NaN, NaN
+-261:0.0, NaN, G4, B-3, A2
+-261:0.125, A3, NaN, NaN, NaN
+-261:1.0, NaN, E4, A3, G2
+-261:1.125, B-4, NaN, NaN, NaN
+-261:1.5, NaN, NaN, C4, NaN
+-261:2.0, NaN, F4, C4, C3
+-261:2.125, G4, NaN, NaN, NaN
+-261:2.5, NaN, A3, C4, NaN
+-262:0.0, NaN, A3, C4, F3
+-262:0.125, F4, NaN, NaN, NaN
++244:1.0, NaN, E4, B-3, C3
++244:1.5, NaN, E4, B-3, C3
++244:2.0, NaN, E4, B-3, C3
++244:2.5, NaN, E4, B-3, C3
++245:0.0, F5, F4, A3, F3
++245:1.0, F4, C4, A3, Rest
++245:2.0, NaN, NaN, NaN, Rest
++245:2.5, E4, C4, G3, NaN
++246:0.0, E4, C4, G3, Rest
++246:0.5, B-4, G4, E3, NaN
++246:1.0, B-4, G4, E3, NaN
++246:1.5, A4, F4, F3, NaN
++246:2.0, A4, F4, F3, NaN
++246:2.5, D5, F4, B-3, NaN
++247:0.0, D5, F4, B-3, Rest
++247:0.5, C5, F4, A3, NaN
++247:1.0, C5, F4, A3, NaN
++247:1.5, F5, C5, A4, NaN
++247:2.0, F5, C5, A4, NaN
++247:2.5, E5, B-4, G4, NaN
++248:0.0, E5, B-4, G4, Rest
++248:0.5, B-5, G4, E4, NaN
++248:1.0, B-5, G4, E4, NaN
++248:2.0, Rest, Rest, Rest, NaN
++249:0.0, Rest, Rest, Rest, Rest
++250:0.0, A4, F4, C4, F3
++250:1.5, B-4, NaN, NaN, NaN
++250:1.75, A4, NaN, NaN, NaN
++250:2.0, G4, NaN, NaN, NaN
++250:2.5, A4, NaN, NaN, NaN
++251:0.0, D5, F4, G3, B2
++252:1.0, C5, F4, A3, C3
++252:2.0, E4, B-3, G3, C2
++253:0.0, F4, A3, F3, F2
++253:1.0, F5, C5, A4, Rest
++253:2.0, NaN, NaN, NaN, Rest
++253:2.5, E5, B-4, G4, NaN
++254:0.0, E5, B-4, G4, Rest
++254:0.5, B-5, G4, E4, NaN
++254:1.0, B-5, G4, E4, NaN
++254:1.5, A5, A4, F4, NaN
++254:2.0, A5, A4, F4, NaN
++254:2.5, D6, F5, B-4, NaN
++255:0.0, D6, F5, B-4, Rest
++255:0.5, C6, F5, A4, NaN
++255:1.0, C6, F5, A3, NaN
++255:1.5, F6, C5, A4, NaN
++255:2.0, F6, C5, A4, NaN
++255:2.5, E6, B-4, G4, NaN
++256:0.0, E6, B-4, G4, Rest
++256:0.5, B-6, G5, E4, NaN
++256:1.0, B-6, G5, E4, NaN
++256:2.0, Rest, Rest, Rest, NaN
++257:0.0, Rest, Rest, Rest, Rest
++258:0.0, C-4, C4, F4, F3
++259:0.0, C-4, F4, D-4, D-3
++260:0.0, C-4, D4, B3, B2
++260:2.0, C-4, D4, B-3, B-2
++261:0.0, C4, D4, A3, A2
++261:1.0, B-4, G4, D4, G2
++261:2.0, G4, E4, B-3, C3
++262:0.0, F4, A3, A3, F3
+ 262:0.5, NaN, A3, C4, NaN
+-262:1.0, NaN, A3, C4, NaN
+-262:1.125, Rest, NaN, NaN, NaN
+-262:1.5, NaN, A3, NaN, G3
++262:1.0, Rest, A3, C4, NaN
++262:1.5, NaN, A3, C4, G3
+ 262:1.75, NaN, NaN, NaN, F3
+-262:2.0, NaN, A3, NaN, E3
+-262:2.125, Rest, NaN, NaN, NaN
+-262:2.5, NaN, NaN, NaN, F3
+-263:0.0, NaN, NaN, NaN, F2
+-263:0.125, Rest, NaN, NaN, NaN
+-263:1.0, NaN, NaN, C4, Rest
+-263:1.125, A4, NaN, NaN, NaN
+-263:2.0, NaN, B-3, NaN, Rest
+-263:2.125, A4, NaN, NaN, NaN
+-264:0.0, NaN, NaN, NaN, F3
+-264:0.125, C5, NaN, NaN, NaN
+-264:1.0, NaN, NaN, C4, NaN
+-264:1.125, B-4, NaN, NaN, NaN
+-264:1.5, NaN, NaN, NaN, G3
++262:2.0, Rest, A3, C4, E3
++262:2.5, NaN, A3, C4, F3
++263:0.0, Rest, A3, C4, F2
++263:0.5, NaN, A3, C4, NaN
++263:1.0, A4, A3, C4, Rest
++263:1.5, NaN, A3, C4, NaN
++263:2.0, A4, A3, C4, Rest
++263:2.5, NaN, A3, C4, NaN
++264:0.0, C5, B-3, C4, F3
++264:0.5, NaN, B-3, C4, NaN
++264:1.0, B-4, B-3, C4, NaN
++264:1.5, NaN, B-3, C4, G3
+ 264:1.75, NaN, NaN, NaN, F3
+-264:2.0, NaN, B-3, NaN, E3
+-264:2.125, Rest, NaN, NaN, NaN
+-264:2.5, NaN, NaN, NaN, F3
+-265:0.0, NaN, NaN, C4, F2
+-265:0.125, Rest, NaN, NaN, NaN
+-265:1.0, NaN, NaN, NaN, Rest
+-265:1.125, E5, NaN, NaN, NaN
+-265:2.0, NaN, A3, C4, Rest
+-265:2.125, E5, NaN, NaN, NaN
+-265:2.5, NaN, F4, NaN, NaN
+-266:0.0, NaN, F4, NaN, G3
+-266:0.125, F5, NaN, NaN, NaN
++264:2.0, Rest, B-3, C4, E3
++264:2.5, NaN, B-3, C4, F3
++265:0.0, Rest, B-3, C4, F2
++265:0.5, NaN, B-3, C4, NaN
++265:1.0, E5, B-3, C4, Rest
++265:1.5, NaN, B-3, C4, NaN
++265:2.0, E5, B-3, C4, Rest
++265:2.5, NaN, B-3, C4, NaN
++266:0.0, F5, A3, C4, G3
+ 266:0.25, NaN, NaN, NaN, F3
+-266:0.5, NaN, F4, NaN, E3
+-266:0.625, A5, NaN, NaN, NaN
++266:0.5, A5, F4, C4, E3
+ 266:0.75, NaN, NaN, NaN, F3
+-266:1.0, NaN, F4, C4, G3
+-266:1.125, C5, NaN, NaN, NaN
++266:1.0, C5, F4, C4, G3
+ 266:1.25, NaN, NaN, NaN, F3
+-266:1.5, NaN, F4, NaN, E3
++266:1.5, NaN, F4, C4, E3
+ 266:1.75, NaN, NaN, NaN, F3
+-266:2.0, NaN, F4, NaN, G3
+-266:2.125, Rest, NaN, NaN, NaN
++266:2.0, Rest, F4, C4, G3
+ 266:2.25, NaN, NaN, NaN, F3
+-266:2.5, NaN, NaN, NaN, E3
++266:2.5, NaN, F4, C4, E3
+ 266:2.75, NaN, NaN, NaN, F3
+-267:0.0, NaN, NaN, NaN, F2
+-267:0.125, B-5, NaN, NaN, NaN
+-267:0.375, A5, NaN, NaN, NaN
+-267:0.625, G5, NaN, NaN, NaN
+-267:0.875, A5, NaN, NaN, NaN
+-267:1.0, NaN, NaN, C4, Rest
+-267:1.125, B-5, NaN, NaN, NaN
+-267:1.375, A5, NaN, NaN, NaN
+-267:1.625, G5, NaN, NaN, NaN
+-267:1.875, A5, NaN, NaN, NaN
+-267:2.0, NaN, G4, NaN, Rest
+-267:2.125, B-5, NaN, NaN, NaN
+-267:2.375, A5, NaN, NaN, NaN
+-267:2.625, G5, NaN, NaN, NaN
+-267:2.875, A5, NaN, NaN, NaN
+-268:0.0, NaN, NaN, NaN, G3
+-268:0.125, C6, NaN, NaN, NaN
++267:0.0, B-5, F4, C4, F2
++267:0.25, A5, NaN, NaN, NaN
++267:0.5, G5, F4, C4, NaN
++267:0.75, A5, NaN, NaN, NaN
++267:1.0, B-5, F4, C4, Rest
++267:1.25, A5, NaN, NaN, NaN
++267:1.5, G5, F4, C4, NaN
++267:1.75, A5, NaN, NaN, NaN
++267:2.0, B-5, F4, C4, Rest
++267:2.25, A5, NaN, NaN, NaN
++267:2.5, G5, F4, C4, NaN
++267:2.75, A5, NaN, NaN, NaN
++268:0.0, C6, G4, C4, G3
+ 268:0.25, NaN, NaN, NaN, F3
+-268:0.5, NaN, NaN, NaN, E3
++268:0.5, NaN, G4, C4, E3
+ 268:0.75, NaN, NaN, NaN, F3
+-268:1.0, NaN, NaN, C4, G3
+-268:1.125, B-5, NaN, NaN, NaN
++268:1.0, B-5, G4, C4, G3
+ 268:1.25, NaN, NaN, NaN, F3
+-268:1.5, NaN, NaN, NaN, E3
++268:1.5, NaN, G4, C4, E3
+ 268:1.75, NaN, NaN, NaN, F3
+-268:2.0, NaN, G4, C4, G3
+-268:2.125, Rest, NaN, NaN, NaN
++268:2.0, Rest, G4, C4, G3
+ 268:2.25, NaN, NaN, NaN, F3
+-268:2.5, NaN, NaN, NaN, E3
++268:2.5, NaN, G4, C4, E3
+ 268:2.75, NaN, NaN, NaN, F3
+-269:0.0, NaN, NaN, Rest, F2
+-269:0.125, F6, NaN, NaN, NaN
+-269:0.375, E6, NaN, NaN, NaN
+-269:0.625, D6, NaN, NaN, NaN
+-269:0.875, E6, NaN, NaN, NaN
+-269:1.0, NaN, NaN, Rest, Rest
+-269:1.125, F6, NaN, NaN, NaN
+-269:1.375, E6, NaN, NaN, NaN
+-269:1.625, D6, NaN, NaN, NaN
+-269:1.875, E6, NaN, NaN, NaN
+-269:2.0, NaN, F4, NaN, Rest
+-269:2.125, F6, NaN, NaN, NaN
+-269:2.375, E6, NaN, NaN, NaN
+-269:2.625, D6, NaN, NaN, NaN
+-269:2.875, E6, NaN, NaN, NaN
+-270:0.0, NaN, F4, NaN, F2
+-270:0.125, F6, NaN, NaN, NaN
+-270:0.625, E6, NaN, NaN, NaN
+-270:0.875, D6, NaN, NaN, NaN
+-270:1.0, NaN, Rest, Rest, F3
+-270:1.125, C6, NaN, NaN, NaN
+-270:1.25, NaN, NaN, F4, NaN
+-270:1.375, B-5, NaN, NaN, NaN
+-270:1.5, NaN, NaN, E4, NaN
+-270:1.625, A5, NaN, NaN, NaN
+-270:1.75, NaN, NaN, D4, NaN
+-270:1.875, G5, NaN, NaN, NaN
+-270:2.0, NaN, Rest, C4, Rest
+-270:2.125, F5, NaN, NaN, NaN
+-270:2.25, NaN, NaN, B-3, NaN
+-270:2.375, C6, NaN, NaN, NaN
+-270:2.5, NaN, NaN, A3, NaN
+-270:2.625, B-5, NaN, NaN, NaN
+-270:2.75, NaN, NaN, G3, NaN
+-270:2.875, A5, NaN, NaN, NaN
+-271:0.0, NaN, NaN, F3, Rest
+-271:0.125, G5, NaN, NaN, NaN
+-271:0.25, NaN, NaN, F4, NaN
+-271:0.375, F5, NaN, NaN, NaN
+-271:0.5, NaN, NaN, E4, NaN
+-271:0.625, E5, NaN, NaN, NaN
+-271:0.75, NaN, NaN, D4, NaN
+-271:0.875, D5, NaN, NaN, NaN
+-271:1.0, NaN, NaN, C4, NaN
+-271:1.125, C5, NaN, NaN, NaN
+-271:1.25, NaN, NaN, B-3, NaN
+-271:1.375, A5, NaN, NaN, NaN
+-271:1.5, NaN, NaN, A3, NaN
+-271:1.625, G5, NaN, NaN, NaN
+-271:1.75, NaN, NaN, G3, NaN
+-271:1.875, F5, NaN, NaN, NaN
+-271:2.0, NaN, Rest, F3, NaN
+-271:2.125, E5, NaN, NaN, NaN
+-271:2.25, NaN, F5, E3, NaN
+-271:2.375, D5, NaN, NaN, NaN
+-271:2.5, NaN, E5, F3, NaN
+-271:2.625, C5, NaN, NaN, NaN
+-271:2.75, NaN, D5, E3, NaN
+-271:2.875, B-4, NaN, NaN, NaN
+-272:0.0, NaN, C5, F3, Rest
+-272:0.125, A4, NaN, NaN, NaN
+-272:0.25, NaN, B-4, E3, F3
+-272:0.375, F5, NaN, NaN, NaN
+-272:0.5, NaN, A4, F3, E3
+-272:0.625, E5, NaN, NaN, NaN
+-272:0.75, NaN, G4, E3, D3
+-272:0.875, D5, NaN, NaN, NaN
+-272:1.0, NaN, F4, F3, C3
+-272:1.125, C5, NaN, NaN, NaN
+-272:1.25, NaN, F5, NaN, B-2
+-272:1.375, B-4, NaN, NaN, NaN
+-272:1.5, NaN, E5, NaN, A2
+-272:1.625, A4, NaN, NaN, NaN
+-272:1.75, NaN, D5, NaN, G2
+-272:1.875, G4, NaN, NaN, NaN
+-272:2.0, NaN, C5, G3, F2
+-272:2.125, F4, NaN, NaN, NaN
+-272:2.25, NaN, B-4, NaN, F3
+-272:2.375, F5, NaN, NaN, NaN
+-272:2.5, NaN, A4, NaN, E3
+-272:2.625, E5, NaN, NaN, NaN
+-272:2.75, NaN, G4, NaN, D3
+-272:2.875, D5, NaN, NaN, NaN
+-273:0.0, NaN, F4, A3, C3
+-273:0.125, C5, NaN, NaN, NaN
+-273:0.25, NaN, E4, NaN, B-2
+-273:0.375, B-4, NaN, NaN, NaN
+-273:0.5, NaN, F4, NaN, A2
+-273:0.625, A4, NaN, NaN, NaN
+-273:0.75, NaN, E4, NaN, G2
+-273:0.875, G4, NaN, NaN, NaN
+-273:1.0, NaN, F4, B-3, F2
+-273:1.125, F4, NaN, NaN, NaN
+-273:1.25, NaN, E4, NaN, E2
+-273:1.375, E4, NaN, NaN, NaN
+-273:1.5, NaN, F4, NaN, F2
+-273:1.625, F4, NaN, NaN, NaN
+-273:1.75, NaN, E4, NaN, E2
+-273:1.875, E4, NaN, NaN, NaN
+-273:2.0, NaN, F4, C4, F2
+-273:2.125, F4, NaN, NaN, NaN
+-273:2.25, NaN, NaN, NaN, E2
+-273:2.375, E4, NaN, NaN, NaN
+-273:2.5, NaN, NaN, NaN, F2
+-273:2.625, F4, NaN, NaN, NaN
+-273:2.75, NaN, NaN, NaN, E2
+-273:2.875, E4, NaN, NaN, NaN
+-274:0.0, NaN, G4, D4, F2
+-274:0.125, F4, NaN, NaN, NaN
+-274:1.0, NaN, A4, E-4, G2
+-274:1.125, G4, NaN, NaN, NaN
+-274:2.0, NaN, B-3, NaN, A2
+-274:2.125, A4, NaN, NaN, NaN
+-275:0.0, NaN, C4, NaN, B-2
+-275:0.125, B-4, NaN, NaN, NaN
+-275:1.0, NaN, D4, NaN, C3
+-275:1.125, C5, NaN, NaN, NaN
+-275:2.0, NaN, E-4, NaN, D3
+-275:2.125, D5, NaN, NaN, NaN
+-276:0.0, NaN, NaN, NaN, E-3
+-276:0.125, E-5, NaN, NaN, NaN
+-276:1.0, NaN, NaN, D3, NaN
+-276:2.0, NaN, NaN, E3, NaN
+-277:0.0, NaN, NaN, F#3, NaN
+-277:1.0, NaN, NaN, G3, NaN
+-277:2.0, NaN, D4, A3, NaN
+-278:0.0, NaN, E4, B-3, D2
+-278:0.125, D4, NaN, NaN, NaN
+-278:1.0, NaN, F#4, C4, E2
+-278:1.125, E4, NaN, NaN, NaN
+-278:2.0, NaN, G3, NaN, F#2
+-278:2.125, F#4, NaN, NaN, NaN
+-279:0.0, NaN, A3, NaN, G2
+-279:0.125, G4, NaN, NaN, NaN
+-279:1.0, NaN, B-3, NaN, A2
+-279:1.125, A4, NaN, NaN, NaN
+-279:2.0, NaN, C4, NaN, B-2
+-279:2.125, B-4, NaN, NaN, NaN
+-280:0.0, NaN, NaN, NaN, C3
+-280:0.125, C5, NaN, NaN, NaN
+-280:1.0, NaN, NaN, Rest, NaN
+-281:1.0, NaN, NaN, Rest, NaN
+-281:2.0, NaN, G3, NaN, NaN
+-282:0.0, NaN, A3, NaN, Rest
+-282:0.125, F5, NaN, NaN, NaN
+-282:0.625, G5, NaN, NaN, NaN
+-282:0.875, F5, NaN, NaN, NaN
+-282:1.0, NaN, B3, Rest, NaN
+-282:1.125, E5, NaN, NaN, NaN
+-282:1.625, F5, NaN, NaN, NaN
+-282:1.875, E5, NaN, NaN, NaN
+-282:2.0, NaN, C4, NaN, NaN
+-282:2.125, D5, NaN, NaN, NaN
+-282:2.625, E5, NaN, NaN, NaN
+-282:2.875, D5, NaN, NaN, NaN
+-283:0.0, NaN, D4, NaN, Rest
+-283:0.125, C5, NaN, NaN, NaN
+-283:0.625, D5, NaN, NaN, NaN
+-283:0.875, C5, NaN, NaN, NaN
+-283:1.0, NaN, E4, G3, NaN
+-283:1.125, B-4, NaN, NaN, NaN
+-283:1.625, C5, NaN, NaN, NaN
+-283:1.875, B-4, NaN, NaN, NaN
+-283:2.0, NaN, F4, NaN, NaN
+-283:2.125, A4, NaN, NaN, NaN
+-283:2.5, NaN, NaN, A3, NaN
+-283:2.625, B-4, NaN, NaN, NaN
+-283:2.75, NaN, NaN, G3, NaN
+-283:2.875, A4, NaN, NaN, NaN
+-284:0.0, NaN, D4, F#3, Rest
+-284:0.125, G4, NaN, NaN, NaN
+-284:0.5, NaN, NaN, G3, NaN
+-284:1.0, NaN, B3, C3, NaN
+-284:1.625, A4, NaN, NaN, NaN
+-284:1.875, G4, NaN, NaN, NaN
+-284:2.0, NaN, G3, D3, NaN
+-284:2.125, F#4, NaN, NaN, NaN
+-284:2.625, G4, NaN, NaN, NaN
+-285:0.0, NaN, Rest, E3, B2
+-285:0.125, D6, NaN, NaN, NaN
+-285:1.0, NaN, Rest, F3, D3
+-285:1.125, B5, NaN, NaN, NaN
+-285:2.0, NaN, B-4, G3, G2
+-285:2.125, F5, NaN, NaN, NaN
+-285:2.5, NaN, C5, NaN, NaN
+-285:2.75, NaN, B-4, NaN, NaN
+-286:0.0, NaN, A4, A3, C3
+-286:0.125, E5, NaN, NaN, NaN
+-286:0.5, NaN, B-4, NaN, NaN
+-286:0.75, NaN, A4, NaN, NaN
+-286:1.0, NaN, G4, B-3, Rest
+-286:1.125, Rest, NaN, NaN, NaN
+-286:1.5, NaN, A4, NaN, NaN
+-286:1.75, NaN, G4, NaN, NaN
+-286:2.0, NaN, F4, G3, Rest
+-286:2.125, Rest, NaN, NaN, NaN
+-286:2.5, NaN, G4, NaN, NaN
+-286:2.75, NaN, F4, NaN, NaN
+-287:0.0, NaN, E4, D3, Rest
+-287:0.125, Rest, NaN, NaN, NaN
+-287:0.5, NaN, F4, NaN, NaN
+-287:0.75, NaN, E4, NaN, NaN
+-287:1.0, NaN, D4, C3, NaN
+-287:1.5, NaN, E4, NaN, NaN
+-287:1.75, NaN, D4, NaN, NaN
+-287:2.0, NaN, C4, NaN, NaN
+-287:2.5, NaN, NaN, D4, NaN
+-287:2.75, NaN, NaN, C4, NaN
+-288:0.0, NaN, NaN, B3, Rest
+-288:0.125, Rest, NaN, NaN, NaN
+-288:0.5, NaN, D4, C4, NaN
+-288:0.75, NaN, C4, NaN, NaN
+-288:1.0, NaN, B3, C4, NaN
+-288:1.5, NaN, C4, NaN, NaN
+-288:2.0, NaN, B-4, A3, NaN
+-289:0.0, NaN, Rest, F3, C2
+-289:0.125, G5, NaN, NaN, NaN
+-289:1.0, NaN, Rest, C3, E2
+-289:1.125, E5, NaN, NaN, NaN
+-289:2.0, NaN, C4, NaN, G2
+-289:2.125, B-4, NaN, NaN, NaN
+-289:2.5, NaN, NaN, D4, NaN
+-289:2.75, NaN, NaN, C4, NaN
+-290:0.0, NaN, NaN, B3, C3
+-290:0.125, F4, NaN, NaN, NaN
+-290:0.5, NaN, D4, C4, NaN
+-290:0.75, NaN, C4, NaN, NaN
+-290:1.0, NaN, B3, G4, Rest
+-290:1.125, Rest, NaN, NaN, NaN
+-290:1.5, NaN, C4, NaN, NaN
+-290:2.0, NaN, A4, E4, Rest
+-290:2.125, Rest, NaN, NaN, NaN
+-291:0.0, NaN, Rest, C4, C2
+-291:0.125, A5, NaN, NaN, NaN
+-291:1.0, NaN, Rest, E5, F2
+-291:1.125, F5, NaN, NaN, NaN
+-291:2.0, NaN, Rest, B-4, A2
+-291:2.125, C5, NaN, NaN, NaN
+-292:0.0, NaN, NaN, G4, C3
+-292:0.125, B-4, NaN, NaN, NaN
+-292:1.0, NaN, NaN, F4, Rest
+-292:1.625, C5, NaN, NaN, NaN
+-292:1.875, B-4, NaN, NaN, NaN
+-292:2.0, NaN, G5, NaN, Rest
+-292:2.125, A4, NaN, NaN, NaN
+-292:2.625, B-4, NaN, NaN, NaN
+-293:0.0, NaN, E5, NaN, C2
+-293:0.125, B-5, NaN, NaN, NaN
+-293:1.0, NaN, B4, B-3, C3
+-293:1.125, G5, NaN, NaN, NaN
+-293:2.0, NaN, A4, NaN, C#3
+-293:2.125, E5, NaN, NaN, NaN
+-294:0.0, NaN, NaN, NaN, D3
+-294:0.125, F5, NaN, NaN, NaN
+-294:1.0, NaN, NaN, E-4, NaN
+-294:1.625, G5, NaN, NaN, NaN
+-294:1.875, F5, NaN, NaN, NaN
+-294:2.0, NaN, C#5, NaN, NaN
+-294:2.125, E5, NaN, NaN, NaN
+-294:2.625, F5, NaN, NaN, NaN
+-295:0.0, NaN, NaN, D4, E3
+-295:0.125, G5, NaN, NaN, NaN
+-295:2.0, NaN, C5, NaN, NaN
+-296:0.0, NaN, NaN, G4, F#3
+-296:0.125, A5, NaN, NaN, NaN
+-296:1.625, B-5, NaN, NaN, NaN
+-296:1.875, A5, NaN, NaN, NaN
+-296:2.0, NaN, B-4, NaN, NaN
+-296:2.125, G5, NaN, NaN, NaN
+-296:2.625, A5, NaN, NaN, NaN
+-297:0.0, NaN, NaN, F4, G3
+-297:0.125, B-5, NaN, NaN, NaN
+-297:2.0, NaN, E-5, NaN, NaN
+-298:0.0, NaN, NaN, F4, A3
+-298:0.125, C6, NaN, NaN, NaN
+-298:1.5, NaN, NaN, G4, NaN
+-298:1.625, D6, NaN, NaN, NaN
+-298:1.75, NaN, NaN, F4, NaN
+-298:1.875, C6, NaN, NaN, NaN
+-298:2.0, NaN, A-4, E4, NaN
+-298:2.125, B-5, NaN, NaN, NaN
+-298:2.5, NaN, NaN, F4, NaN
+-298:2.625, C6, NaN, NaN, NaN
+-299:0.0, NaN, NaN, G4, B3
+-299:0.125, D6, NaN, NaN, NaN
+-299:2.0, NaN, A4, E3, NaN
+-300:0.0, NaN, NaN, F3, C4
+-300:0.125, Rest, NaN, NaN, NaN
+-300:0.5, NaN, B-4, NaN, NaN
+-300:0.75, NaN, A4, NaN, NaN
+-300:1.0, NaN, G4, C3, NaN
+-300:1.125, C5, NaN, NaN, NaN
+-300:1.5, NaN, A4, NaN, NaN
+-300:2.0, NaN, B-4, C3, NaN
+-300:2.125, C5, NaN, NaN, NaN
+-301:0.0, NaN, NaN, D-3, C3
+-301:0.125, C5, NaN, NaN, NaN
+-301:1.0, NaN, G3, NaN, NaN
+-301:1.625, D5, NaN, NaN, NaN
+-301:1.875, C5, NaN, NaN, NaN
+-301:2.0, NaN, A3, NaN, C2
+-301:2.125, B4, NaN, NaN, NaN
+-301:2.625, C5, NaN, NaN, NaN
+-302:0.0, NaN, A3, C3, F2
+-302:0.125, F4, NaN, NaN, NaN
+-302:1.0, NaN, A3, NaN, NaN
+-302:1.125, Rest, NaN, NaN, NaN
++269:0.0, F6, G4, C4, F2
++269:0.25, E6, NaN, NaN, NaN
++269:0.5, D6, G4, C4, NaN
++269:0.75, E6, NaN, NaN, NaN
++269:1.0, F6, G4, C4, Rest
++269:1.25, E6, NaN, NaN, NaN
++269:1.5, D6, G4, C4, NaN
++269:1.75, E6, NaN, NaN, NaN
++269:2.0, F6, G4, C4, Rest
++269:2.25, E6, NaN, NaN, NaN
++269:2.5, D6, G4, C4, NaN
++269:2.75, E6, NaN, NaN, NaN
++270:0.0, F6, F4, C4, F2
++270:0.5, E6, NaN, NaN, NaN
++270:0.75, D6, NaN, NaN, NaN
++270:1.0, C6, F4, C4, F3
++270:1.25, B-5, NaN, NaN, NaN
++270:1.5, A5, NaN, NaN, NaN
++270:1.75, G5, NaN, NaN, NaN
++270:2.0, F5, Rest, Rest, Rest
++270:2.25, C6, NaN, NaN, NaN
++270:2.5, B-5, NaN, NaN, NaN
++270:2.75, A5, NaN, NaN, NaN
++271:0.0, G5, Rest, Rest, Rest
++271:0.25, F5, NaN, NaN, NaN
++271:0.5, E5, NaN, NaN, NaN
++271:0.75, D5, NaN, NaN, NaN
++271:1.0, C5, NaN, NaN, NaN
++271:1.25, A5, NaN, NaN, NaN
++271:1.5, G5, NaN, NaN, NaN
++271:1.75, F5, NaN, NaN, NaN
++271:2.0, E5, NaN, NaN, NaN
++271:2.25, D5, NaN, NaN, NaN
++271:2.5, C5, NaN, NaN, NaN
++271:2.75, B-4, NaN, NaN, NaN
++272:0.0, A4, Rest, Rest, Rest
++272:0.25, F5, F5, F4, F3
++272:0.5, E5, E5, E4, E3
++272:0.75, D5, D5, D4, D3
++272:1.0, C5, C5, C4, C3
++272:1.25, B-4, B-4, B-3, B-2
++272:1.5, A4, A4, A3, A2
++272:1.75, G4, G4, G3, G2
++272:2.0, F4, F4, F3, F2
++272:2.25, F5, F5, F4, F3
++272:2.5, E5, E5, E4, E3
++272:2.75, D5, D5, D4, D3
++273:0.0, C5, C5, C4, C3
++273:0.25, B-4, B-4, B-3, B-2
++273:0.5, A4, A4, A3, A2
++273:0.75, G4, G4, G3, G2
++273:1.0, F4, F4, F3, F2
++273:1.25, E4, E4, E3, E2
++273:1.5, F4, F4, F3, F2
++273:1.75, E4, E4, E3, E2
++273:2.0, F4, F4, F3, F2
++273:2.25, E4, E4, E3, E2
++273:2.5, F4, F4, F3, F2
++273:2.75, E4, E4, E3, E2
++274:0.0, F4, F4, F3, F2
++274:1.0, G4, G4, G3, G2
++274:2.0, A4, A4, A3, A2
++275:0.0, B-4, B-3, B-3, B-2
++275:1.0, C5, C4, C4, C3
++275:2.0, D5, D4, D4, D3
++276:0.0, E-5, E-4, E-4, E-3
++278:0.0, D4, D4, D3, D2
++278:1.0, E4, E4, E3, E2
++278:2.0, F#4, F#4, F#3, F#2
++279:0.0, G4, G3, G3, G2
++279:1.0, A4, A3, A3, A2
++279:2.0, B-4, B-3, B-3, B-2
++280:0.0, C5, C4, C4, C3
++282:0.0, F5, G3, Rest, Rest
++282:0.5, G5, NaN, NaN, NaN
++282:0.75, F5, NaN, NaN, NaN
++282:1.0, E5, A3, NaN, NaN
++282:1.5, F5, NaN, NaN, NaN
++282:1.75, E5, NaN, NaN, NaN
++282:2.0, D5, B3, NaN, NaN
++282:2.5, E5, NaN, NaN, NaN
++282:2.75, D5, NaN, NaN, NaN
++283:0.0, C5, C4, Rest, Rest
++283:0.5, D5, NaN, NaN, NaN
++283:0.75, C5, NaN, NaN, NaN
++283:1.0, B4, D4, NaN, NaN
++283:1.5, C5, NaN, NaN, NaN
++283:1.75, B4, NaN, NaN, NaN
++283:2.0, A4, E4, NaN, NaN
++283:2.5, B4, NaN, NaN, NaN
++283:2.75, A4, NaN, NaN, NaN
++284:0.0, G4, F4, Rest, Rest
++284:1.0, NaN, D4, NaN, NaN
++284:1.5, A4, NaN, NaN, NaN
++284:1.75, G4, NaN, NaN, NaN
++284:2.0, F#4, B3, NaN, NaN
++284:2.5, G4, NaN, NaN, NaN
++285:0.0, D6, G3, G3, B2
++285:1.0, B5, Rest, NaN, D3
++285:1.5, NaN, NaN, A3, NaN
++285:1.75, NaN, NaN, G3, NaN
++285:2.0, F5, Rest, F#3, G2
++285:2.5, NaN, NaN, G3, NaN
++286:0.0, E5, B-4, C3, C3
++286:0.5, NaN, C5, NaN, NaN
++286:0.75, NaN, B-4, NaN, NaN
++286:1.0, Rest, A4, D3, Rest
++286:1.5, NaN, B-4, NaN, NaN
++286:1.75, NaN, A4, NaN, NaN
++286:2.0, Rest, G4, E3, Rest
++286:2.5, NaN, A4, NaN, NaN
++286:2.75, NaN, G4, NaN, NaN
++287:0.0, Rest, F4, F3, Rest
++287:0.5, NaN, G4, NaN, NaN
++287:0.75, NaN, F4, NaN, NaN
++287:1.0, NaN, E4, G3, NaN
++287:1.5, NaN, F4, NaN, NaN
++287:1.75, NaN, E4, NaN, NaN
++287:2.0, NaN, D4, A3, NaN
++287:2.5, NaN, E4, NaN, NaN
++287:2.75, NaN, D4, NaN, NaN
++288:0.0, Rest, C4, B-3, Rest
++288:1.0, NaN, NaN, G3, NaN
++288:1.5, NaN, D4, NaN, NaN
++288:1.75, NaN, C4, NaN, NaN
++288:2.0, NaN, B3, E3, NaN
++288:2.5, NaN, C4, NaN, NaN
++289:0.0, G5, B-4, C3, C2
++289:1.0, E5, Rest, NaN, E2
++289:1.5, NaN, NaN, D4, NaN
++289:1.75, NaN, NaN, C4, NaN
++289:2.0, B-4, Rest, B3, G2
++289:2.5, NaN, NaN, C4, NaN
++290:0.0, F4, C4, C4, C3
++290:1.0, Rest, NaN, A3, Rest
++290:1.5, NaN, D4, NaN, NaN
++290:1.75, NaN, C4, NaN, NaN
++290:2.0, Rest, B3, F3, Rest
++290:2.5, NaN, C4, NaN, NaN
++291:0.0, A5, A4, C3, C2
++291:1.0, F5, Rest, NaN, F2
++291:1.5, NaN, NaN, D4, NaN
++291:1.75, NaN, NaN, C4, NaN
++291:2.0, C5, Rest, B3, A2
++291:2.5, NaN, NaN, C4, NaN
++292:0.0, B-4, Rest, G4, C3
++292:1.0, NaN, NaN, E4, Rest
++292:1.5, C5, NaN, NaN, NaN
++292:1.75, B-4, NaN, NaN, NaN
++292:2.0, A4, NaN, C4, Rest
++292:2.5, B-4, NaN, NaN, NaN
++293:0.0, B-5, G5, E5, C2
++293:1.0, G5, E5, B-4, C3
++293:2.0, E5, B-4, G4, C#3
++294:0.0, F5, A4, F4, D3
++294:1.5, G5, NaN, NaN, NaN
++294:1.75, F5, NaN, NaN, NaN
++294:2.0, E5, NaN, NaN, NaN
++294:2.5, F5, NaN, NaN, NaN
++295:0.0, G5, C#5, B-3, E3
++296:0.0, A5, C5, E-4, F#3
++296:1.5, B-5, NaN, NaN, NaN
++296:1.75, A5, NaN, NaN, NaN
++296:2.0, G5, NaN, NaN, NaN
++296:2.5, A5, NaN, NaN, NaN
++297:0.0, B-5, B-4, D4, G3
++298:0.0, C6, E-5, G-4, A3
++298:1.5, D6, NaN, NaN, NaN
++298:1.75, C6, NaN, NaN, NaN
++298:2.0, B-5, NaN, NaN, NaN
++298:2.5, C6, NaN, NaN, NaN
++299:0.0, D6, A-4, F4, B3
++300:0.0, Rest, A4, F4, C4
++300:1.0, C5, NaN, NaN, NaN
++300:1.5, NaN, B-4, G4, NaN
++300:1.75, NaN, A4, F4, NaN
++300:2.0, C5, G4, E4, NaN
++300:2.5, NaN, A4, F4, NaN
++301:0.0, C5, B-4, G4, C3
++301:1.5, D5, NaN, NaN, NaN
++301:1.75, C5, NaN, NaN, NaN
++301:2.0, B4, G3, E3, C2
++301:2.5, C5, NaN, NaN, NaN
++302:0.0, F4, A3, F3, F2
++302:1.0, Rest, A3, C3, NaN
+ 302:1.5, NaN, NaN, NaN, G2
+ 302:1.75, NaN, NaN, NaN, F2
+-302:2.0, NaN, B3, NaN, E2
+-302:2.125, Rest, NaN, NaN, NaN
++302:2.0, Rest, A3, C3, E2
+ 302:2.5, NaN, NaN, NaN, F2
+-303:0.0, NaN, NaN, D-3, F2
+-303:0.125, F4, NaN, NaN, NaN
+-303:0.375, E4, NaN, NaN, NaN
+-303:0.625, D4, NaN, NaN, NaN
+-303:0.875, E4, NaN, NaN, NaN
+-303:1.125, F4, NaN, NaN, NaN
+-303:1.375, E4, NaN, NaN, NaN
+-303:1.625, D4, NaN, NaN, NaN
+-303:1.875, E4, NaN, NaN, NaN
+-303:2.0, NaN, A3, NaN, NaN
+-303:2.125, F4, NaN, NaN, NaN
+-303:2.375, E4, NaN, NaN, NaN
+-303:2.625, D4, NaN, NaN, NaN
+-303:2.875, E4, NaN, NaN, NaN
+-304:0.0, NaN, F4, C3, F2
+-304:0.125, F4, NaN, NaN, NaN
+-304:1.0, NaN, F4, F4, NaN
+-304:1.125, A4, NaN, NaN, NaN
++303:0.0, F4, B-3, D-3, F2
++303:0.25, E4, NaN, NaN, NaN
++303:0.5, D4, NaN, NaN, NaN
++303:0.75, E4, NaN, NaN, NaN
++303:1.0, F4, NaN, NaN, NaN
++303:1.25, E4, NaN, NaN, NaN
++303:1.5, D4, NaN, NaN, NaN
++303:1.75, E4, NaN, NaN, NaN
++303:2.0, F4, NaN, NaN, Rest
++303:2.25, E4, NaN, NaN, NaN
++303:2.5, D4, NaN, NaN, NaN
++303:2.75, E4, NaN, NaN, NaN
++304:0.0, F4, A3, C3, F2
++304:1.0, A4, F4, NaN, NaN
+ 304:1.5, NaN, NaN, NaN, G2
+ 304:1.75, NaN, NaN, NaN, F2
+-304:2.0, NaN, F4, F4, E2
+-304:2.125, A4, NaN, NaN, NaN
+-304:2.25, NaN, E4, NaN, NaN
+-304:2.5, NaN, D4, NaN, F2
+-304:2.75, NaN, E4, NaN, NaN
+-305:0.0, NaN, F4, F4, F2
+-305:0.125, B-4, NaN, NaN, NaN
+-305:0.25, NaN, E4, E4, NaN
+-305:0.5, NaN, D4, D4, NaN
+-305:0.75, NaN, E4, E4, NaN
+-305:1.0, NaN, F4, F4, NaN
+-305:1.25, NaN, E4, E4, NaN
+-305:1.5, NaN, D4, D4, NaN
+-305:1.75, NaN, E4, E4, NaN
+-305:2.0, NaN, F4, F4, NaN
+-305:2.25, NaN, NaN, E4, NaN
+-305:2.5, NaN, NaN, D4, NaN
+-305:2.75, NaN, NaN, E4, NaN
+-306:0.0, NaN, Rest, F4, NaN
+-306:0.125, A4, NaN, NaN, NaN
+-306:0.5, NaN, B-4, NaN, NaN
+-306:0.75, NaN, A4, NaN, NaN
+-306:1.0, NaN, G4, C5, Rest
+-306:1.125, Rest, NaN, NaN, NaN
+-306:1.5, NaN, A4, NaN, NaN
+-306:1.625, D-5, NaN, NaN, NaN
+-306:1.875, C5, NaN, NaN, NaN
+-306:2.0, NaN, B-4, C5, Rest
+-306:2.125, B-4, NaN, NaN, NaN
+-306:2.625, C5, NaN, NaN, NaN
+-307:0.0, NaN, NaN, D-5, Rest
+-307:0.125, D-5, NaN, NaN, NaN
+-307:2.0, NaN, A4, NaN, NaN
+-308:0.0, NaN, Rest, C5, Rest
+-308:0.125, C5, NaN, NaN, NaN
+-308:0.5, NaN, G5, NaN, NaN
+-308:0.75, NaN, F5, NaN, NaN
+-308:1.0, NaN, E5, Rest, F2
+-308:1.125, Rest, NaN, NaN, NaN
+-308:1.5, NaN, F5, NaN, NaN
+-308:1.625, B-5, NaN, NaN, NaN
+-308:1.875, A5, NaN, NaN, NaN
+-308:2.0, NaN, G5, E4, F2
+-308:2.125, G5, NaN, NaN, NaN
+-308:2.5, NaN, NaN, F4, NaN
+-308:2.625, A5, NaN, NaN, NaN
+-309:0.0, NaN, NaN, C4, F2
+-309:0.125, B-5, NaN, NaN, NaN
++304:2.0, A4, F4, NaN, E2
++304:2.5, NaN, NaN, NaN, F2
++305:0.0, B-4, F4, D3, F2
++305:0.25, NaN, E4, NaN, NaN
++305:0.5, NaN, D4, NaN, NaN
++305:0.75, NaN, E4, NaN, NaN
++305:1.0, NaN, F4, NaN, NaN
++305:1.25, NaN, E4, NaN, NaN
++305:1.5, NaN, D4, NaN, NaN
++305:1.75, NaN, E4, NaN, NaN
++305:2.0, NaN, F4, NaN, NaN
++305:2.25, NaN, E4, NaN, NaN
++305:2.5, NaN, D4, NaN, NaN
++305:2.75, NaN, E4, NaN, NaN
++306:0.0, A4, F4, C3, NaN
++306:1.0, Rest, Rest, F4, Rest
++306:1.5, D-5, B-4, NaN, NaN
++306:1.75, C5, A4, NaN, NaN
++306:2.0, B-4, G4, F4, Rest
++306:2.5, C5, A4, NaN, NaN
++307:0.0, D-5, B-4, F4, Rest
++307:0.25, NaN, NaN, E4, NaN
++307:0.5, NaN, NaN, D4, NaN
++307:0.75, NaN, NaN, E4, NaN
++307:1.0, NaN, NaN, F4, NaN
++307:1.25, NaN, NaN, E4, NaN
++307:1.5, NaN, NaN, D4, NaN
++307:1.75, NaN, NaN, E4, NaN
++307:2.0, NaN, NaN, F4, NaN
++307:2.25, NaN, NaN, E4, NaN
++307:2.5, NaN, NaN, D4, NaN
++307:2.75, NaN, NaN, E4, NaN
++308:0.0, C5, A4, F4, Rest
++308:1.0, Rest, Rest, C5, F2
++308:1.5, B-5, G5, NaN, NaN
++308:1.75, A5, F5, NaN, NaN
++308:2.0, G5, E5, C5, F2
++308:2.5, A5, F5, NaN, NaN
++309:0.0, B-5, G5, D-5, F2
+ 309:0.25, NaN, NaN, NaN, E2
+ 309:0.5, NaN, NaN, NaN, D2
+ 309:0.75, NaN, NaN, NaN, E2
+-309:1.0, NaN, NaN, Rest, F2
++309:1.0, NaN, NaN, NaN, F2
+ 309:1.25, NaN, NaN, NaN, E2
+ 309:1.5, NaN, NaN, NaN, D2
+ 309:1.75, NaN, NaN, NaN, E2
+-309:2.0, NaN, F5, G#3, F2
++309:2.0, NaN, NaN, NaN, F2
+ 309:2.25, NaN, NaN, NaN, E2
+-309:2.5, NaN, NaN, A3, D2
++309:2.5, NaN, NaN, NaN, D2
+ 309:2.75, NaN, NaN, NaN, E2
+-310:0.0, NaN, Rest, F3, F2
+-310:0.125, A5, NaN, NaN, NaN
+-310:0.625, B-5, NaN, NaN, NaN
+-310:0.875, A5, NaN, NaN, NaN
+-310:1.0, NaN, E5, Rest, Rest
+-310:1.125, G5, NaN, NaN, NaN
+-310:1.5, NaN, F5, NaN, NaN
+-310:1.625, A5, NaN, NaN, NaN
+-310:2.0, NaN, C5, C3, E3
+-310:2.125, E5, NaN, NaN, NaN
+-310:2.5, NaN, NaN, E3, F3
+-310:2.625, F5, NaN, NaN, NaN
+-311:0.0, NaN, Rest, F3, C3
+-311:0.125, C5, NaN, NaN, NaN
+-311:0.625, D5, NaN, NaN, NaN
+-311:0.875, C5, NaN, NaN, NaN
+-311:1.0, NaN, G#4, F3, Rest
+-311:1.125, B4, NaN, NaN, NaN
+-311:1.5, NaN, A4, NaN, NaN
+-311:1.625, C5, NaN, NaN, NaN
+-311:2.0, NaN, F4, Rest, G#2
+-311:2.125, G#4, NaN, NaN, NaN
+-311:2.5, NaN, NaN, NaN, A2
+-311:2.625, A4, NaN, NaN, NaN
+-312:0.0, NaN, Rest, NaN, F2
+-312:0.125, F4, NaN, NaN, NaN
+-312:0.625, G4, NaN, NaN, NaN
+-312:0.875, F4, NaN, NaN, NaN
+-312:1.0, NaN, C4, NaN, Rest
+-312:1.125, E4, NaN, NaN, NaN
+-312:1.5, NaN, E4, NaN, NaN
+-312:1.625, F4, NaN, NaN, NaN
+-312:2.0, NaN, F4, NaN, C2
+-312:2.125, C4, NaN, NaN, NaN
+-312:2.5, NaN, NaN, NaN, E2
+-312:2.625, E4, NaN, NaN, NaN
+-313:0.0, NaN, A3, NaN, F2
+-313:0.125, F4, NaN, NaN, NaN
+-313:1.0, NaN, Rest, NaN, F2
+-313:1.125, A4, NaN, NaN, NaN
+-313:2.0, NaN, NaN, NaN, Rest
+-313:2.125, Rest, NaN, NaN, NaN
++310:0.0, A5, F5, C5, F2
++310:0.5, B-5, NaN, NaN, NaN
++310:0.75, A5, NaN, NaN, NaN
++310:1.0, G#5, Rest, Rest, Rest
++310:1.5, A5, NaN, NaN, NaN
++310:2.0, E5, E5, E4, E3
++310:2.5, F5, F5, F4, F3
++311:0.0, C5, C5, C4, C3
++311:0.5, D5, NaN, NaN, NaN
++311:0.75, C5, NaN, NaN, NaN
++311:1.0, B4, Rest, Rest, Rest
++311:1.5, C5, NaN, NaN, NaN
++311:2.0, G#4, G#4, G#3, G#2
++311:2.5, A4, A4, A3, A2
++312:0.0, F4, F4, F3, F2
++312:0.5, G4, NaN, NaN, NaN
++312:0.75, F4, NaN, NaN, NaN
++312:1.0, E4, Rest, Rest, Rest
++312:1.5, F4, NaN, NaN, NaN
++312:2.0, C4, C4, C3, C2
++312:2.5, E4, E4, E3, E2
++313:0.0, F4, F4, F3, F2
++313:1.0, A4, A3, F3, F2
++313:2.0, Rest, Rest, Rest, Rest

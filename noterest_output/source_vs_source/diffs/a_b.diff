@@ -1,5 +1,5 @@
---- /Users/napulen/dev/encoding_matters/noterest_output/source_vs_source/sibelius.txt	Wed Jun 20 23:53:34 2018
-+++ /Users/napulen/dev/encoding_matters/noterest_output/source_vs_source/finale.txt	Wed Jun 20 23:53:34 2018
+--- C:\Users\nesto\dev\encoding_matters\noterest_output\source_vs_source\a.txt	Thu Jun 21 18:50:49 2018
++++ C:\Users\nesto\dev\encoding_matters\noterest_output\source_vs_source\b.txt	Thu Jun 21 18:51:00 2018
 @@ -21,7 +21,7 @@
  5:2.5, F5, NaN, NaN, NaN
  6:0.0, G5, NaN, C4, E3
