@@ -209,7 +209,7 @@ Op. 18, no. 1, 1st Movement</credit-words>
     </part-group>
     <score-part id="P1">
       <part-name>Violin I</part-name>
-      <part-abbreviation>Vln. I</part-abbreviation>
+      <part-abbreviation>Vln I</part-abbreviation>
       <score-instrument id="P1-I2">
         <instrument-name>Violin</instrument-name>
         <instrument-sound>strings.violin</instrument-sound>
@@ -224,7 +224,7 @@ Op. 18, no. 1, 1st Movement</credit-words>
     </score-part>
     <score-part id="P2">
       <part-name>Violin II</part-name>
-      <part-abbreviation>Vln. II</part-abbreviation>
+      <part-abbreviation>Vln II</part-abbreviation>
       <score-instrument id="P2-I2">
         <instrument-name>Violin</instrument-name>
         <instrument-sound>strings.violin</instrument-sound>
@@ -239,7 +239,7 @@ Op. 18, no. 1, 1st Movement</credit-words>
     </score-part>
     <score-part id="P3">
       <part-name>Viola</part-name>
-      <part-abbreviation>Vla.</part-abbreviation>
+      <part-abbreviation>Vla</part-abbreviation>
       <score-instrument id="P3-I3">
         <instrument-name>Viola</instrument-name>
         <instrument-sound>strings.viola</instrument-sound>
@@ -253,10 +253,10 @@ Op. 18, no. 1, 1st Movement</credit-words>
       </midi-instrument>
     </score-part>
     <score-part id="P4">
-      <part-name>Cello</part-name>
+      <part-name>Violoncello</part-name>
       <part-abbreviation>Vc.</part-abbreviation>
       <score-instrument id="P4-I4">
-        <instrument-name>Cello</instrument-name>
+        <instrument-name>Violonello</instrument-name>
         <instrument-sound>strings.cello</instrument-sound>
         <solo/>
       </score-instrument>

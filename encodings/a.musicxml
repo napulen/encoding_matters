@@ -121,16 +121,16 @@
    <group-symbol>bracket</group-symbol>
   </part-group>
   <score-part id="P1">
-   <part-name>Violino I</part-name>
+   <part-name>Violin I</part-name>
    <part-name-display>
-    <display-text>Violino I</display-text>
+    <display-text>Violin I</display-text>
    </part-name-display>
    <part-abbreviation>Vln I</part-abbreviation>
    <part-abbreviation-display>
     <display-text>Vln I</display-text>
    </part-abbreviation-display>
    <score-instrument id="P1-I1">
-    <instrument-name>Violin I</instrument-name>
+    <instrument-name>Violin</instrument-name>
     <instrument-sound>strings.violin</instrument-sound>
     <solo />
     <virtual-instrument>
@@ -140,16 +140,16 @@
    </score-instrument>
   </score-part>
   <score-part id="P2">
-   <part-name>Violino II</part-name>
+   <part-name>Violin II</part-name>
    <part-name-display>
-    <display-text>Violino II</display-text>
+    <display-text>Violin II</display-text>
    </part-name-display>
    <part-abbreviation>Vln II</part-abbreviation>
    <part-abbreviation-display>
     <display-text>Vln II</display-text>
    </part-abbreviation-display>
    <score-instrument id="P2-I1">
-    <instrument-name>Violin II</instrument-name>
+    <instrument-name>Violin</instrument-name>
     <instrument-sound>strings.violin</instrument-sound>
     <solo />
     <virtual-instrument>
@@ -168,7 +168,7 @@
     <display-text>Vla</display-text>
    </part-abbreviation-display>
    <score-instrument id="P3-I1">
-    <instrument-name>Viola (2)</instrument-name>
+    <instrument-name>Viola</instrument-name>
     <instrument-sound>strings.viola</instrument-sound>
     <solo />
     <virtual-instrument>
@@ -187,7 +187,7 @@
     <display-text>Vc.</display-text>
    </part-abbreviation-display>
    <score-instrument id="P4-I1">
-    <instrument-name>Violoncello (2) (2)</instrument-name>
+    <instrument-name>Violoncello</instrument-name>
     <instrument-sound>strings.cello</instrument-sound>
     <solo />
     <virtual-instrument>
